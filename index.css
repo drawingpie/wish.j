@@ -263,14 +263,12 @@ body {
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
   100% {
     transform: rotateX(0deg);
   }
-
   50% {
     transform: rotateX(80deg);
   }
@@ -312,7 +310,6 @@ body {
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
@@ -495,13 +492,13 @@ body {
 
 @media (max-width: 1160px) {
   #RUN {
-    transform: translate(-10%, -50%);
+    transform: translate(-10%, -50%); font-size: 50%;
   }
   #FOR {
-    transform: translate(-18%, -20%);
+    transform: translate(-18%, -20%); font-size: 50%;
   }
   #DREAMS {
-    transform: translate(5%, -30%);
+    transform: translate(5%, -30%); font-size: 50%;
   }
 }
  

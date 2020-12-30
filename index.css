@@ -491,16 +491,9 @@ body {
 }
 
 @media (max-width: 1160px) {
-  #RUN {
+  #RUN, #FOR, #DREAMS{
     transform: translate(-10%, -50%); font-size: 50%;
   }
-  #FOR {
-    transform: translate(-18%, -20%); font-size: 50%;
-  }
-  #DREAMS {
-    transform: translate(5%, -30%); font-size: 50%;
-  }
-}
  
 .light {
   position: absolute;

@@ -1,0 +1,797 @@
+.mediaViewInfo {
+  --web-view-name: aboutmehistory;
+  --web-view-id: aboutmehistory;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+:root {
+  --web-view-ids: aboutmehistory;
+}
+
+body {
+  margin: 0;
+  max-width: 1920px;
+  background: linear-gradient(to bottom, #002169, #001135);
+  position: relative;
+  height: auto;
+  padding-top: 49%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#gtq1 {
+  left: 30%;
+  top: 60.5%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.625rem;
+  color: rgba(255, 255, 255, 1);
+  animation: effect2 .7s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes effect2 {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #gtq1 {
+    transform: translate(-30%, -25%);
+    font-size: 1.188rem;
+  }
+}
+
+#gtq2 {
+  left: 45.2%;
+  top: 60.5%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 1);
+  animation: effect2 .7s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes effect2 {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #gtq2 {
+    transform: translate(-30%, -25%);
+    font-size: 1.188rem;
+  }
+}
+
+#career1 {
+  left: 61.6%;
+  top: 60.5%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 1);
+  animation: effect2 .7s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes effect2 {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #career1 {
+    transform: translate(-30%, -25%);
+    font-size: 1.188rem;
+  }
+}
+
+#academy {
+  left: 35.7%;
+  top: 76.8%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 1);
+  animation: effect2 .7s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes effect2 {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #academy {
+    transform: translate(-30%, -25%);
+    font-size: 1.188rem;
+  }
+}
+
+#career2 {
+  left: 54.8%;
+  top: 76.8%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 1);
+  animation: effect2 .7s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes effect2 {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #career2 {
+    transform: translate(-30%, -25%);
+    font-size: 1.188rem;
+  }
+}
+
+#Icon_ionic-ios-arrow-round-for {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.Icon_ionic-ios-arrow-round-for {
+  overflow: visible;
+  position: absolute;
+  width: 20.243px;
+  height: 13.501px;
+  left: 40.4%;
+  top: 63.5%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  animation: effect3 1.1s both
+}
+
+@keyframes effect3 {
+  0% {
+    transform: translateX(-600px);
+    animation-timing-function: ease-in;
+    opacity: 0
+  }
+
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1
+  }
+
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in
+  }
+
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in
+  }
+
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in
+  }
+
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+}
+
+@media (max-width: 1160px) {
+  #Icon_ionic-ios-arrow-round-for {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#Icon_ionic-ios-arrow-round-for_ep {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.Icon_ionic-ios-arrow-round-for_ep {
+  overflow: visible;
+  position: absolute;
+  width: 20.243px;
+  height: 13.501px;
+  left: 56.9%;
+  top: 63.5%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  animation: effect3 1.1s both
+}
+
+@keyframes effect3 {
+  0% {
+    transform: translateX(-600px);
+    animation-timing-function: ease-in;
+    opacity: 0
+  }
+
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1
+  }
+
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in
+  }
+
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in
+  }
+
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in
+  }
+
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+}
+
+@media (max-width: 1160px) {
+  #Icon_ionic-ios-arrow-round-for_ep {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#Icon_ionic-ios-arrow-round-for_eq {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.Icon_ionic-ios-arrow-round-for_eq {
+  overflow: visible;
+  position: absolute;
+  width: 20.243px;
+  height: 13.501px;
+  left: 50%;
+  top: 78.9%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  animation: effect3 1.1s both
+}
+
+@keyframes effect3 {
+  0% {
+    transform: translateX(-600px);
+    animation-timing-function: ease-in;
+    opacity: 0
+  }
+
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1
+  }
+
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in
+  }
+
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in
+  }
+
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in
+  }
+
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+}
+
+@media (max-width: 1160px) {
+  #Icon_ionic-ios-arrow-round-for_eq {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#Icon_ionic-ios-arrow-round-for_er {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.Icon_ionic-ios-arrow-round-for_er {
+  overflow: visible;
+  position: absolute;
+  width: 20.243px;
+  height: 13.501px;
+  left: 30.9%;
+  top: 78.9%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  animation: effect3 1.1s both
+}
+
+@keyframes effect3 {
+  0% {
+    transform: translateX(-600px);
+    animation-timing-function: ease-in;
+    opacity: 0
+  }
+
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1
+  }
+
+  55% {
+    transform: translateX(-68px);
+    animation-timing-function: ease-in
+  }
+
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  81% {
+    transform: translateX(-28px);
+    animation-timing-function: ease-in
+  }
+
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+
+  95% {
+    transform: translateX(-8px);
+    animation-timing-function: ease-in
+  }
+
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out
+  }
+}
+
+@media (max-width: 1160px) {
+  #Icon_ionic-ios-arrow-round-for_er {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa1 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa1 {
+  position: absolute;
+  overflow: visible;
+  width: 9.2px;
+  height: 9.2px;
+  left: 15.3%;
+  top: 38.4%;
+}
+
+@media (max-width: 1160px) {
+  .pa1 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa2 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa2 {
+  position: absolute;
+  overflow: visible;
+  width: 9.2px;
+  height: 9.2px;
+  left: 88.9%;
+  top: 49.2%;
+}
+
+@media (max-width: 1160px) {
+  .pa2 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa3 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa3 {
+  position: absolute;
+  overflow: visible;
+  width: 28px;
+  height: 28px;
+  left: 12.9%;
+  top: 63.6%;
+}
+
+@media (max-width: 1160px) {
+  .pa3 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa4 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa4 {
+  position: absolute;
+  overflow: visible;
+  width: 28px;
+  height: 28px;
+  left: 83.3%;
+  top: 37.8%;
+}
+
+@media (max-width: 1160px) {
+  .pa4 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa5 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa5 {
+  position: absolute;
+  overflow: visible;
+  width: 18.8px;
+  height: 18.8px;
+  left: 10.7%;
+  top: 43%;
+}
+
+@media (max-width: 1160px) {
+  .pa5 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa6 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa6 {
+  position: absolute;
+  overflow: visible;
+  width: 18.8px;
+  height: 18.8px;
+  left: 84.7%;
+  top: 63.6%;
+}
+
+@media (max-width: 1160px) {
+  .pa6 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+.light {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0.9%;
+  top: -5.1%;
+  overflow: visible;
+  display: block;
+}
+
+#aboutme {
+  left: 36.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #00BDA4;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutme.html;
+  cursor: pointer;
+  display: block;
+}
+
+#aboutme:hover {
+  color: #F09D05;
+}
+
+#portfolio {
+  left: 47.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: portfolio.html;
+  cursor: pointer;
+  display: block;
+}
+
+#portfolio:hover {
+  color: #F09D05;
+}
+
+#contact {
+  left: 58.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: contact.html;
+  cursor: pointer;
+  display: block;
+}
+
+#contact:hover {
+  color: #F09D05;
+}
+
+#today {
+  left: 68.8%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: today.html;
+  cursor: pointer;
+  display: block;
+}
+
+#today:hover {
+  color: #F09D05;
+}
+
+@media (max-width: 1160px) {
+  #contact {
+    font-size: 90%;
+  }
+
+  #today {
+    font-size: 90%;
+  }
+
+  #portfolio {
+    font-size: 90%;
+  }
+
+  #aboutme {
+    font-size: 90%;
+  }
+}
+
+.logo {
+  position: absolute;
+  height: auto;
+  width: 103.4px;
+  height: 84.51px;
+  left: 48.2%;
+  top: 4.2%;
+  overflow: visible;
+  cursor: pointer;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: index.html;
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  .logo {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#foxsmall {
+  position: absolute;
+  left: 47.4%;
+  top: 38%;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #foxsmall {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_right {
+  fill: #fff;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 56.8%;
+  top: 43.3%;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutmeskills.html;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  #arrow_right {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_right:hover {
+  fill: #F8EA21;
+}
+
+#arrow_left {
+  fill: #fff;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 41.5%;
+  top: 43.3%;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutme.html;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  #arrow_left {
+    transform: translate(0%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_left:hover {
+  fill: #F8EA21;
+}
+
+#footer {
+  left: 37.8%;
+  top: 95%;
+  position: absolute;
+  overflow: visible;
+  width: 469px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.301rem;
+  color: rgba(151, 164, 240, 1);
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  #footer {
+    font-size: 80%;
+    transform: translate(-20%, -5%);
+  }
+}

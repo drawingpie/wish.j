@@ -1,0 +1,858 @@
+.mediaViewInfo {
+  --web-view-name: aboutmeskills;
+  --web-view-id: aboutmeskills;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+:root {
+  --web-view-ids: aboutmeskills;
+}
+
+body {
+  margin: 0;
+  max-width: 1920px;
+  background: linear-gradient(to bottom, #002169, #001135);
+  position: relative;
+  height: auto;
+  padding-top: 49%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+#skills {
+  left: 36.6%;
+  top: 54.2%;
+  position: absolute;
+  overflow: visible;
+  width: 515px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.563rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #skills {
+    transform: translate(-22%, -100%);
+    font-size: 1.188rem;
+  }
+}
+
+#program-dummy {
+  position: absolute;
+  width: 636px;
+  height: 293px;
+  left: 33.3%;
+  top: 62.3%;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #program-dummy {
+    transform: translate(-30%, -30%);
+  }
+}
+
+#photoshop {
+  position: absolute;
+  width: 614px;
+  height: 44px;
+  left: 3.5%;
+  top: 0%;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #photoshop {
+    transform: translate(0%, 170%);
+  }
+}
+
+#photoshoptext {
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #photoshoptext {
+    font-size: 1.25rem;
+    transform: translate(170%, 0%);
+  }
+}
+
+#pinkbg1 {
+  fill: rgba(240, 99, 150, 1);
+  stroke: rgba(240, 99, 150, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.pinkbg1 {
+  position: absolute;
+  overflow: visible;
+  width: 462px;
+  height: 43px;
+  left: 158px;
+  top: 1px;
+}
+
+@media (max-width: 1160px) {
+  #pinkbg1 {
+    transform: scaleY(0.5);
+  }
+}
+
+#orangestick1 {
+  fill: rgba(240, 157, 5, 1);
+  stroke: rgba(240, 157, 5, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.orangestick1 {
+  position: absolute;
+  overflow: visible;
+  width: 381px;
+  height: 43px;
+  left: 158px;
+  top: 1px;
+  animation: effect4 1s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+@keyframes effect4 {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: 0 0
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0
+  }
+}
+
+@media (max-width: 1160px) {
+  #orangestick1 {
+    transform: scaleY(0.5);
+  }
+}
+
+#photoshop85 {
+  left: 308px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #photoshop85 {
+    font-size: 1.25rem;
+  }
+}
+
+#illust {
+  position: absolute;
+  width: 631px;
+  height: 44px;
+  left: 0.7%;
+  top: 28.3%;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #illust {
+    transform: translate(0%, 90%);
+  }
+}
+
+#illusttext {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #illusttext {
+    font-size: 1.25rem;
+    transform: translate(135%, 0%);
+  }
+}
+
+#pinkbg2 {
+  fill: rgba(240, 99, 150, 1);
+  stroke: rgba(240, 99, 150, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.pinkbg2 {
+  position: absolute;
+  overflow: visible;
+  width: 462px;
+  height: 43px;
+  left: 175px;
+  top: 1px;
+}
+
+@media (max-width: 1160px) {
+  #pinkbg2 {
+    transform: scaleY(0.5);
+  }
+}
+
+#orangestick2 {
+  fill: rgba(240, 157, 5, 1);
+  stroke: rgba(240, 157, 5, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.orangestick2 {
+  position: absolute;
+  overflow: visible;
+  width: 422px;
+  height: 43px;
+  left: 175px;
+  top: 1px;
+  animation: effect4 2s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+@keyframes effect4 {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: 0 0
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0
+  }
+}
+
+@media (max-width: 1160px) {
+  #orangestick2 {
+    transform: scaleY(0.5);
+  }
+}
+
+#illust90 {
+  left: 325px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #illust90 {
+    font-size: 1.25rem;
+  }
+}
+
+#indesign {
+  position: absolute;
+  width: 636px;
+  height: 44px;
+  left: 0px;
+  top: 166px;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #indesign {
+    transform: translate(0%, 10%);
+  }
+}
+
+#indesigntext {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #indesigntext {
+    font-size: 1.25rem;
+    transform: translate(130%, 0%);
+  }
+}
+
+#pinkbg3 {
+  fill: rgba(240, 99, 150, 1);
+  stroke: rgba(240, 99, 150, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.pinkbg3 {
+  position: absolute;
+  overflow: visible;
+  width: 462px;
+  height: 43px;
+  left: 180px;
+  top: 1px;
+}
+
+@media (max-width: 1160px) {
+  #pinkbg3 {
+    transform: scaleY(0.5);
+  }
+}
+
+#orangestick3 {
+  fill: rgba(240, 157, 5, 1);
+  stroke: rgba(240, 157, 5, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.orangestick3 {
+  position: absolute;
+  overflow: visible;
+  width: 349px;
+  height: 43px;
+  left: 180px;
+  top: 1px;
+  animation: effect4 3s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+@keyframes effect4 {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: 0 0
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0
+  }
+}
+
+@media (max-width: 1160px) {
+  #orangestick3 {
+    transform: scaleY(0.5);
+  }
+}
+
+#indesign75 {
+  left: 331px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #indesign75 {
+    font-size: 1.25rem;
+  }
+}
+
+#XD {
+  position: absolute;
+  width: 590px;
+  height: 44px;
+  left: 46px;
+  top: 249px;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #XD {
+    transform: translate(0%, -70%);
+  }
+}
+
+#XDtext {
+  left: 0%;
+  top: 0%;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #XDtext {
+    font-size: 1.25rem;
+    transform: translate(255%, 0%);
+  }
+}
+
+#pinkbg4 {
+  fill: rgba(240, 99, 150, 1);
+  stroke: rgba(240, 99, 150, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.pinkbg4 {
+  position: absolute;
+  overflow: visible;
+  width: 462px;
+  height: 43px;
+  left: 134px;
+  top: 1px;
+}
+
+@media (max-width: 1160px) {
+  #pinkbg4 {
+    transform: scaleY(0.5);
+  }
+}
+
+#orangestick4 {
+  fill: rgba(240, 157, 5, 1);
+  stroke: rgba(240, 157, 5, 1);
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.orangestick4 {
+  position: absolute;
+  overflow: visible;
+  width: 422px;
+  height: 43px;
+  left: 134px;
+  top: 1px;
+  animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
+}
+
+@keyframes effect4 {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: 0 0
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0
+  }
+}
+
+@media (max-width: 1160px) {
+  #orangestick4 {
+    transform: scaleY(0.5);
+  }
+}
+
+#XD90 {
+  left: 284px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1160px) {
+  #XD90 {
+    font-size: 1.25rem;
+  }
+}
+
+#pa1 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa1 {
+  position: absolute;
+  overflow: visible;
+  width: 9.2px;
+  height: 9.2px;
+  left: 15.3%;
+  top: 38.4%;
+}
+
+@media (max-width: 1160px) {
+  .pa1 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa2 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa2 {
+  position: absolute;
+  overflow: visible;
+  width: 9.2px;
+  height: 9.2px;
+  left: 88.9%;
+  top: 49.2%;
+}
+
+@media (max-width: 1160px) {
+  .pa2 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa3 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa3 {
+  position: absolute;
+  overflow: visible;
+  width: 28px;
+  height: 28px;
+  left: 12.9%;
+  top: 63.6%;
+}
+
+@media (max-width: 1160px) {
+  .pa3 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa4 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa4 {
+  position: absolute;
+  overflow: visible;
+  width: 28px;
+  height: 28px;
+  left: 83.3%;
+  top: 37.8%;
+}
+
+@media (max-width: 1160px) {
+  .pa4 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa5 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa5 {
+  position: absolute;
+  overflow: visible;
+  width: 18.8px;
+  height: 18.8px;
+  left: 10.7%;
+  top: 43%;
+}
+
+@media (max-width: 1160px) {
+  .pa5 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#pa6 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa6 {
+  position: absolute;
+  overflow: visible;
+  width: 18.8px;
+  height: 18.8px;
+  left: 84.7%;
+  top: 63.6%;
+}
+
+@media (max-width: 1160px) {
+  .pa6 {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+.light {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0.9%;
+  top: -5.1%;
+  overflow: visible;
+  display: block;
+}
+
+#aboutme {
+  left: 36.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #00BDA4;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutme.html;
+  cursor: pointer;
+  display: block;
+}
+
+#aboutme:hover {
+  color: #F09D05;
+}
+
+#portfolio {
+  left: 47.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: portfolio.html;
+  cursor: pointer;
+  display: block;
+}
+
+#portfolio:hover {
+  color: #F09D05;
+}
+
+#contact {
+  left: 58.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: contact.html;
+  cursor: pointer;
+  display: block;
+}
+
+#contact:hover {
+  color: #F09D05;
+}
+
+#today {
+  left: 68.8%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: today.html;
+  cursor: pointer;
+  display: block;
+}
+
+#today:hover {
+  color: #F09D05;
+}
+
+@media (max-width: 1160px) {
+  #contact {
+    font-size: 90%;
+  }
+
+  #today {
+    font-size: 90%;
+  }
+
+  #portfolio {
+    font-size: 90%;
+  }
+
+  #aboutme {
+    font-size: 90%;
+  }
+}
+
+.logo {
+  position: absolute;
+  height: auto;
+  width: 103.4px;
+  height: 84.51px;
+  left: 48.2%;
+  top: 4.2%;
+  overflow: visible;
+  cursor: pointer;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: index.html;
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  .logo {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#foxsmall {
+  position: absolute;
+  left: 47.4%;
+  top: 38%;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #foxsmall {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_right {
+  fill: #fff;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 56.8%;
+  top: 43.3%;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutme.html;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  #arrow_right {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_right:hover {
+  fill: #F8EA21;
+}
+
+#arrow_left {
+  fill: #fff;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 41.5%;
+  top: 43.3%;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutmehistory.html;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  #arrow_left {
+    transform: translate(0%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_left:hover {
+  fill: #F8EA21;
+}
+
+#footer {
+  left: 37.8%;
+  top: 95%;
+  position: absolute;
+  overflow: visible;
+  width: 469px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Cafe24 Dongdong;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.301rem;
+  color: rgba(151, 164, 240, 1);
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  #footer {
+    font-size: 80%;
+    transform: translate(-20%, -5%);
+  }
+}

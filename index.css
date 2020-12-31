@@ -33,10 +33,6 @@ div {
   font-style: normal;
 }
 
-.particle {
-  display: block;
-}
-
 #pa1 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -242,8 +238,8 @@ div {
 
 @media (max-width: 1160px) {
   #pa1, #pa2, #pa3, #pa4, #pa5, #pa6, #pa7, #pa8,
-  #pa9 {
-    transform: scale(0.5, 0.5);
+  #pa9, {
+    transform: scale(0.5 0.5);
   }
 }
 
@@ -259,7 +255,7 @@ div {
 
 @media (max-width: 1160px) {
   #fox {
-    transform: translate(-25%, -20%) scale(0.6, 0.6);
+    transform: translate(-25%, -20%) scale(0.6 0.6);
   }
 }
 
@@ -476,7 +472,6 @@ div {
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -607,7 +602,7 @@ div {
 
 @media (max-width: 1160px) {
   .logo {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    transform: translate(-30%, -25%) scale(0.5 0.5);
   }
 }
 

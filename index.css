@@ -33,10 +33,6 @@ div {
   font-style: normal;
 }
 
-.particle {
-  display: block;
-}
-
 #pa1 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -262,8 +258,7 @@ div {
   top: 37.9%;
   overflow: visible;
   background-image: url('fox.png');
-  display: block;
-}
+  }
 
 #eyer {
   position: absolute;
@@ -379,7 +374,6 @@ div {
   text-align: center;
   font-size: 10rem;
   color: #00BDA4;
-  display: block;
   -webkit-animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
 }
@@ -426,7 +420,6 @@ div {
   text-align: center;
   font-size: 6.25rem;
   color: #fff;
-  display: block;
   -webkit-animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
 }
@@ -472,7 +465,6 @@ div {
   text-align: center;
   font-size: 12.188rem;
   color: #F8EA21;
-  display: block;
   -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
 }
@@ -522,8 +514,7 @@ div {
   left: 0.9%;
   top: -5.1%;
   overflow: visible;
-  display: block;
-}
+  }
 
 #aboutme {
   left: 36.5%;
@@ -536,8 +527,7 @@ div {
   --web-action-type: page;
   --web-action-target: aboutme.html;
   cursor: pointer;
-  display: block;
-}
+  }
 
 #aboutme:hover {
   color: #F09D05;
@@ -554,8 +544,7 @@ div {
   --web-action-type: page;
   --web-action-target: portfolio.html;
   cursor: pointer;
-  display: block;
-}
+ }
 
 #portfolio:hover {
   color: #F09D05;
@@ -572,8 +561,7 @@ div {
   --web-action-type: page;
   --web-action-target: contact.html;
   cursor: pointer;
-  display: block;
-}
+ }
 
 #contact:hover {
   color: #F09D05;
@@ -590,8 +578,7 @@ div {
   --web-action-type: page;
   --web-action-target: today.html;
   cursor: pointer;
-  display: block;
-}
+  }
 
 #today:hover {
   color: #F09D05;
@@ -627,8 +614,7 @@ div {
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: index.html;
-  display: block;
-}
+ }
 
 @media (max-width: 1160px) {
   .logo {
@@ -646,8 +632,7 @@ div {
   text-align: center;
   font-size: 1.301rem;
   color: rgba(151, 164, 240, 1);
-  display: block;
-}
+  }
 
 @media (max-width: 1160px) {
   #footer {

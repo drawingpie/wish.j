@@ -1,107 +1,665 @@
-<!DOCTYPE html>
-<html>
+.mediaViewInfo {
+  --web-view-name: index;
+  --web-view-id: index;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
 
-<head>
-	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hello My WISH.J</title>
-	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="index.css"/>
-	<script id="applicationScript" type="text/javascript" src="index.js"></script>
-	<script id="applicationScript" type="text/javascript" src="snow.js"></script>
-</head>
+:root {
+  --web-view-ids: index;
+}
 
-<body>
-	<div id="cover">
-		<div class="particle">
-			<svg class="pa1">
-				<ellipse id="pa1" rx="4.699999809265137" ry="4.699999809265137" cx="4.699999809265137" cy="4.699999809265137">
-				</ellipse>
-			</svg>
-			<svg class="pa2">
-				<ellipse id="pa2" rx="4.599999904632568" ry="4.599999904632568" cx="4.599999904632568" cy="4.599999904632568">
-				</ellipse>
-			</svg>
-			<svg class="pa3">
-				<ellipse id="pa3" rx="4.599999904632568" ry="4.599999904632568" cx="4.599999904632568" cy="4.599999904632568">
-				</ellipse>
-			</svg>
-			<svg class="pa4">
-				<ellipse id="pa4" rx="13.899999618530273" ry="13.899999618530273" cx="13.899999618530273" cy="13.899999618530273">
-				</ellipse>
-			</svg>
-			<svg class="pa5">
-				<ellipse id="pa5" rx="14" ry="14" cx="14" cy="14">
-				</ellipse>
-			</svg>
-			<svg class="pa6">
-				<ellipse id="pa6" rx="14" ry="14" cx="14" cy="14">
-				</ellipse>
-			</svg>
-			<svg class="pa7">
-				<ellipse id="pa7" rx="9.399999618530273" ry="9.399999618530273" cx="9.399999618530273" cy="9.399999618530273">
-				</ellipse>
-			</svg>
-			<svg class="pa8">
-				<ellipse id="pa8" rx="9.399999618530273" ry="9.399999618530273" cx="9.399999618530273" cy="9.399999618530273">
-				</ellipse>
-			</svg>
-			<svg class="pa9">
-				<ellipse id="pa9" rx="9.399999618530273" ry="9.399999618530273" cx="9.399999618530273" cy="9.399999618530273">
-				</ellipse>
-			</svg>
-		</div>
+@font-face {
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-		<div id="fox">
-			<div id="eyer">
-				<svg class="whiteeyer">
-					<ellipse id="whiteeyer" cx="18.615" cy="18.615" rx="18.615" ry="18.615">
-					</ellipse>
-				</svg>
-				<svg class="blackeyer">
-					<ellipse id="blackeyer" cx="13.672" cy="15.835" rx="13.672" ry="15.835">
-					</ellipse>
-				</svg>
-			</div>
-			<div id="eyel">
-				<svg class="whiteeyel">
-					<ellipse id="whiteeyel" cx="18.615" cy="18.615" rx="18.615" ry="18.615">
-					</ellipse>
-				</svg>
-				<svg class="blackeyel">
-					<ellipse id="blackeyel" cx="13.672" cy="15.835" rx="13.672" ry="15.835">
-					</ellipse>
-				</svg>
-			</div>
-		</div>
+body {
+  margin: 0;
+  max-width: 1920px;
+  background: linear-gradient(to bottom, #002169, #001135);
+  position: relative;
+  height: auto;
+  padding-top: 49%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
 
-		<div id="RUN">
-			<span>RUN</span>
-		</div>
-		<div id="FOR">
-			<span>FOR</span>
-		</div>
-		<div id="DREAMS">
-			<span>DREAMS</span>
-		</div>
+div {
+  font-family: 'Cafe24Dongdong';
+  font-weight: normal;
+  font-style: normal;
+}
 
-		<nav class="gnb">
-			<img src="light.png" class="light" />
-			<div id="aboutme" onclick="application.goToTargetView(event)">about me</div>
-			<div id="portfolio" onclick="application.goToTargetView(event)">portfolio</div>
-			<div id="contact" onclick="application.goToTargetView(event)">contact</div>
-			<div id="today" onclick="application.goToTargetView(event)">today</div>
-			<div class="logo" onclick="application.goToTargetView(event)">
-				<img src="logo1226.png" />
-			</div>
-		</nav>
+.particle {
+  display: block;
+}
 
-		<div id="footer">
-			COPYRIGHT<span style="font-family:Noto Sans CJK KR"> ⓒ </span>
-			2021 WISH.J ALL RIGHT RESERVED.
-		</div>
+#pa1 {
+  fill: rgba(248, 234, 33, 1);
+}
 
-	</div>
-</body>
+.pa1 {
+  position: absolute;
+  overflow: visible;
+  width: 9.4px;
+  height: 9.4px;
+  left: 12%;
+  top: 31%;
+  animation: circle 1s infinite alternate;
+}
 
-</html>
+@keyframes circle {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(2)
+  }
+}
+
+#pa2 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa2 {
+  position: absolute;
+  overflow: visible;
+  width: 9.2px;
+  height: 9.2px;
+  left: 50.4%;
+  top: 39.2%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(2)
+  }
+}
+
+#pa3 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa3 {
+  position: absolute;
+  width: 9.2px;
+  height: 9.2px;
+  left: 91%;
+  top: 31%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(2)
+  }
+}
+
+#pa4 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa4 {
+  position: absolute;
+  width: 27.8px;
+  height: 27.8px;
+  left: 16%;
+  top: 43%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(2)
+  }
+}
+
+#pa5 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa5 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 43.1%;
+  top: 40.6%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(2)
+  }
+}
+
+#pa6 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa6 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  left: 89%;
+  top: 52%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(2)
+  }
+}
+
+#pa7 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa7 {
+  position: absolute;
+  width: 18.8px;
+  height: 18.8px;
+  left: 47.2%;
+  top: 50.1%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(0.5)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+#pa8 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa8 {
+  position: absolute;
+  width: 18.8px;
+  height: 18.8px;
+  left: 11%;
+  top: 53%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(0.5)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+#pa9 {
+  fill: rgba(248, 234, 33, 1);
+}
+
+.pa9 {
+  position: absolute;
+  width: 18.8px;
+  height: 18.8px;
+  left: 87%;
+  top: 35%;
+  animation: circle 1s infinite alternate;
+}
+
+@keyframes circle {
+  0% {
+    transform: scale(0.5)
+  }
+
+  100% {
+    transform: scale(1)
+  }
+}
+
+@media (max-width: 1160px) {
+
+  #pa1, #pa2, #pa3, #pa4, #pa5, #pa6, #pa7, #pa8,
+  #pa9 {
+    transform: scale(0.5, 0.5);
+  }
+}
+
+#fox {
+  position: absolute;
+  width: 419.43px;
+  height: 481.61px;
+  left: 57.2%;
+  top: 37.9%;
+  overflow: visible;
+  background-image: url('fox.png');
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  #fox {
+    transform: translate(-25%, -20%) scale(0.6, 0.6);
+  }
+}
+
+#eyer {
+  position: absolute;
+  width: 37.23px;
+  height: 37.23px;
+  left: 64%;
+  top: 60%;
+  overflow: visible;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  45%,
+  55%,
+  100% {
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    transform: rotateX(80deg);
+  }
+}
+
+#whiteeyer {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.whiteeyer {
+  position: absolute;
+  overflow: visible;
+  width: 37.23px;
+  height: 37.23px;
+  left: 0px;
+  top: 0px;
+}
+
+#blackeyer {
+  fill: rgba(0, 0, 0, 1);
+}
+
+.blackeyer {
+  position: absolute;
+  overflow: visible;
+  width: 27.34px;
+  height: 31.67px;
+  left: 0px;
+  top: 3px;
+}
+
+#eyel {
+  position: absolute;
+  width: 37.23px;
+  height: 37.23px;
+  left: 28%;
+  top: 60%;
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  45%,
+  55%,
+  100% {
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    transform: rotateX(80deg);
+  }
+}
+
+#whiteeyel {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.whiteeyel {
+  position: absolute;
+  overflow: visible;
+  width: 37.23px;
+  height: 37.23px;
+  left: 0px;
+  top: 0px;
+}
+
+#blackeyel {
+  fill: rgba(0, 0, 0, 1);
+}
+
+.blackeyel {
+  position: absolute;
+  overflow: visible;
+  width: 27.34px;
+  height: 31.67px;
+  left: 10px;
+  top: 3px;
+}
+
+#RUN {
+  height: 82.32px;
+  left: 25%;
+  top: 40%;
+  position: absolute;
+  overflow: visible;
+  text-align: center;
+  font-size: 10rem;
+  color: #00BDA4;
+  display: block;
+  -webkit-animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+@media (max-width: 1160px) {
+  #RUN {
+    transform: translate(-10%, -50%);
+  }
+}
+
+@-webkit-keyframes run {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@keyframes run {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+#FOR {
+  left: 27.7%;
+  top: 58.3%;
+  position: absolute;
+  overflow: visible;
+  text-align: center;
+  font-size: 6.25rem;
+  color: #fff;
+  display: block;
+  -webkit-animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+@media (max-width: 1160px) {
+  #FOR {
+    transform: translate(-18%, -20%);
+  }
+}
+
+@-webkit-keyframes FOR {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@keyframes FOR {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+#DREAMS {
+  position: absolute;
+  left: 14.3%;
+  top: 70%;
+  text-align: center;
+  font-size: 12.188rem;
+  color: #F8EA21;
+  display: block;
+  -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+@media (max-width: 1160px) {
+  #DREAMS {
+    transform: translate(5%, -30%);
+  }
+}
+
+@-webkit-keyframes DREAMS {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@keyframes DREAMS {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+.light {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 0.9%;
+  top: -5.1%;
+  overflow: visible;
+  display: block;
+}
+
+#aboutme {
+  left: 36.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutme.html;
+  cursor: pointer;
+  display: block;
+}
+
+#aboutme:hover {
+  color: #F09D05;
+}
+
+#portfolio {
+  left: 47.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: portfolio.html;
+  cursor: pointer;
+  display: block;
+}
+
+#portfolio:hover {
+  color: #F09D05;
+}
+
+#contact {
+  left: 58.5%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: contact.html;
+  cursor: pointer;
+  display: block;
+}
+
+#contact:hover {
+  color: #F09D05;
+}
+
+#today {
+  left: 68.8%;
+  top: 27.7%;
+  position: absolute;
+  text-align: center;
+  font-size: 1.875rem;
+  color: #fff;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: today.html;
+  cursor: pointer;
+  display: block;
+}
+
+#today:hover {
+  color: #F09D05;
+}
+
+@media (max-width: 1160px) {
+  #contact {
+    font-size: 90%;
+  }
+
+  #today {
+    font-size: 90%;
+  }
+
+  #portfolio {
+    font-size: 90%;
+  }
+
+  #aboutme {
+    font-size: 90%;
+  }
+}
+
+.logo {
+  position: absolute;
+  height: auto;
+  width: 103.4px;
+  height: 84.51px;
+  left: 48.2%;
+  top: 4.2%;
+  overflow: visible;
+  cursor: pointer;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: index.html;
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  .logo {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#footer {
+  left: 37.8%;
+  top: 95%;
+  position: absolute;
+  overflow: visible;
+  width: 469px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 1.301rem;
+  color: rgba(151, 164, 240, 1);
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  #footer {
+    font-size: 80%;
+    transform: translate(-20%, -5%);
+  }
+}
+
+@media (max-width: 1160px) {
+  span {
+    font-size: 50%;
+  }
+}

@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Cafe24Dongdong';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -31,6 +31,10 @@ div {
   font-family: 'Cafe24Dongdong';
   font-weight: normal;
   font-style: normal;
+}
+
+.particle {
+  display: block;
 }
 
 #pa1 {
@@ -258,7 +262,14 @@ div {
   top: 37.9%;
   overflow: visible;
   background-image: url('fox.png');
+  display: block;
+}
+
+@media (max-width: 1160px) {
+  #fox {
+    transform: translate(-25%, -20%) scale(0.6, 0.6);
   }
+}
 
 #eyer {
   position: absolute;
@@ -359,12 +370,6 @@ div {
   top: 3px;
 }
 
-@media (max-width: 1160px) {
-  #fox {
-    transform: translate(-25%, -20%) scale(0.6, 0.6);
-  }
-}
-
 #RUN {
   height: 82.32px;
   left: 25%;
@@ -374,14 +379,17 @@ div {
   text-align: center;
   font-size: 10rem;
   color: #00BDA4;
+  display: block;
   -webkit-animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
 }
+
 @media (max-width: 1160px) {
   #RUN {
     transform: translate(-10%, -50%);
   }
 }
+
 @-webkit-keyframes run {
   0% {
     letter-spacing: -.5em;
@@ -420,14 +428,17 @@ div {
   text-align: center;
   font-size: 6.25rem;
   color: #fff;
+  display: block;
   -webkit-animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
 }
+
 @media (max-width: 1160px) {
   #FOR {
     transform: translate(-18%, -20%);
   }
 }
+
 @-webkit-keyframes FOR {
   0% {
     letter-spacing: -.5em;
@@ -465,9 +476,11 @@ div {
   text-align: center;
   font-size: 12.188rem;
   color: #F8EA21;
+  display: block;
   -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
 }
+
 @media (max-width: 1160px) {
   #DREAMS {
     transform: translate(5%, -30%);
@@ -504,9 +517,6 @@ div {
   }
 }
 
-
-
-
 .light {
   position: absolute;
   width: 100%;
@@ -514,7 +524,8 @@ div {
   left: 0.9%;
   top: -5.1%;
   overflow: visible;
-  }
+  display: block;
+}
 
 #aboutme {
   left: 36.5%;
@@ -527,7 +538,8 @@ div {
   --web-action-type: page;
   --web-action-target: aboutme.html;
   cursor: pointer;
-  }
+  display: block;
+}
 
 #aboutme:hover {
   color: #F09D05;
@@ -544,7 +556,8 @@ div {
   --web-action-type: page;
   --web-action-target: portfolio.html;
   cursor: pointer;
- }
+  display: block;
+}
 
 #portfolio:hover {
   color: #F09D05;
@@ -561,7 +574,8 @@ div {
   --web-action-type: page;
   --web-action-target: contact.html;
   cursor: pointer;
- }
+  display: block;
+}
 
 #contact:hover {
   color: #F09D05;
@@ -578,7 +592,8 @@ div {
   --web-action-type: page;
   --web-action-target: today.html;
   cursor: pointer;
-  }
+  display: block;
+}
 
 #today:hover {
   color: #F09D05;
@@ -614,7 +629,8 @@ div {
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: index.html;
- }
+  display: block;
+}
 
 @media (max-width: 1160px) {
   .logo {
@@ -632,7 +648,8 @@ div {
   text-align: center;
   font-size: 1.301rem;
   color: rgba(151, 164, 240, 1);
-  }
+  display: block;
+}
 
 @media (max-width: 1160px) {
   #footer {

@@ -27,6 +27,9 @@ body {
   padding-top: 49%;
   overflow: hidden;
   background-repeat: no-repeat;
+  font-family: 'Cafe24Dongdong';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .particle {

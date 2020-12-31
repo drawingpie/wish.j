@@ -503,11 +503,13 @@ div {
   #RUN {
     transform: translate(-10%, -50%);
   }
-
+}
+@media (max-width: 1160px) {
   #FOR {
     transform: translate(-18%, -20%);
   }
-
+}
+@media (max-width: 1160px) {
   #DREAMS {
     transform: translate(5%, -30%);
   }

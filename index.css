@@ -255,7 +255,7 @@ div {
 
 @media (max-width: 1160px) {
   #fox {
-    transform: translate(-25%, -20%) scale(0.6 0.6);
+    transform: translate(-25%, -20%) scale(0.6);
   }
 }
 
@@ -573,16 +573,16 @@ div {
 
 @media (max-width: 1160px) {
   #contact {
-    font-size: 90%;
+    font-size: 50%;
   }
   #today {
-    font-size: 90%;
+    font-size: 50%;
   }
   #portfolio {
-    font-size: 90%;
+    font-size: 50%;
   }
   #aboutme {
-    font-size: 90%;
+    font-size: 50%;
   }
 }
 
@@ -602,7 +602,7 @@ div {
 
 @media (max-width: 1160px) {
   .logo {
-    transform: translate(-30%, -25%) scale(0.5 0.5);
+    transform: translate(-30%, -25%) scale(0.5);
   }
 }
 

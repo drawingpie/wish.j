@@ -9,6 +9,13 @@
   --web-view-ids: aboutmeskills;
 }
 
+@font-face {
+    font-family: 'Cafe24Dongdong';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   margin: 0;
   max-width: 1920px;
@@ -18,6 +25,9 @@ body {
   padding-top: 49%;
   overflow: hidden;
   background-repeat: no-repeat;
+  font-family: 'Cafe24Dongdong';
+  font-weight: normal;
+  font-style: normal;
 }
 
 #skills {
@@ -28,9 +38,6 @@ body {
   width: 515px;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.563rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -79,9 +86,6 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -161,9 +165,6 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -195,10 +196,6 @@ body {
   position: absolute;
   overflow: visible;
   white-space: nowrap;
-  text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -279,9 +276,6 @@ body {
   width: 77px;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -314,9 +308,6 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -396,9 +387,6 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -431,9 +419,6 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -513,9 +498,6 @@ body {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 2.5rem;
   color: rgba(255, 255, 255, 1);
 }
@@ -655,9 +637,6 @@ body {
   top: 27.7%;
   position: absolute;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.875rem;
   color: #00BDA4;
   --web-animation: fadein 0.3s ease-out;
@@ -676,9 +655,6 @@ body {
   top: 27.7%;
   position: absolute;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.875rem;
   color: #fff;
   --web-animation: fadein 0.3s ease-out;
@@ -697,9 +673,6 @@ body {
   top: 27.7%;
   position: absolute;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.875rem;
   color: #fff;
   --web-animation: fadein 0.3s ease-out;
@@ -718,9 +691,6 @@ body {
   top: 27.7%;
   position: absolute;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.875rem;
   color: #fff;
   --web-animation: fadein 0.3s ease-out;
@@ -842,9 +812,6 @@ body {
   width: 469px;
   white-space: nowrap;
   text-align: center;
-  font-family: Cafe24 Dongdong;
-  font-style: normal;
-  font-weight: normal;
   font-size: 1.301rem;
   color: rgba(151, 164, 240, 1);
   display: block;

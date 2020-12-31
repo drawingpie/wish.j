@@ -1,12 +1,12 @@
 .mediaViewInfo {
-  --web-view-name: contact;
-  --web-view-id: contact;
+  --web-view-name: aboutme;
+  --web-view-id: aboutme;
   --web-scale-on-resize: true;
   --web-enable-deep-linking: true;
 }
 
 :root {
-  --web-view-ids: contact;
+  --web-view-ids: aboutme;
 }
 
 @font-face {
@@ -144,96 +144,37 @@ body {
   }
 }
 
-#foxcontact {
+#introduce {
+  left: 26.9%;
+  top: 54%;
   position: absolute;
-  left: 26.5%;
-  top: 39%;
   overflow: visible;
+  width: 885px;
+  display: block;
+  line-height: 35px;
+  margin-top: -5px;
+  text-align: center;
+  font-size: 1.563rem;
+  color: rgba(255, 255, 255, 1);
+  animation: introduce 0.8s cubic-bezier(.25, .46, .45, .94) both
 }
 
-@media (max-width: 1160px) {
-  #foxcontact {
-    transform: translate(-30%, -18%) scale(0.6, 0.6);
-  }
-}
-
-#email {
-  position: absolute;
-  width: 606px;
-  height: 324.99px;
-  left: 48.8%;
-  top: 46.1%;
-  overflow: visible;
-  animation: _80 0.8s cubic-bezier(.25, .46, .45, .94) both
-}
-
-@keyframes _80 {
+@keyframes introduce {
   0% {
-    transform: translateX(1100px)
+    transform: translateY(1000px)
   }
 
   50% {
-    transform: translateX(1100px)
+    transform: translateY(0)
   }
 }
 
 @media (max-width: 1160px) {
-  #email {
-    transform: translate(-25%, -18%) scale(0.6, 0.6);
-  }
-}
-
-#here {
-  left: 120px;
-  top: 190px;
-  position: absolute;
-  overflow: visible;
-  width: 367px;
-  white-space: nowrap;
-  line-height: 50px;
-  margin-top: -5px;
-  text-align: center;
-  font-size: 2.5rem;
-  color: rgba(248, 234, 33, 1);
-}
-
-#E-mail_designezenavercom {
-  left: 0px;
-  top: 100px;
-  position: absolute;
-  overflow: visible;
-  width: 607px;
-  white-space: nowrap;
-  line-height: 70px;
-  margin-top: -5px;
-  text-align: center;
-  font-size: 3.75rem;
-  color: rgba(0, 173, 151, 1);
-  text-decoration: none;
-}
-
-#Icon_zocial-email {
-  fill: rgba(255, 255, 255, 1);
-}
-
-.Icon_zocial-email {
-  overflow: visible;
-  position: absolute;
-  width: 69.597px;
-  height: 46.979px;
-  left: 268.644px;
-  top: 10px;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  animation: bounce 0.5s infinite alternate;
-}
-
-@keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-
-  to {
-    transform: translateY(-15px);
+  #introduce {
+    font-size: 90%;
+    transform: translate(0%, 0%);
+    width: 520px;
+    line-height: 20px;
   }
 }
 
@@ -253,7 +194,7 @@ body {
   position: absolute;
   text-align: center;
   font-size: 1.875rem;
-  color: #fff;
+  color: #00BDA4;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: aboutme.html;
@@ -289,7 +230,7 @@ body {
   position: absolute;
   text-align: center;
   font-size: 1.875rem;
-  color: #38D430;
+  color: #fff;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: contact.html;
@@ -356,6 +297,67 @@ body {
   .logo {
     transform: translate(-30%, -25%) scale(0.5, 0.5);
   }
+}
+
+#foxsmall {
+  position: absolute;
+  left: 47.4%;
+  top: 38%;
+  overflow: visible;
+}
+
+@media (max-width: 1160px) {
+  #foxsmall {
+    transform: translate(-30%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_right {
+  fill: #fff;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 56.8%;
+  top: 43.3%;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutmehistory.html;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  #arrow_right {
+    transform: translate(-100%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_right:hover {
+  fill: #F8EA21;
+}
+
+#arrow_left {
+  fill: #fff;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 41.5%;
+  top: 43.3%;
+  overflow: visible;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutmeskills.html;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  #arrow_left {
+    transform: translate(0%, -25%) scale(0.5, 0.5);
+  }
+}
+
+#arrow_left:hover {
+  fill: #F8EA21;
 }
 
 #footer {

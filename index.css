@@ -238,8 +238,8 @@ div {
 
 @media (max-width: 1160px) {
   #pa1, #pa2, #pa3, #pa4, #pa5, #pa6, #pa7, #pa8,
-  #pa9, {
-    transform: scale(0.5 0.5);
+  #pa9 {
+    transform: scale(0.5);
   }
 }
 
@@ -251,12 +251,6 @@ div {
   top: 37.9%;
   overflow: visible;
   background-image: url('fox.png');
-}
-
-@media (max-width: 1160px) {
-  #fox {
-    transform: translate(-25%, -20%) scale(0.6);
-  }
 }
 
 #eyer {
@@ -355,6 +349,12 @@ div {
   top: 3px;
 }
 
+@media (max-width: 1160px) {
+  #fox {
+    transform: translate(-25%, -20%) scale(0.6);
+  }
+}
+
 #RUN {
   height: 82.32px;
   left: 25%;
@@ -370,7 +370,7 @@ div {
 
 @media (max-width: 1160px) {
   #RUN {
-    transform: translate(-10%, -50%);
+    transform: translate(-30%, -0%) scale(0.5);
   }
 }
 
@@ -416,7 +416,7 @@ div {
 
 @media (max-width: 1160px) {
   #FOR {
-    transform: translate(-18%, -20%);
+    transform: translate(-35%, -20%) scale(0.5);
   }
 }
 
@@ -461,7 +461,7 @@ div {
 
 @media (max-width: 1160px) {
   #DREAMS {
-    transform: translate(5%, -30%);
+    transform: translate(-25%, -30%) scale(0.5);
   }
 }
 
@@ -573,16 +573,16 @@ div {
 
 @media (max-width: 1160px) {
   #contact {
-    font-size: 50%;
+    font-size: 90%;
   }
   #today {
-    font-size: 50%;
+    font-size: 90%;
   }
   #portfolio {
-    font-size: 50%;
+    font-size: 90%;
   }
   #aboutme {
-    font-size: 50%;
+    font-size: 90%;
   }
 }
 
@@ -622,11 +622,5 @@ div {
   #footer {
     font-size: 80%;
     transform: translate(-20%, -5%);
-  }
-}
-
-@media (max-width: 1160px) {
-  span {
-    font-size: 50%;
   }
 }

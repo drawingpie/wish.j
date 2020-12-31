@@ -125,7 +125,6 @@ div {
   0% {
     transform: scale(1)
   }
-
   100% {
     transform: scale(2)
   }
@@ -148,7 +147,6 @@ div {
   0% {
     transform: scale(1)
   }
-
   100% {
     transform: scale(2)
   }
@@ -171,7 +169,6 @@ div {
   0% {
     transform: scale(1)
   }
-
   100% {
     transform: scale(2)
   }
@@ -194,7 +191,6 @@ div {
   0% {
     transform: scale(0.5)
   }
-
   100% {
     transform: scale(1)
   }
@@ -217,7 +213,6 @@ div {
   0% {
     transform: scale(0.5)
   }
-
   100% {
     transform: scale(1)
   }
@@ -240,14 +235,12 @@ div {
   0% {
     transform: scale(0.5)
   }
-
   100% {
     transform: scale(1)
   }
 }
 
 @media (max-width: 1160px) {
-
   #pa1, #pa2, #pa3, #pa4, #pa5, #pa6, #pa7, #pa8,
   #pa9 {
     transform: scale(0.5, 0.5);
@@ -262,7 +255,6 @@ div {
   top: 37.9%;
   overflow: visible;
   background-image: url('fox.png');
-  display: block;
 }
 
 @media (max-width: 1160px) {
@@ -282,7 +274,6 @@ div {
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
@@ -331,14 +322,12 @@ div {
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
   100% {
     transform: rotateX(0deg);
   }
-
   50% {
     transform: rotateX(80deg);
   }
@@ -379,7 +368,6 @@ div {
   text-align: center;
   font-size: 10rem;
   color: #00BDA4;
-  display: block;
   -webkit-animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
 }
@@ -397,7 +385,6 @@ div {
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -412,7 +399,6 @@ div {
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -428,7 +414,6 @@ div {
   text-align: center;
   font-size: 6.25rem;
   color: #fff;
-  display: block;
   -webkit-animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
 }
@@ -446,7 +431,6 @@ div {
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -461,7 +445,6 @@ div {
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -476,7 +459,6 @@ div {
   text-align: center;
   font-size: 12.188rem;
   color: #F8EA21;
-  display: block;
   -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
 }
@@ -509,7 +491,6 @@ div {
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -538,7 +519,6 @@ div {
   --web-action-type: page;
   --web-action-target: aboutme.html;
   cursor: pointer;
-  display: block;
 }
 
 #aboutme:hover {
@@ -556,7 +536,6 @@ div {
   --web-action-type: page;
   --web-action-target: portfolio.html;
   cursor: pointer;
-  display: block;
 }
 
 #portfolio:hover {
@@ -574,7 +553,6 @@ div {
   --web-action-type: page;
   --web-action-target: contact.html;
   cursor: pointer;
-  display: block;
 }
 
 #contact:hover {
@@ -592,7 +570,6 @@ div {
   --web-action-type: page;
   --web-action-target: today.html;
   cursor: pointer;
-  display: block;
 }
 
 #today:hover {
@@ -603,15 +580,12 @@ div {
   #contact {
     font-size: 90%;
   }
-
   #today {
     font-size: 90%;
   }
-
   #portfolio {
     font-size: 90%;
   }
-
   #aboutme {
     font-size: 90%;
   }
@@ -629,7 +603,6 @@ div {
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: index.html;
-  display: block;
 }
 
 @media (max-width: 1160px) {
@@ -648,7 +621,6 @@ div {
   text-align: center;
   font-size: 1.301rem;
   color: rgba(151, 164, 240, 1);
-  display: block;
 }
 
 @media (max-width: 1160px) {

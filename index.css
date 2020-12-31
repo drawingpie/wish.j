@@ -380,11 +380,11 @@ div {
   font-size: 10rem;
   color: #00BDA4;
   display: block;
-  -webkit-animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
-  animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
+  -webkit-animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
 }
 
-@-webkit-keyframes effect1 {
+@-webkit-keyframes run {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
@@ -399,7 +399,7 @@ div {
   }
 }
 
-@keyframes effect1 {
+@keyframes run {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
@@ -423,10 +423,11 @@ div {
   font-size: 6.25rem;
   color: #fff;
   display: block;
-  animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
+  -webkit-animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
 }
 
-@-webkit-keyframes effect1 {
+@-webkit-keyframes FOR {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
@@ -441,7 +442,7 @@ div {
   }
 }
 
-@keyframes effect1 {
+@keyframes FOR {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
@@ -464,10 +465,11 @@ div {
   font-size: 12.188rem;
   color: #F8EA21;
   display: block;
-  animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
+  -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
 }
 
-@-webkit-keyframes effect1 {
+@-webkit-keyframes DREAMS {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
@@ -482,7 +484,7 @@ div {
   }
 }
 
-@keyframes effect1 {
+@keyframes DREAMS {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
@@ -503,7 +505,7 @@ div {
   }
 
   #FOR {
-    transform: translate(-18%, -20%); 
+    transform: translate(-18%, -20%);
   }
 
   #DREAMS {

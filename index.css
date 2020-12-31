@@ -383,7 +383,11 @@ div {
   -webkit-animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: run .8s cubic-bezier(.25, .46, .45, .94) both;
 }
-
+@media (max-width: 1160px) {
+  #RUN {
+    transform: translate(-10%, -50%);
+  }
+}
 @-webkit-keyframes run {
   0% {
     letter-spacing: -.5em;
@@ -426,7 +430,11 @@ div {
   -webkit-animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: FOR .8s cubic-bezier(.25, .46, .45, .94) both;
 }
-
+@media (max-width: 1160px) {
+  #FOR {
+    transform: translate(-18%, -20%);
+  }
+}
 @-webkit-keyframes FOR {
   0% {
     letter-spacing: -.5em;
@@ -468,6 +476,11 @@ div {
   -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
 }
+@media (max-width: 1160px) {
+  #DREAMS {
+    transform: translate(5%, -30%);
+  }
+}
 
 @-webkit-keyframes DREAMS {
   0% {
@@ -499,21 +512,8 @@ div {
   }
 }
 
-@media (max-width: 1160px) {
-  #RUN {
-    transform: translate(-10%, -50%);
-  }
-}
-@media (max-width: 1160px) {
-  #FOR {
-    transform: translate(-18%, -20%);
-  }
-}
-@media (max-width: 1160px) {
-  #DREAMS {
-    transform: translate(5%, -30%);
-  }
-}
+
+
 
 .light {
   position: absolute;

@@ -276,12 +276,9 @@ div {
 
 #fox {
   position: absolute;
-  width: auto;
-  height: auto;
   left: 57.2%;
   top: 37.9%;
   overflow: visible;
-  background-image: url('fox.png');
 }
 
 #eyer {

@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Cafe24Dongdong';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -56,6 +56,7 @@ div {
     transform: scale(2)
   }
 }
+
 @media (max-width: 1160px) {
   #pa1 {
     transform: scale(0.5);
@@ -85,11 +86,13 @@ div {
     transform: scale(2)
   }
 }
+
 @media (max-width: 1160px) {
   #pa2 {
     transform: scale(0.5);
   }
 }
+
 #pa3 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -112,11 +115,13 @@ div {
     transform: scale(2)
   }
 }
+
 @media (max-width: 1160px) {
   #pa3 {
     transform: scale(0.5);
   }
 }
+
 #pa4 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -129,15 +134,18 @@ div {
   top: 43%;
   animation: circle 1s infinite alternate;
 }
+
 @media (max-width: 1160px) {
   #pa4 {
     transform: scale(0.5);
   }
 }
+
 @keyframes circle {
   0% {
     transform: scale(1)
   }
+
   100% {
     transform: scale(2)
   }
@@ -155,15 +163,18 @@ div {
   top: 40.6%;
   animation: circle 1s infinite alternate;
 }
+
 @media (max-width: 1160px) {
   #pa5 {
     transform: scale(0.5);
   }
 }
+
 @keyframes circle {
   0% {
     transform: scale(1)
   }
+
   100% {
     transform: scale(2)
   }
@@ -186,15 +197,18 @@ div {
   0% {
     transform: scale(1)
   }
+
   100% {
     transform: scale(2)
   }
 }
+
 @media (max-width: 1160px) {
   #pa6 {
     transform: scale(0.5);
   }
 }
+
 #pa7 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -212,15 +226,18 @@ div {
   0% {
     transform: scale(0.5)
   }
+
   100% {
     transform: scale(1)
   }
 }
+
 @media (max-width: 1160px) {
   #pa7 {
     transform: scale(0.5);
   }
 }
+
 #pa8 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -238,15 +255,18 @@ div {
   0% {
     transform: scale(0.5)
   }
+
   100% {
     transform: scale(1)
   }
 }
+
 @media (max-width: 1160px) {
   #pa8 {
     transform: scale(0.5);
   }
 }
+
 #pa9 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -264,10 +284,12 @@ div {
   0% {
     transform: scale(0.5)
   }
+
   100% {
     transform: scale(1)
   }
 }
+
 @media (max-width: 1160px) {
   #pa9 {
     transform: scale(0.5);
@@ -295,6 +317,7 @@ div {
 }
 
 @keyframes blink {
+
   0%,
   45%,
   55%,
@@ -343,12 +366,14 @@ div {
 }
 
 @keyframes blink {
+
   0%,
   45%,
   55%,
   100% {
     transform: rotateX(0deg);
   }
+
   50% {
     transform: rotateX(80deg);
   }
@@ -405,6 +430,7 @@ div {
     filter: blur(12px);
     opacity: 0
   }
+
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -419,6 +445,7 @@ div {
     filter: blur(12px);
     opacity: 0
   }
+
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -443,6 +470,7 @@ div {
   -webkit-animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
 }
+
 @-webkit-keyframes COME {
   0% {
     letter-spacing: -.5em;
@@ -450,6 +478,7 @@ div {
     filter: blur(12px);
     opacity: 0
   }
+
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -464,6 +493,7 @@ div {
     filter: blur(12px);
     opacity: 0
   }
+
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -495,6 +525,7 @@ div {
     filter: blur(12px);
     opacity: 0
   }
+
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -509,6 +540,7 @@ div {
     filter: blur(12px);
     opacity: 0
   }
+
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -604,12 +636,15 @@ div {
   #contact {
     font-size: 90%;
   }
+
   #today {
     font-size: 90%;
   }
+
   #portfolio {
     font-size: 90%;
   }
+
   #aboutme {
     font-size: 90%;
   }

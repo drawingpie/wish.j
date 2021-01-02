@@ -29,7 +29,6 @@ body {
 
 @media (max-width: 360px) {
   body {
-    margin: 0;
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 760px;

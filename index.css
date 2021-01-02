@@ -575,6 +575,13 @@ div {
   display: block;
 }
 
+@media (min-width: 360px) {
+  .light {
+  left: -60%;
+  top: 2.3%;
+  }
+}
+
 #aboutme {
   left: 36.5%;
   top: 27.7%;

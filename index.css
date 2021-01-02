@@ -1,4 +1,4 @@
-.mediaViewInfo { 
+.mediaViewInfo {
   --web-view-name: index;
   --web-view-id: index;
   --web-scale-on-resize: true;
@@ -686,11 +686,5 @@ div {
   #footer {
     font-size: 80%;
     transform: translate(-20%, -5%);
-  }
-}
-
-@media (max-width: 1160px) {
-  span {
-    font-size: 50%;
   }
 }

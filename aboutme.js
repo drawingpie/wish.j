@@ -1,3 +1,4 @@
+
 ///////////////////////////////////////
 // INITIALIZATION
 ///////////////////////////////////////
@@ -154,6 +155,7 @@ var Application = function() {
 		//"addEventListener" in window ? null : window.addEventListener = window.attachEvent;
 		//"addEventListener" in document ? null : document.addEventListener = document.attachEvent;
 	}
+
 
 	///////////////////////////////////
 	// GENERAL FUNCTIONS

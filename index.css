@@ -657,6 +657,12 @@ div {
   color: #F09D05;
 }
 
+@media (min-width: 360px) {
+  #contact, #today, #portfolio, #aboutme {
+  display: none;
+  }
+}
+
 @media (max-width: 1160px) {
   #contact {
     font-size: 90%;

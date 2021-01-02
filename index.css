@@ -27,8 +27,15 @@ body {
   background-repeat: no-repeat;
 }
 
+
+
+div {
+  font-family: 'Cafe24Dongdong';
+  font-weight: normal;
+  font-style: normal;
+}
 @media (max-width: 360px) {
-  body {
+  div {
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 760px;
@@ -36,13 +43,6 @@ body {
     background-repeat: no-repeat;
   }
 }
-
-div {
-  font-family: 'Cafe24Dongdong';
-  font-weight: normal;
-  font-style: normal;
-}
-
 #pa1 {
   fill: rgba(248, 234, 33, 1);
 }

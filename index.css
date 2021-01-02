@@ -27,6 +27,17 @@ body {
   background-repeat: no-repeat;
 }
 
+@media (min-width: 360px) {
+  body {
+    margin: 0;
+    background: linear-gradient(to bottom, #002169, #001135);
+    position: relative;
+    height: 760px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+}
+
 div {
   font-family: 'Cafe24Dongdong';
   font-weight: normal;

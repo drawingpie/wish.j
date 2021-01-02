@@ -306,7 +306,7 @@ div {
   background-image: url('fox.png');
 }
 
-@media all and (max-width: 1160px) {
+@media screen and (max-width: 1160px) {
   #fox {
     transform: translate(-25%, -20%) scale(0.6, 0.6);
   }

@@ -276,8 +276,8 @@ div {
 
 #fox {
   position: absolute;
-  width: 419.43px;
-  height: 481.61px;
+  width: 100vw;
+  height: auto;
   left: 57.2%;
   top: 37.9%;
   overflow: visible;

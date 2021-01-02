@@ -319,7 +319,7 @@ div {
 
 @media (max-width: 414px) {
   #fox {
-    transform: translate(17.8%, 56.7%) scale(0.6, 0.6);
+    transform: translate(-30%, -50%) scale(0.6, 0.6);
   }
 }
 
@@ -466,7 +466,7 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-    transform: translate(22%, 28%) scale(0.5);
+    transform: translate(-30%, -28%) scale(0.5);
   }
 }
 

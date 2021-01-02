@@ -71,7 +71,7 @@ div {
   overflow: visible;
   width: 9.2px;
   height: 9.2px;
-  left: 50.4%;
+  left: 58%;
   top: 39.2%;
   animation: circle 1s infinite alternate;
 }
@@ -151,7 +151,7 @@ div {
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 43.1%;
+  left: 53%;
   top: 40.6%;
   animation: circle 1s infinite alternate;
 }
@@ -203,8 +203,8 @@ div {
   position: absolute;
   width: 18.8px;
   height: 18.8px;
-  left: 47.2%;
-  top: 50.1%;
+  left: 52%;
+  top: 55%;
   animation: circle 1s infinite alternate;
 }
 
@@ -276,9 +276,12 @@ div {
 
 #fox {
   position: absolute;
+  width: 419.43px;
+  height: 481.61px;
   left: 57.2%;
   top: 37.9%;
   overflow: visible;
+  background-image: url('fox.png');
 }
 
 #eyer {
@@ -377,14 +380,14 @@ div {
   top: 3px;
 }
 
-@media (max-width: 1160px) {
+@media all and (max-width: 1160px) {
   #fox {
     transform: translate(-25%, -20%) scale(0.6);
   }
 }
 
 #DREAMS {
-  left: 25%;
+  left: 20%;
   top: 40%;
   position: absolute;
   overflow: visible;
@@ -425,13 +428,13 @@ div {
 
 @media (max-width: 1160px) {
   #DREAMS {
-    transform: translate(-30%, -0%) scale(0.5);
+    transform: translate(-20%, -20%) scale(0.5);
   }
 }
 
 #COME {
   left: 27.7%;
-  top: 58.3%;
+  top: 57%;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -470,14 +473,14 @@ div {
 
 @media (max-width: 1160px) {
   #COME {
-    transform: translate(-35%, -20%) scale(0.5);
+    transform: translate(-20%, -20%) scale(0.5);
   }
 }
 
 #TRUE {
   position: absolute;
-  left: 14.3%;
-  top: 70%;
+  left: 22.7%;
+  top: 66.3%;
   text-align: center;
   font-size: 12.188rem;
   color: #F8EA21;
@@ -515,7 +518,7 @@ div {
 
 @media (max-width: 1160px) {
   #TRUE {
-    transform: translate(-25%, -30%) scale(0.5);
+    transform: translate(-20%, -20%) scale(0.5);
   }
 }
 

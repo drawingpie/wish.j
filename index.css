@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Cafe24Dongdong';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -31,10 +31,6 @@ div {
   font-family: 'Cafe24Dongdong';
   font-weight: normal;
   font-style: normal;
-}
-
-.particle {
-  display: block;
 }
 
 #pa1 {
@@ -60,6 +56,11 @@ div {
     transform: scale(2)
   }
 }
+@media (max-width: 1160px) {
+  #pa1 {
+    transform: scale(0.5);
+  }
+}
 
 #pa2 {
   fill: rgba(248, 234, 33, 1);
@@ -70,7 +71,7 @@ div {
   overflow: visible;
   width: 9.2px;
   height: 9.2px;
-  left: 50.4%;
+  left: 58%;
   top: 39.2%;
   animation: circle 1s infinite alternate;
 }
@@ -84,7 +85,11 @@ div {
     transform: scale(2)
   }
 }
-
+@media (max-width: 1160px) {
+  #pa2 {
+    transform: scale(0.5);
+  }
+}
 #pa3 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -107,7 +112,11 @@ div {
     transform: scale(2)
   }
 }
-
+@media (max-width: 1160px) {
+  #pa3 {
+    transform: scale(0.5);
+  }
+}
 #pa4 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -120,12 +129,15 @@ div {
   top: 43%;
   animation: circle 1s infinite alternate;
 }
-
+@media (max-width: 1160px) {
+  #pa4 {
+    transform: scale(0.5);
+  }
+}
 @keyframes circle {
   0% {
     transform: scale(1)
   }
-
   100% {
     transform: scale(2)
   }
@@ -139,16 +151,19 @@ div {
   position: absolute;
   width: 28px;
   height: 28px;
-  left: 43.1%;
+  left: 53%;
   top: 40.6%;
   animation: circle 1s infinite alternate;
 }
-
+@media (max-width: 1160px) {
+  #pa5 {
+    transform: scale(0.5);
+  }
+}
 @keyframes circle {
   0% {
     transform: scale(1)
   }
-
   100% {
     transform: scale(2)
   }
@@ -171,12 +186,15 @@ div {
   0% {
     transform: scale(1)
   }
-
   100% {
     transform: scale(2)
   }
 }
-
+@media (max-width: 1160px) {
+  #pa6 {
+    transform: scale(0.5);
+  }
+}
 #pa7 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -185,8 +203,8 @@ div {
   position: absolute;
   width: 18.8px;
   height: 18.8px;
-  left: 47.2%;
-  top: 50.1%;
+  left: 52%;
+  top: 55%;
   animation: circle 1s infinite alternate;
 }
 
@@ -194,12 +212,15 @@ div {
   0% {
     transform: scale(0.5)
   }
-
   100% {
     transform: scale(1)
   }
 }
-
+@media (max-width: 1160px) {
+  #pa7 {
+    transform: scale(0.5);
+  }
+}
 #pa8 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -217,12 +238,15 @@ div {
   0% {
     transform: scale(0.5)
   }
-
   100% {
     transform: scale(1)
   }
 }
-
+@media (max-width: 1160px) {
+  #pa8 {
+    transform: scale(0.5);
+  }
+}
 #pa9 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -240,17 +264,13 @@ div {
   0% {
     transform: scale(0.5)
   }
-
   100% {
     transform: scale(1)
   }
 }
-
 @media (max-width: 1160px) {
-
-  #pa1, #pa2, #pa3, #pa4, #pa5, #pa6, #pa7, #pa8,
   #pa9 {
-    transform: scale(0.5, 0.5);
+    transform: scale(0.5);
   }
 }
 
@@ -262,7 +282,6 @@ div {
   top: 37.9%;
   overflow: visible;
   background-image: url('fox.png');
-  display: block;
 }
 
 #eyer {
@@ -276,7 +295,6 @@ div {
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
@@ -325,14 +343,12 @@ div {
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
   100% {
     transform: rotateX(0deg);
   }
-
   50% {
     transform: rotateX(80deg);
   }
@@ -364,34 +380,31 @@ div {
   top: 3px;
 }
 
-@media (max-width: 1160px) {
+@media all and (max-width: 1160px) {
   #fox {
-    transform: translate(-25%, -20%) scale(0.6, 0.6);
+    transform: translate(-25%, -20%) scale(0.6);
   }
 }
 
-#RUN {
-  height: 82.32px;
-  left: 25%;
+#DREAMS {
+  left: 20%;
   top: 40%;
   position: absolute;
   overflow: visible;
   text-align: center;
   font-size: 10rem;
   color: #00BDA4;
-  display: block;
-  -webkit-animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
-  animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
+  -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
 }
 
-@-webkit-keyframes effect1 {
+@-webkit-keyframes DREAMS {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -399,97 +412,13 @@ div {
   }
 }
 
-@keyframes effect1 {
+@keyframes DREAMS {
   0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
-
-  100% {
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1
-  }
-}
-
-#FOR {
-  left: 27.7%;
-  top: 58.3%;
-  position: absolute;
-  overflow: visible;
-  text-align: center;
-  font-size: 6.25rem;
-  color: #fff;
-  display: block;
-  animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
-}
-
-@-webkit-keyframes effect1 {
-  0% {
-    letter-spacing: -.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0
-  }
-
-  100% {
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1
-  }
-}
-
-@keyframes effect1 {
-  0% {
-    letter-spacing: -.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0
-  }
-
-  100% {
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1
-  }
-}
-
-#DREAMS {
-  position: absolute;
-  left: 14.3%;
-  top: 70%;
-  text-align: center;
-  font-size: 12.188rem;
-  color: #F8EA21;
-  display: block;
-  animation: effect1 .8s cubic-bezier(.25, .46, .45, .94) both;
-}
-
-@-webkit-keyframes effect1 {
-  0% {
-    letter-spacing: -.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0
-  }
-
-  100% {
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1
-  }
-}
-
-@keyframes effect1 {
-  0% {
-    letter-spacing: -.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0
-  }
-
   100% {
     -webkit-filter: blur(0);
     filter: blur(0);
@@ -498,16 +427,98 @@ div {
 }
 
 @media (max-width: 1160px) {
-  #RUN {
-    transform: translate(-10%, -50%); font-size: 50%;
-  }
-
-  #FOR {
-    transform: translate(-18%, -20%); font-size: 50%;
-  }
-
   #DREAMS {
-    transform: translate(5%, -30%); font-size: 50%;
+    transform: translate(-20%, -20%) scale(0.5);
+  }
+}
+
+#COME {
+  left: 27.7%;
+  top: 57%;
+  position: absolute;
+  overflow: visible;
+  text-align: center;
+  font-size: 6.25rem;
+  color: #fff;
+  -webkit-animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
+}
+@-webkit-keyframes COME {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@keyframes COME {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #COME {
+    transform: translate(-20%, -20%) scale(0.5);
+  }
+}
+
+#TRUE {
+  position: absolute;
+  left: 22.7%;
+  top: 66.3%;
+  text-align: center;
+  font-size: 12.188rem;
+  color: #F8EA21;
+  -webkit-animation: TRUE .8s cubic-bezier(.25, .46, .45, .94) both;
+  animation: TRUE .8s cubic-bezier(.25, .46, .45, .94) both;
+}
+
+@-webkit-keyframes TRUE {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@keyframes TRUE {
+  0% {
+    letter-spacing: -.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0
+  }
+  100% {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1
+  }
+}
+
+@media (max-width: 1160px) {
+  #TRUE {
+    transform: translate(-20%, -20%) scale(0.5);
   }
 }
 
@@ -532,7 +543,6 @@ div {
   --web-action-type: page;
   --web-action-target: aboutme.html;
   cursor: pointer;
-  display: block;
 }
 
 #aboutme:hover {
@@ -550,7 +560,6 @@ div {
   --web-action-type: page;
   --web-action-target: portfolio.html;
   cursor: pointer;
-  display: block;
 }
 
 #portfolio:hover {
@@ -568,7 +577,6 @@ div {
   --web-action-type: page;
   --web-action-target: contact.html;
   cursor: pointer;
-  display: block;
 }
 
 #contact:hover {
@@ -586,7 +594,6 @@ div {
   --web-action-type: page;
   --web-action-target: today.html;
   cursor: pointer;
-  display: block;
 }
 
 #today:hover {
@@ -597,15 +604,12 @@ div {
   #contact {
     font-size: 90%;
   }
-
   #today {
     font-size: 90%;
   }
-
   #portfolio {
     font-size: 90%;
   }
-
   #aboutme {
     font-size: 90%;
   }
@@ -623,12 +627,11 @@ div {
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: index.html;
-  display: block;
 }
 
 @media (max-width: 1160px) {
   .logo {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    transform: translate(-30%, -25%) scale(0.5);
   }
 }
 
@@ -642,7 +645,6 @@ div {
   text-align: center;
   font-size: 1.301rem;
   color: rgba(151, 164, 240, 1);
-  display: block;
 }
 
 @media (max-width: 1160px) {

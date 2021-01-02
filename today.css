@@ -387,13 +387,7 @@ body {
 
 @media (max-width: 1160px) {
   .logo {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
-  }
-}
-
-@media (max-width: 1160px) {
-  .logo {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    transform: translate(-30%, -25%) scale(0.5);
   }
 }
 

@@ -27,7 +27,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   body {
     background-color: linear-gradient(to bottom, #002169, #001135);
     position: relative;
@@ -69,7 +69,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa1 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -99,7 +99,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa2 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -128,7 +128,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa3 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -147,7 +147,7 @@ div {
   animation: circle 1s infinite alternate;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa4 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -176,7 +176,7 @@ div {
   animation: circle 1s infinite alternate;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa5 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -215,7 +215,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa6 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -244,7 +244,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa7 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -273,7 +273,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa8 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -302,7 +302,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #pa9 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -318,7 +318,7 @@ div {
   background-image: url('fox.png');
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #fox {
     transform: translate(-55%, -10%) scale(0.6, 0.6);
   }
@@ -465,7 +465,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #DREAMS {
     transform: translate(-28%, -160%) scale(0.5, 0.5);
   }
@@ -513,7 +513,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #COME {
     transform: translate(-15%, -300%) scale(0.5, 0.5);
   }
@@ -560,7 +560,7 @@ div {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #TRUE {
     transform: translate(-25%, -180%) scale(0.5, 0.5);
   }
@@ -576,7 +576,7 @@ div {
   display: block;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .light {
   display: none;
   }
@@ -650,7 +650,7 @@ div {
   color: #F09D05;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #contact {
     display: none;
   }
@@ -682,7 +682,7 @@ div {
   --web-action-target: index.html;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   .logo {
     transform: translate(-40%, -45%) scale(0.6, 0.6);
   }
@@ -700,7 +700,7 @@ div {
   color: rgba(151, 164, 240, 1);
 }
 
-@media (max-width: 414px) {
+@media (max-width: 375px) {
   #footer {
     font-size: 50%;
     transform: translate(-37%, -1200%);

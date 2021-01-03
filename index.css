@@ -587,7 +587,7 @@ div {
 @media (max-width: 414px) {
   .light {
   display: none;
-
+  background-image: url('lightmobile.png');
   left: 1%;
   top: 2.3%;
   }

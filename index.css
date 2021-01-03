@@ -465,11 +465,7 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-<<<<<<< HEAD
-    transform: translate(-50%, -50%) scale(0.5);
-=======
     transform: translate(-30%, -50%) scale(0.5);
->>>>>>> b0a872aecdd7dcee0267408b05250f3f90bb2282
   }
 }
 

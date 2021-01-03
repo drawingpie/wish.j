@@ -33,7 +33,7 @@ body {
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
-    overflow: hidden;
+    overflow: auto;
     background-repeat: no-repeat;
   }
 }
@@ -721,6 +721,5 @@ div {
     font-size: 50%;
     left: 23.1%;
     top: 40.2%;
-    transform: scale(0.5, 0.5);
   }
 }

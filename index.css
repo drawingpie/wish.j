@@ -23,6 +23,7 @@ body {
   position: relative;
   height: auto;
   overflow: hidden;
+  padding-top: 48%;
   background-repeat: no-repeat;
 }
 

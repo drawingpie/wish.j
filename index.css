@@ -29,11 +29,15 @@ body {
 
 @media (max-width: 414px) {
   body {
-    background: linear-gradient(to bottom, #002169, #001135);
+    background-color: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-image: url('lightmobile.png');
+    left: 0%;
+    top: 2%;
+
   }
 }
 
@@ -577,9 +581,7 @@ div {
 
 @media (max-width: 414px) {
   .light {
-  background-image: url('lightmobile.png');
-  left: 0%;
-  top: 2%;
+  display: none;
   }
 }
 

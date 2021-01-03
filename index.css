@@ -29,7 +29,8 @@ body {
 
 @media (max-width: 375px) {
   body {
-    background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135), url('Icon feather-menu.svg');
+    background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
+    background: url('Icon feather-menu.svg');
     position: relative;
     height: 643px;
     overflow: hidden;

@@ -318,7 +318,7 @@ div {
 
 @media (max-width: 414px) {
   #fox {
-    transform: translate(21.3%, 55.3%) scale(0.6, 0.6);
+    transform: translate(-30%, -30%) scale(0.6, 0.6);
   }
 }
 

@@ -45,19 +45,6 @@ div {
   font-style: normal;
 }
 
-#menu {
-  display: none;
-}
-
-@@media (max-width: 375px) {
-  #menu {
-    display: block;
-    position: absolute;
-    left: 90%;
-    top: 4%;
-  }
-}
-
 #pa1 {
   fill: rgba(248, 234, 33, 1);
 }
@@ -699,6 +686,55 @@ div {
   .logo {
     transform: translate(-40%, -47%) scale(0.6, 0.6);
   }
+}
+
+.header{
+      width: 100%;
+      height: 50px;
+      background: #ddd;
+  }
+.menu_btn{
+      text-align: right;
+      padding: 10px;
+  }
+.menu_bg{
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      position: absolute;
+      top:0;
+      display: none;
+  }
+.sidebar_menu{
+      display: none;
+      width: 50%;
+      height: 100%;
+      background: #e98282;
+      position: absolute;
+      top:0;
+      right: -50%;
+  }
+.close_btn{
+      width: 25px;
+      height: 25px;
+      margin:10px;
+  }
+.close_btn > a{
+      display: block;
+      width: 100%;
+      height: 100%;
+  }
+.menu_wrap{
+      list-style: none;
+      padding: 20px 20px;
+  }
+.menu_wrap li a{
+      color: #fff;
+      text-decoration: none;
+  }
+.header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
+.close_btn > a, .menu_wrap, .menu_wrap li a {
+    display: none;
 }
 
 #footer {

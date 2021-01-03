@@ -702,6 +702,6 @@ div {
 @media (max-width: 414px) {
   #footer {
     font-size: 50%;
-    transform: translate(-20%, -5%);
+    transform: translate(20.2%, 94.8%);
   }
 }

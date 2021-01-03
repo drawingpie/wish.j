@@ -33,7 +33,6 @@ body {
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: auto;
-    padding-top: 56.25%;
     overflow: auto;
     background-repeat: no-repeat;
   }

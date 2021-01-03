@@ -29,7 +29,7 @@ body {
 @media (max-width: 375px) {
   body {
     position: relative;
-    height: 736px;
+    height: 812px;
     overflow: hidden;
     background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
     background-repeat: no-repeat;
@@ -318,7 +318,7 @@ div {
 
 @media (max-width: 375px) {
   #fox {
-    transform: translate(-55%, -10%) scale(0.6, 0.6);
+    transform: translate(-55%, 3%) scale(0.7, 0.7);
   }
 }
 
@@ -465,7 +465,7 @@ div {
 
 @media (max-width: 375px) {
   #DREAMS {
-    transform: translate(-30%, -150%) scale(0.5, 0.5);
+    transform: translate(-30%, -135%) scale(0.5, 0.5);
   }
 }
 
@@ -513,7 +513,7 @@ div {
 
 @media (max-width: 375px) {
   #COME {
-    transform: translate(-15%, -290%) scale(0.5, 0.5);
+    transform: translate(-15%, -245%) scale(0.5, 0.5);
   }
 }
 
@@ -560,7 +560,7 @@ div {
 
 @media (max-width: 375px) {
   #TRUE {
-    transform: translate(-27%, -175%) scale(0.5, 0.5);
+    transform: translate(-27%, -145%) scale(0.5, 0.5);
   }
 }
 
@@ -701,6 +701,6 @@ div {
 @media (max-width: 375px) {
   #footer {
     font-size: 50%;
-    transform: translate(-39%, -1200%);
+    transform: translate(-39%, -100%);
   }
 }

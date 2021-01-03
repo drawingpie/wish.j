@@ -688,16 +688,16 @@ div {
   }
 }
 
-.header{
+.header {
       width: 100%;
       height: 50px;
       background: #ddd;
   }
-.menu_btn{
+.menu_btn {
       text-align: right;
       padding: 10px;
   }
-.menu_bg{
+.menu_bg {
       width: 100%;
       height: 100%;
       background: rgba(0,0,0,0.7);
@@ -705,7 +705,7 @@ div {
       top:0;
       display: none;
   }
-.sidebar_menu{
+.sidebar_menu {
       display: none;
       width: 50%;
       height: 100%;
@@ -714,25 +714,25 @@ div {
       top:0;
       right: -50%;
   }
-.close_btn{
+.close_btn {
       width: 25px;
       height: 25px;
       margin:10px;
   }
-.close_btn > a{
+.close_btn > a {
       display: block;
       width: 100%;
       height: 100%;
   }
-.menu_wrap{
+.menu_wrap {
       list-style: none;
       padding: 20px 20px;
   }
-.menu_wrap li a{
+.menu_wrap li a {
       color: #fff;
       text-decoration: none;
   }
-  
+
 .header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
 .close_btn > a, .menu_wrap, .menu_wrap li a {
     display: none;

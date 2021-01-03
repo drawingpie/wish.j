@@ -319,9 +319,7 @@ div {
 
 @media (max-width: 414px) {
   #fox {
-    left: 15%;
-    top: 20%;
-    transform: scale(0.6, 0.6);
+    transform: translate(-20%, 0%) scale(0.6, 0.6);
   }
 }
 
@@ -468,7 +466,7 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-    transform: translate(-10%, -20%) scale(0.5, 0.5);
+    transform: translate(-30%, -140%) scale(0.5, 0.5);
   }
 }
 
@@ -516,7 +514,7 @@ div {
 
 @media (max-width: 414px) {
   #COME {
-    transform: translate(-10%, -20%) scale(0.5, 0.5);
+    transform: translate(-30%, -120%) scale(0.5, 0.5);
   }
 }
 
@@ -563,7 +561,7 @@ div {
 
 @media (max-width: 414px) {
   #TRUE {
-    transform: translate(-10%, -20%) scale(0.5, 0.5);
+    transform: translate(-30%, -100%) scale(0.5, 0.5);
   }
 }
 
@@ -575,12 +573,6 @@ div {
   top: -5.1%;
   overflow: visible;
   display: block;
-}
-
-@media (max-width: 414px) {
-  .light {
-  display: none;
-  }
 }
 
 @media (max-width: 414px) {
@@ -693,7 +685,7 @@ div {
 
 @media (max-width: 414px) {
   .logo {
-    transform: translate(-10%, -20%) scale(0.5, 0.5);
+    transform: translate(-20%, -20%) scale(0.5, 0.5);
   }
 }
 
@@ -712,6 +704,6 @@ div {
 @media (max-width: 414px) {
   #footer {
     font-size: 50%;
-    transform: translate(-10%, -20%);
+    transform: translate(-37%, 0%);
   }
 }

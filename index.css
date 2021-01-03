@@ -319,7 +319,7 @@ div {
 
 @media (max-width: 414px) {
   #fox {
-    transform: translate(-20%, 0%) scale(0.6, 0.6);
+    transform: translate(-55%, -10%) scale(0.6, 0.6);
   }
 }
 
@@ -466,7 +466,7 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-    transform: translate(-30%, -140%) scale(0.5, 0.5);
+    transform: translate(-28%, -160%) scale(0.5, 0.5);
   }
 }
 
@@ -514,7 +514,7 @@ div {
 
 @media (max-width: 414px) {
   #COME {
-    transform: translate(-30%, -120%) scale(0.5, 0.5);
+    transform: translate(-15%, -300%) scale(0.5, 0.5);
   }
 }
 
@@ -561,7 +561,7 @@ div {
 
 @media (max-width: 414px) {
   #TRUE {
-    transform: translate(-30%, -100%) scale(0.5, 0.5);
+    transform: translate(-25%, -180%) scale(0.5, 0.5);
   }
 }
 
@@ -685,7 +685,7 @@ div {
 
 @media (max-width: 414px) {
   .logo {
-    transform: translate(-20%, -20%) scale(0.5, 0.5);
+    transform: translate(-20%, -20%) scale(0.6, 0.6);
   }
 }
 
@@ -704,6 +704,6 @@ div {
 @media (max-width: 414px) {
   #footer {
     font-size: 50%;
-    transform: translate(-37%, 0%);
+    transform: translate(-37%, -1200%);
   }
 }

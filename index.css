@@ -682,15 +682,15 @@ div {
   --web-action-target: index.html;
 }
 
-.header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
-.close_btn > a, .menu_wrap, .menu_wrap li a {
-    display: none;
-}
-
 @media (max-width: 375px) {
   .logo {
     transform: translate(-40%, -47%) scale(0.6, 0.6);
   }
+}
+
+.header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
+.close_btn > a, .menu_wrap, .menu_wrap li a {
+    display: none;
 }
 
 @media (max-width: 375px) {

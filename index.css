@@ -682,21 +682,33 @@ div {
   --web-action-target: index.html;
 }
 
+.header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
+.close_btn > a, .menu_wrap, .menu_wrap li a {
+    display: none;
+}
+
 @media (max-width: 375px) {
   .logo {
     transform: translate(-40%, -47%) scale(0.6, 0.6);
   }
 }
 
+@media (max-width: 375px) {
 .header {
       width: 100%;
       height: 50px;
       background: #ddd;
   }
+}
+
+@media (max-width: 375px) {
 .menu_btn {
       text-align: right;
       padding: 10px;
   }
+}
+
+@media (max-width: 375px) {
 .menu_bg {
       width: 100%;
       height: 100%;
@@ -705,6 +717,9 @@ div {
       top:0;
       display: none;
   }
+}
+
+@media (max-width: 375px) {
 .sidebar_menu {
       display: none;
       width: 50%;
@@ -714,28 +729,36 @@ div {
       top:0;
       right: -50%;
   }
+}
+
+@media (max-width: 375px) {
 .close_btn {
       width: 25px;
       height: 25px;
       margin:10px;
   }
+}
+
+@media (max-width: 375px) {
 .close_btn > a {
       display: block;
       width: 100%;
       height: 100%;
   }
+}
+
+@media (max-width: 375px) {
 .menu_wrap {
       list-style: none;
       padding: 20px 20px;
   }
+}
+
+@media (max-width: 375px) {
 .menu_wrap li a {
       color: #fff;
       text-decoration: none;
   }
-
-.header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
-.close_btn > a, .menu_wrap, .menu_wrap li a {
-    display: none;
 }
 
 #footer {

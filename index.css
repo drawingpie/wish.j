@@ -29,10 +29,9 @@ body {
 
 @media (max-width: 414px) {
   body {
-    margin: 0;
     background: linear-gradient(to bottom, #002169, #001135);
-    position: absolute;
-    height: auto;
+    position: relative;
+    height: 736px;
     overflow: auto;
     background-repeat: no-repeat;
   }

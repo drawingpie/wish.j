@@ -685,7 +685,7 @@ div {
 
 @media (max-width: 414px) {
   .logo {
-    transform: translate(-20%, -20%) scale(0.6, 0.6);
+    transform: translate(-40%, -45%) scale(0.6, 0.6);
   }
 }
 

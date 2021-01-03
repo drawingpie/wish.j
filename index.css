@@ -27,14 +27,13 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   body {
-    background-color: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: url('lightmobile.png');
+    background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
     }
 }
 
@@ -69,7 +68,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa1 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -99,7 +98,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa2 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -128,7 +127,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa3 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -147,7 +146,7 @@ div {
   animation: circle 1s infinite alternate;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa4 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -176,7 +175,7 @@ div {
   animation: circle 1s infinite alternate;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa5 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -215,7 +214,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa6 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -244,7 +243,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa7 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -273,7 +272,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa8 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -302,7 +301,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #pa9 {
     transform: translate(0%, 0%) scale(0.5, 0.5);
   }
@@ -318,7 +317,7 @@ div {
   background-image: url('fox.png');
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #fox {
     transform: translate(-55%, -10%) scale(0.6, 0.6);
   }
@@ -465,7 +464,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #DREAMS {
     transform: translate(-28%, -160%) scale(0.5, 0.5);
   }
@@ -513,7 +512,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #COME {
     transform: translate(-15%, -300%) scale(0.5, 0.5);
   }
@@ -560,7 +559,7 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #TRUE {
     transform: translate(-25%, -180%) scale(0.5, 0.5);
   }
@@ -576,7 +575,7 @@ div {
   display: block;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .light {
   display: none;
   }
@@ -650,7 +649,7 @@ div {
   color: #F09D05;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #contact {
     display: none;
   }
@@ -682,7 +681,7 @@ div {
   --web-action-target: index.html;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .logo {
     transform: translate(-40%, -45%) scale(0.6, 0.6);
   }
@@ -700,7 +699,7 @@ div {
   color: rgba(151, 164, 240, 1);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   #footer {
     font-size: 50%;
     transform: translate(-37%, -1200%);

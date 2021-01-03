@@ -318,7 +318,8 @@ div {
 
 @media (max-width: 414px) {
   #fox {
-    transform: translate(-50%, -20%) scale(0.6, 0.6);
+    left: 21.3%;
+    top: 55.3%;
   }
 }
 
@@ -576,6 +577,8 @@ div {
 
 @media (max-width: 414px) {
   .light {
+  display: none;
+
   left: 1%;
   top: 2.3%;
   }

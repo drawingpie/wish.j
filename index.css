@@ -35,10 +35,9 @@ div {
 
 @media (max-width: 414px) {
   body {
-    margin: 0;
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
-    height: 896px;
+    height: 736px;
     overflow: hidden;
     background-repeat: no-repeat;
   }
@@ -466,7 +465,7 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-    transform: translate(22%, 28%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
   }
 }
 

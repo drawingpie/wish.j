@@ -468,8 +468,8 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-    left: 15%;
-    top: 20%;
+    left: -10%;
+    top: -20%;
     transform: scale(0.5, 0.5);
   }
 }
@@ -518,8 +518,8 @@ div {
 
 @media (max-width: 414px) {
   #COME {
-    left: 36.2%;
-    top: 33.4%;
+    left: -10%;
+    top: -20%;
     transform: scale(0.5, 0.5);
   }
 }
@@ -567,8 +567,8 @@ div {
 
 @media (max-width: 414px) {
   #TRUE {
-    left: 23.1%;
-    top: 40.2%;
+    left: -10%;
+    top: -20%;
     transform: scale(0.5, 0.5);
   }
 }
@@ -699,8 +699,8 @@ div {
 
 @media (max-width: 414px) {
   .logo {
-    left: 10%;
-    top: 10%;
+    left: 48%;
+    top: 4%;
     transform: scale(0.5, 0.5);
   }
 }
@@ -720,7 +720,7 @@ div {
 @media (max-width: 414px) {
   #footer {
     font-size: 50%;
-    left: 0%;
+    left: -20%;
     top: 94.8%;
   }
 }

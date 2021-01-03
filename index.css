@@ -466,7 +466,7 @@ div {
 
 @media (max-width: 375px) {
   #DREAMS {
-    transform: translate(-28%, -160%) scale(0.5, 0.5);
+    transform: translate(-30%, -150%) scale(0.5, 0.5);
   }
 }
 
@@ -514,7 +514,7 @@ div {
 
 @media (max-width: 375px) {
   #COME {
-    transform: translate(-15%, -300%) scale(0.5, 0.5);
+    transform: translate(-15%, -290%) scale(0.5, 0.5);
   }
 }
 
@@ -561,7 +561,7 @@ div {
 
 @media (max-width: 375px) {
   #TRUE {
-    transform: translate(-25%, -180%) scale(0.5, 0.5);
+    transform: translate(-27%, -175%) scale(0.5, 0.5);
   }
 }
 
@@ -683,7 +683,7 @@ div {
 
 @media (max-width: 375px) {
   .logo {
-    transform: translate(-40%, -45%) scale(0.6, 0.6);
+    transform: translate(-40%, -47%) scale(0.6, 0.6);
   }
 }
 
@@ -702,6 +702,6 @@ div {
 @media (max-width: 375px) {
   #footer {
     font-size: 50%;
-    transform: translate(-37%, -1200%);
+    transform: translate(-39%, -1200%);
   }
 }

@@ -320,6 +320,7 @@ div {
   #fox {
     left: 21.3%;
     top: 55.3%;
+    transform: scale(0.5, 0.5);
   }
 }
 

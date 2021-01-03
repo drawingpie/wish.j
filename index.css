@@ -732,6 +732,7 @@ div {
       color: #fff;
       text-decoration: none;
   }
+  
 .header, .menu_btn, .menu_bg, .sidebar_menu, .close_btn,
 .close_btn > a, .menu_wrap, .menu_wrap li a {
     display: none;

@@ -35,10 +35,7 @@ body {
     overflow: hidden;
     background-repeat: no-repeat;
     background-image: url('lightmobile.png');
-    left: 0%;
-    top: 2%;
-
-  }
+    }
 }
 
 div {

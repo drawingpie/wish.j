@@ -34,7 +34,7 @@ div {
 }
 
 @media (max-width: 414px) {
-  body {
+  div {
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
@@ -318,7 +318,7 @@ div {
 
 @media (max-width: 414px) {
   #fox {
-    transform: translate(-50%, -10%) scale(0.6, 0.6);
+    transform: translate(-55%, -30%) scale(0.6, 0.6);
   }
 }
 
@@ -465,7 +465,7 @@ div {
 
 @media (max-width: 414px) {
   #DREAMS {
-    transform: translate(-30%, -50%) scale(0.5);
+    transform: translate(-30%, -100%) scale(0.5, 0.5);
   }
 }
 
@@ -513,7 +513,7 @@ div {
 
 @media (max-width: 414px) {
   #COME {
-    transform: translate(-20%, -45%) scale(0.5);
+    transform: translate(-20%, -95%) scale(0.5, 0.5);
   }
 }
 
@@ -560,7 +560,7 @@ div {
 
 @media (max-width: 414px) {
   #TRUE {
-    transform: translate(-20%, -40%) scale(0.5);
+    transform: translate(-30%, -90%) scale(0.5, 0.5);
   }
 }
 

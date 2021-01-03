@@ -33,6 +33,7 @@ body {
     position: relative;
     height: 643px;
     overflow: hidden;
+    padding-top: 0%;
     background-repeat: no-repeat;
     }
 }

@@ -27,16 +27,9 @@ body {
   background-repeat: no-repeat;
 }
 
-div {
-  font-family: 'Cafe24Dongdong';
-  font-weight: normal;
-  font-style: normal;
-}
-
 @media (max-width: 414px) {
   body {
     margin: 0;
-    max-width: 414px;
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
@@ -44,6 +37,13 @@ div {
     background-repeat: no-repeat;
   }
 }
+
+div {
+  font-family: 'Cafe24Dongdong';
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 #pa1 {
   fill: rgba(248, 234, 33, 1);
@@ -587,9 +587,14 @@ div {
 @media (max-width: 414px) {
   .light {
   display: none;
+  }
+}
+
+@media (max-width: 414px) {
+  .light {
   background-image: url('lightmobile.png');
-  left: 1%;
-  top: 2.3%;
+  left: 0%;
+  top: 2%;
   }
 }
 

@@ -34,11 +34,11 @@ div {
 }
 
 @media (max-width: 414px) {
-  div {
+  body {
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
-    overflow: hidden;
+    overflow: scroll;
     background-repeat: no-repeat;
   }
 }

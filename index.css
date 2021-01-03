@@ -23,7 +23,7 @@ body {
   position: relative;
   height: auto;
   padding-top: 49%;
-  overflow: auto;
+  overflow: hidden;
   background-repeat: no-repeat;
 }
 
@@ -32,7 +32,8 @@ body {
     margin: 0;
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
-    height: 736px;
+    height: auto;
+    padding-top: 56.25%;
     overflow: auto;
     background-repeat: no-repeat;
   }

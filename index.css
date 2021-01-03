@@ -19,7 +19,7 @@
 body {
   margin: 0;
   max-width: 1920px;
-  background: linear-gradient(to bottom, #002169, #001135);
+  background-color: linear-gradient(to bottom, #002169, #001135);
   position: relative;
   height: auto;
   overflow: hidden;

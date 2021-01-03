@@ -52,6 +52,8 @@ div {
 @media (max-width: 375px) {
   #menu {
     display: block;
+    left: 90%;
+    top: 4%;
   }
 }
 

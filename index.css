@@ -40,7 +40,7 @@ div {
     background: linear-gradient(to bottom, #002169, #001135);
     position: relative;
     height: 736px;
-    overflow: scroll;
+    overflow: hidden;
     background-repeat: no-repeat;
   }
 }

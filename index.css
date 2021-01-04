@@ -698,7 +698,7 @@ div {
     display: block;
     height: 100%;
     width: 0;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
     right: 0;
@@ -732,6 +732,12 @@ div {
 }
 
 @media (max-width: 375px) {
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+}
+
+@media (max-width: 375px) {
   .overlay .closebtn {
     display: block;
     position: absolute;
@@ -741,11 +747,6 @@ div {
     }
 }
 
-@media (max-width: 375px) {
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-}
 
 @media (max-width: 375px) {
   .openbtn {

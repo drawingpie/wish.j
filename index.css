@@ -757,7 +757,6 @@ div {
   .openbtn {
     display: block;
     font-size: 30px;
-    color: #fff;
     cursor: pointer;
     position: absolute;
     top: 2%;

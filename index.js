@@ -1186,17 +1186,10 @@ var Application = function() {
 window.application = new Application();
 
 //슬라이드메뉴
-$(function(){
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
 
-  $("#slide-open").click(function()    {
-    if($("#burgur").hasClass('on')){
-      $("#burgur").removeClass('on');
-      $("#slide").removeClass('on');
-
-    } else{
-      $("#burgur").addClass('on');
-     $("#slide").addClass('on');
-    }
-  });
-
-});
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

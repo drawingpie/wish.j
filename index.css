@@ -734,23 +734,19 @@ div {
 @media (max-width: 375px) {
   #close {
     display: block;
-    color: #818181;
     transition: 0.3s;
-    left: 90%;
-    top:2%;
     position: absolute;
   }
 }
 
+
 @media (max-width: 375px) {
-  #close:hover {
+  .overlay .closebtn {
     display: block;
-    color: #f1f1f1;
-    transition: 0.3s;
-    left: 90%;
-    top:2%;
     position: absolute;
-  }
+    top: 2%;
+    left: 90%;
+    }
 }
 
 @media (max-width: 375px) {

@@ -703,25 +703,13 @@ div {
   border-bottom:1px solid #e1e1e1;
   position:relative;
 }
-.logo{
-  text-align:center;
-  font-size:32px;
-  font-style:italic;
-  font-weight:800;
-  padding-top:8px;
-}
+
 .body{
   height:400px;
   position:relative;
   overflow:hidden;
 }
-.content{
-  height:100%;
-  font-size:30px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
+
 .slide-open{
   position:absolute;
   top:0;

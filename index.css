@@ -690,7 +690,7 @@ div {
 
 .overlay,.overlay-content,.overlay a,
 .overlay a:hover, .overlay a:focus,
-.overlay .closebtn {
+.overlay .closebtn, .openbtn {
   display: none;
 }
 
@@ -740,7 +740,12 @@ div {
   right: 45px;
   font-size: 60px;
 }}
-
+@media (max-width: 375px) {
+.openbtn {
+  display: block;
+  font-size:25px;
+  cursor:pointer;
+}}
 
 #footer {
   left: 37.8%;

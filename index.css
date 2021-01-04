@@ -688,140 +688,55 @@ div {
   }
 }
 
-.wrapper,.container,.head,.body,.slide-open,.burgur,.burgur .top-line,.burgur .bot-line,.burgur.on,
-.burgur.on .bot-line,.burgur.on .top-line,.slide,.slide-title,.slide.on,.slide ul li {display: none;}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
 
-@media (max-width: 375px) {
-.wrapper{
-  display: block;
-  width:100%;
-}}
-@media (max-width: 375px) {
-.container{
-  display: block;
-  width:100%;
-  max-width:375px;
-  margin:0 auto;
-}}
-@media (max-width: 375px) {
-.head{
-  display: block;
-  width:100%;
-  height:50px;
-  position:relative;
-}}
-@media (max-width: 375px) {
-.body{
-  display: block;
-  height:643px;
-  position:relative;
-  overflow:hidden;
-}}
-@media (max-width: 375px) {
-.slide-open{
-  display: block;
-  position:absolute;
-  top:0;
-  right:0;
-  width:50px;
-  height:50px;
-  cursor:pointer;
-}}
-@media (max-width: 375px) {
-.burgur{
-display: block;
-right: 15px;
-top: 23px;
-position: absolute;
-width: 20px;
-height: 2px;
-background: #000000;
-}}
-@media (max-width: 375px) {
-.burgur .top-line{
-display: block;
-width: 20px;
-height: 2px;
-background-color: #000000;
-bottom: -5px;
-content: '';
-position: absolute;
-right: 0;
--webkit-transition:  -webkit-transform .3s;
-transition: transform .3s;
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
 
-}}
-@media (max-width: 375px) {
-.burgur .bot-line {
-display: block;
-width: 20px;
-height: 2px;
-background-color: #000000;
-top: -5px;
-content: '';
-position: absolute;
-right: 0;
--webkit-transition:  -webkit-transform .3s;
-transition: transform .3s;
-}}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-@media (max-width: 375px) {
-.burgur.on {
-  display: block;
-width: 0;
-}}
-@media (max-width: 375px) {
-.burgur.on .bot-line {
-  display: block;
--webkit-transform: translateY(5px) rotate(135deg);
-transform: translateY(5px) rotate(135deg);
-}}
-@media (max-width: 375px) {
-.burgur.on .top-line{
-  display: block;
--webkit-transform: translateY(-5px) rotate(-135deg);
-transform: translateY(-5px) rotate(-135deg);
-}}
-@media (max-width: 375px) {
-.slide{
-  display: block;
-  width:100%;
-  position:absolute;
-  left:-100%;
-  top:0;
-  right:0;
-  bottom:0;
-  -webkit-transition: left .3s;
-  -moz-transition: left .3s;
-  -ms-transition: left .3s;
-  -o-transition: left .3s;
-  transition: left .3s;
-  background-color:#cccccc;
-}}
-@media (max-width: 375px) {
-.slide-title{
-  display: block;
-  width:100%;
-  height:100px;
-  font-size:42px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  border-bottom:1px solid #e1e1e1;
-}}
-@media (max-width: 375px) {
-.slide.on{
-  display: block;
-  left:0;
-}}
-@media (max-width: 375px) {
-.slide ul li{
-  display: block;
-  display:inline-block;
-  width:100%;
-  padding:10px;
-  border-bottom:1px solid #e1e1e1;
-}}
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
 
 #footer {
   left: 37.8%;

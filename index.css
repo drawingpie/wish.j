@@ -688,7 +688,15 @@ div {
   }
 }
 
+.overlay,.overlay-content,.overlay a,
+.overlay a:hover, .overlay a:focus,
+.overlay .closebtn {
+  display: none;
+}
+
+@media (max-width: 375px) {
 .overlay {
+  display: block;
   height: 100%;
   width: 0;
   position: fixed;
@@ -699,44 +707,40 @@ div {
   background-color: rgba(0,0,0, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
-}
-
+}}
+@media (max-width: 375px) {
 .overlay-content {
+  display: block;
   position: relative;
   top: 25%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
-}
-
+}}
+@media (max-width: 375px) {
 .overlay a {
+  display: block;
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
   color: #818181;
   display: block;
   transition: 0.3s;
-}
-
+}}
+@media (max-width: 375px) {
 .overlay a:hover, .overlay a:focus {
+  display: block;
   color: #f1f1f1;
-}
-
+}}
+@media (max-width: 375px) {
 .overlay .closebtn {
+  display: block;
   position: absolute;
   top: 20px;
   right: 45px;
   font-size: 60px;
-}
+}}
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
 
 #footer {
   left: 37.8%;

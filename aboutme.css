@@ -176,7 +176,7 @@ div {
 
 @keyframes introduce {
   0% {
-    transform: translateY(1000px)
+    transform: translateY(1500px)
   }
 
   50% {
@@ -456,7 +456,6 @@ div {
 #arrow_left:hover {
   fill: #F8EA21;
 }
-
 
 #footer {
   left: 37.8%;

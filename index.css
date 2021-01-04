@@ -744,6 +744,8 @@ div {
 .openbtn {
   display: block;
   font-size:25px;
+  left: 90%;
+  top: 4%;
   cursor:pointer;
 }}
 

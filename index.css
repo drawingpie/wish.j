@@ -744,12 +744,13 @@ div {
     top: 3%;
     left: 8%;
     fill: #818181;
-    }
+  }
 }
+
 @media (max-width: 375px) {
   .overlay .closebtn:hover {
     fill: #fff;
-    }
+  }
 }
 
 @media (max-width: 375px) {

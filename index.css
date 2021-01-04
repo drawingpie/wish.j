@@ -727,7 +727,7 @@ div {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #fff;
+    color: #818181;
     display: block;
     transition: 0.3s;
   }
@@ -735,7 +735,6 @@ div {
 
 @media (max-width: 375px) {
   .overlay a:hover, .overlay a:focus {
-    display: block;
     color: #f1f1f1;
   }
 }

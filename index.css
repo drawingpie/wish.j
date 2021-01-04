@@ -688,28 +688,34 @@ div {
   }
 }
 
+.wrapper,.container,.head,.body,.slide-open,.burgur,.burgur .top-line,.burgur .bot-line,.burgur.on,
+.burgur.on .bot-line,.burgur.on .top-line,.slide,.slide-title,.slide.on,.slide ul li {display: none;}
+
+@media (max-width: 375px) {
 .wrapper{
   width:100%;
-}
+}}
+@media (max-width: 375px) {
 .container{
   width:100%;
   max-width:500px;
   margin:0 auto;
   border:1px solid #e1e1e1;
-}
+}}
+@media (max-width: 375px) {
 .head{
   width:100%;
   height:50px;
   border-bottom:1px solid #e1e1e1;
   position:relative;
-}
-
+}}
+@media (max-width: 375px) {
 .body{
   height:400px;
   position:relative;
   overflow:hidden;
-}
-
+}}
+@media (max-width: 375px) {
 .slide-open{
   position:absolute;
   top:0;
@@ -717,7 +723,8 @@ div {
   width:50px;
   height:50px;
   cursor:pointer;
-}
+}}
+@media (max-width: 375px) {
 .burgur{
 right: 15px;
 top: 23px;
@@ -725,7 +732,8 @@ position: absolute;
 width: 20px;
 height: 2px;
 background: #000000;
-}
+}}
+@media (max-width: 375px) {
 .burgur .top-line{
 width: 20px;
 height: 2px;
@@ -737,7 +745,8 @@ right: 0;
 -webkit-transition:  -webkit-transform .3s;
 transition: transform .3s;
 
-}
+}}
+@media (max-width: 375px) {
 .burgur .bot-line {
 width: 20px;
 height: 2px;
@@ -748,19 +757,23 @@ position: absolute;
 right: 0;
 -webkit-transition:  -webkit-transform .3s;
 transition: transform .3s;
-}
+}}
 
+@media (max-width: 375px) {
 .burgur.on {
 width: 0;
-}
+}}
+@media (max-width: 375px) {
 .burgur.on .bot-line {
 -webkit-transform: translateY(5px) rotate(135deg);
 transform: translateY(5px) rotate(135deg);
-}
+}}
+@media (max-width: 375px) {
 .burgur.on .top-line{
 -webkit-transform: translateY(-5px) rotate(-135deg);
 transform: translateY(-5px) rotate(-135deg);
-}
+}}
+@media (max-width: 375px) {
 .slide{
   width:100%;
   position:absolute;
@@ -774,7 +787,8 @@ transform: translateY(-5px) rotate(-135deg);
   -o-transition: left .3s;
   transition: left .3s;
   background-color:#cccccc;
-}
+}}
+@media (max-width: 375px) {
 .slide-title{
   width:100%;
   height:100px;
@@ -783,16 +797,18 @@ transform: translateY(-5px) rotate(-135deg);
   justify-content:center;
   align-items:center;
   border-bottom:1px solid #e1e1e1;
-}
+}}
+@media (max-width: 375px) {
 .slide.on{
   left:0;
-}
+}}
+@media (max-width: 375px) {
 .slide ul li{
   display:inline-block;
   width:100%;
   padding:10px;
   border-bottom:1px solid #e1e1e1;
-}
+}}
 
 #footer {
   left: 37.8%;

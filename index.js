@@ -1186,3 +1186,17 @@ var Application = function() {
 window.application = new Application();
 
 //슬라이드메뉴
+$(function(){
+
+  $("#slide-open").click(function()    {
+    if($("#burgur").hasClass('on')){
+      $("#burgur").removeClass('on');
+      $("#slide").removeClass('on');
+
+    } else{
+      $("#burgur").addClass('on');
+     $("#slide").addClass('on');
+    }
+  });
+
+});

@@ -689,7 +689,6 @@ div {
 }
 
 .overlay, .overlay-content, .overlay a,
-.overlay a:hover, .overlay a:focus,
 .overlay .closebtn, .openbtn {
   display: none;
 }

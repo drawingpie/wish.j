@@ -689,7 +689,7 @@ div {
 }
 
 .overlay, .overlay-content, .overlay a,
-.overlay .closebtn, .openbtn, #close {
+.overlay .closebtn, .openbtn {
   display: none;
 }
 
@@ -732,37 +732,18 @@ div {
 }
 
 @media (max-width: 375px) {
-  #close {
-    display: block;
-    transition: 0.3s;
-    position: absolute;
-  }
-}
-
-
-@media (max-width: 375px) {
   .overlay .closebtn {
     display: block;
     position: absolute;
     top: 2%;
     left: 90%;
+    color: #818181;
     }
 }
 
 @media (max-width: 375px) {
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-  }
-}
-
-@media (max-width: 375px) {
-  .overlay .closebtn {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    color: #fff;
   }
 }
 

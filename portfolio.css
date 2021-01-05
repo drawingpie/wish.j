@@ -368,7 +368,7 @@ div {
 
 @media (max-width: 375px) {
   .box {
-    transform: translate(-20%, -22%) scale(0.6, 0.6);
+    transform: translate(-40%, -60%) scale(0.4, 0.4);
   }
 }
 
@@ -419,9 +419,10 @@ div {
 
 @media (max-width: 375px) {
   #HANS_CAKE_Website_Renewal_Pers {
-    transform: translate(-12%, -30%);
+    transform: translate(-44%, -570%);
     width: 250px;
-    font-size: 1rem
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
@@ -445,7 +446,7 @@ div {
 
 @media (max-width: 375px) {
   #heart {
-    transform: translate(-20%, -45%) scale(0.5, 0.5);
+    transform: translate(-270%, -820%) scale(0.5, 0.5);
   }
 }
 
@@ -463,7 +464,7 @@ div {
 
 @media (max-width: 375px) {
   #likes {
-    transform: translate(-20%, -30%);
+    transform: translate(-90%, -890%);
     font-size: 1rem
   }
 }
@@ -482,7 +483,7 @@ div {
 
 @media (max-width: 375px) {
   #result {
-    transform: translate(-20%, -30%);
+    transform: translate(-55%, -890%);
     font-size: 1rem
   }
 }
@@ -503,7 +504,7 @@ div {
 
 @media (max-width: 375px) {
   #arrow_left {
-    transform: translate(-20%, -50%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -523,7 +524,7 @@ div {
 
 @media (max-width: 375px) {
   #arrow_right {
-    transform: translate(-20%, -50%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -544,7 +545,7 @@ div {
 
 @media (max-width: 375px) {
   #download {
-    transform: translate(-25%, -50%) scale(0.6, 0.6);
+    transform: translate(-10%, -810%) scale(0.6, 0.6);
   }
 }
 

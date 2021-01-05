@@ -22,9 +22,24 @@ body {
   background: linear-gradient(to bottom, #002169, #001135);
   position: relative;
   height: auto;
-  padding-top: 49%;
   overflow: hidden;
+  padding-top: 49%;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+  body {
+    background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
+    background-position: 0% 0%;
+    position: relative;
+    height: 643px;
+    overflow: hidden;
+    padding-top: 0%;
+    background-repeat: no-repeat;
+  }
+}
+
+div {
   font-family: 'Cafe24Dongdong';
   font-weight: normal;
   font-style: normal;
@@ -43,9 +58,9 @@ body {
   top: 38.4%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa1 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+      display: none;
   }
 }
 
@@ -62,9 +77,9 @@ body {
   top: 49.2%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa2 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+      display: none;
   }
 }
 
@@ -81,9 +96,9 @@ body {
   top: 63.6%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa3 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+      display: none;
   }
 }
 
@@ -100,9 +115,9 @@ body {
   top: 37.8%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa4 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+      display: none;
   }
 }
 
@@ -119,9 +134,9 @@ body {
   top: 43%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa5 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+      display: none;
   }
 }
 
@@ -138,9 +153,9 @@ body {
   top: 63.6%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa6 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+      display: none;
   }
 }
 
@@ -154,6 +169,12 @@ body {
   display: block;
 }
 
+@media (max-width: 375px) {
+  .light {
+    display: none;
+  }
+}
+
 #aboutme {
   left: 36.5%;
   top: 27.7%;
@@ -165,7 +186,6 @@ body {
   --web-action-type: page;
   --web-action-target: aboutme.html;
   cursor: pointer;
-  display: block;
 }
 
 #aboutme:hover {
@@ -178,12 +198,11 @@ body {
   position: absolute;
   text-align: center;
   font-size: 1.875rem;
-  color: #00B9E3;
+  color: #fff;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: portfolio.html;
   cursor: pointer;
-  display: block;
 }
 
 #portfolio:hover {
@@ -201,7 +220,6 @@ body {
   --web-action-type: page;
   --web-action-target: contact.html;
   cursor: pointer;
-  display: block;
 }
 
 #contact:hover {
@@ -219,28 +237,27 @@ body {
   --web-action-type: page;
   --web-action-target: today.html;
   cursor: pointer;
-  display: block;
 }
 
 #today:hover {
   color: #F09D05;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #contact {
-    font-size: 90%;
+    display: none;
   }
 
   #today {
-    font-size: 90%;
+    display: none;
   }
 
   #portfolio {
-    font-size: 90%;
+    display: none;
   }
 
   #aboutme {
-    font-size: 90%;
+    display: none;
   }
 }
 
@@ -256,12 +273,87 @@ body {
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: index.html;
-  display: block;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .logo {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    transform: translate(-40%, -47%) scale(0.6, 0.6);
+  }
+}
+
+.overlay, .overlay-content, .overlay a,
+.overlay .closebtn, .openbtn {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay-content {
+    display: block;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay a:hover {
+    color: #fff;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    fill: #818181;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay .closebtn:hover {
+    fill: #fff;
+  }
+}
+
+@media (max-width: 375px) {
+  .openbtn {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 87%;
   }
 }
 
@@ -274,7 +366,7 @@ body {
   display: block;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .box {
     transform: translate(-20%, -22%) scale(0.6, 0.6);
   }
@@ -325,7 +417,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #HANS_CAKE_Website_Renewal_Pers {
     transform: translate(-12%, -30%);
     width: 250px;
@@ -351,7 +443,7 @@ body {
   stroke-width: 0px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #heart {
     transform: translate(-20%, -45%) scale(0.5, 0.5);
   }
@@ -369,7 +461,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #likes {
     transform: translate(-20%, -30%);
     font-size: 1rem
@@ -388,7 +480,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #result {
     transform: translate(-20%, -30%);
     font-size: 1rem
@@ -409,7 +501,7 @@ body {
   fill: #F8EA21;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #arrow_left {
     transform: translate(-20%, -50%) scale(0.5, 0.5);
   }
@@ -429,7 +521,7 @@ body {
   fill: #F8EA21;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #arrow_right {
     transform: translate(-20%, -50%) scale(0.5, 0.5);
   }
@@ -450,7 +542,7 @@ body {
   fill: #F8EA21;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #download {
     transform: translate(-25%, -50%) scale(0.6, 0.6);
   }
@@ -469,9 +561,9 @@ body {
   display: block;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #footer {
-    font-size: 80%;
-    transform: translate(-20%, -5%);
+    font-size: 50%;
+    transform: translate(-39%, -5%);
   }
 }

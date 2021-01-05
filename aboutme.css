@@ -176,11 +176,11 @@ div {
 
 @keyframes introduce {
   0% {
-    transform: translateY(1500px)
+    transform: translateY(100%) translateX(100%);
   }
 
   50% {
-    transform: translateY(0)
+    transform: translateY(0%) translateX(0%);
   }
 }
 

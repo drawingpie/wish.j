@@ -863,7 +863,7 @@ div {
   overflow: visible;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
-  --web-action-target: aboutmehistory.html;
+  --web-action-target: aboutme.html;
   cursor: pointer;
 }
 
@@ -887,7 +887,7 @@ div {
   overflow: visible;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
-  --web-action-target: aboutmeskills.html;
+  --web-action-target: aboutmehistory.html;
   cursor: pointer;
 }
 

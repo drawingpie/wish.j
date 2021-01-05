@@ -66,7 +66,7 @@ div {
 
 @media (max-width: 375px) {
   .image-box1 {
-    transform: translate(-19.5%, -20%) scale(0.5);
+    transform: translate(-19%, -65%) scale(0.5);
   }
 }
 
@@ -87,7 +87,7 @@ div {
 
 @media (max-width: 375px) {
   #date202012081 {
-    transform: translate(36%, -100%);
+    transform: translate(40%, -850%);
   }
 }
 
@@ -104,7 +104,7 @@ div {
 
 @media (max-width: 375px) {
   #boardtext1 {
-    transform: translate(15%, -20%);
+    transform: translate(18%, -800%);
   }
 }
 
@@ -120,7 +120,7 @@ div {
 
 @media (max-width: 375px) {
   #headline1 {
-    transform: translate(40%, -40%);
+    transform: translate(50%, -520%);
   }
 }
 
@@ -149,7 +149,7 @@ div {
 
 @media (max-width: 375px) {
   .image-box2 {
-    transform: translate(-20%, -20%) scale(0.5);
+    transform: translate(-39.5%, 25%) scale(0.5);
   }
 }
 
@@ -167,7 +167,7 @@ div {
 
 @media (max-width: 375px) {
   #date202012082 {
-    transform: translate(30%, -100%);
+    transform: translate(-100%, 480%);
   }
 }
 
@@ -185,7 +185,7 @@ div {
 
 @media (max-width: 375px) {
   #boardtext2 {
-    transform: translate(14%, -20%);
+    transform: translate(-44.5%, 550%);
   }
 }
 
@@ -203,7 +203,7 @@ div {
 
 @media (max-width: 375px) {
   #headline2 {
-    transform: translate(32%, -40%);
+    transform: translate(-120%, 310%);
   }
 }
 
@@ -232,7 +232,7 @@ div {
 
 @media (max-width: 375px) {
   .image-box3 {
-    transform: translate(-20%, -20%) scale(0.5);
+    display: none;
   }
 }
 
@@ -249,7 +249,7 @@ div {
 
 @media (max-width: 375px) {
   #date202012083 {
-    transform: translate(30%, -100%);
+    display: none;
   }
 }
 
@@ -265,7 +265,7 @@ div {
 
 @media (max-width: 375px) {
   #boardtext3 {
-    transform: translate(16%, -20%);
+    display: none;
   }
 }
 
@@ -281,7 +281,7 @@ div {
 
 @media (max-width: 375px) {
   #headline3 {
-    transform: translate(35%, -40%);
+    display: none;
   }
 }
 

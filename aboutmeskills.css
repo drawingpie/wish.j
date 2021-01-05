@@ -290,6 +290,7 @@ div {
     transform: translate(-41.2%, 60%);
     width: 226px;
     height: 30px;
+    animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
   }
 }
 
@@ -407,6 +408,7 @@ div {
     transform: translate(-50.5%, 60%);
     width: 187px;
     height: 30px;
+    animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
   }
 }
 
@@ -523,6 +525,7 @@ div {
     transform: translate(-39.5%, 60%);
     width: 204px;
     height: 30px;
+    animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
   }
 }
 

@@ -268,8 +268,8 @@ div {
   overflow: visible;
   width: 422px;
   height: 43px;
-  left: 175px;
-  top: 1px;
+  left: 9.1%;
+  top: 0.1%;
   animation: effect4 2s cubic-bezier(.39, .575, .565, 1.000) both
 }
 
@@ -385,8 +385,8 @@ div {
   overflow: visible;
   width: 349px;
   height: 43px;
-  left: 180px;
-  top: 1px;
+  left: 9.3%;
+  top: 0.1%;
   animation: effect4 3s cubic-bezier(.39, .575, .565, 1.000) both
 }
 
@@ -501,8 +501,8 @@ div {
   overflow: visible;
   width: 422px;
   height: 43px;
-  left: 134px;
-  top: 1px;
+  left: 6.9%;
+  top: 0.1%;
   animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
 }
 

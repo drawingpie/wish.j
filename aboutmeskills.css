@@ -171,7 +171,8 @@ div {
 
 @media (max-width: 375px) {
   #orangestick1 {
-    transform: translate(-45%, 60%);
+    left: 17%;
+    top: 52.4%;
     width: 204px;
     height: 30px;
     }

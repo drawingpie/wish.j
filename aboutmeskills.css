@@ -206,7 +206,7 @@ div {
 
 @media (max-width: 375px) {
   #illust {
-    transform: translate(0%, 90%);
+    transform: translate(20%, -100%);
   }
 }
 
@@ -247,7 +247,9 @@ div {
 
 @media (max-width: 375px) {
   #pinkbg2 {
-    transform: scaleY(0.5);
+    transform: translate(-37.5%, 60%);
+    width: 248px;
+    height: 30px;
   }
 }
 
@@ -284,7 +286,9 @@ div {
 
 @media (max-width: 375px) {
   #orangestick2 {
-    transform: scaleY(0.5);
+    transform: translate(-41.2%, 60%);
+    width: 226px;
+    height: 30px;
   }
 }
 
@@ -303,6 +307,7 @@ div {
 @media (max-width: 375px) {
   #illust90 {
     font-size: 1.25rem;
+    transform: translate(-315%, 150%);
   }
 }
 
@@ -317,7 +322,7 @@ div {
 
 @media (max-width: 375px) {
   #indesign {
-    transform: translate(0%, 10%);
+     transform: translate(20%, -100%);
   }
 }
 
@@ -359,7 +364,9 @@ div {
 
 @media (max-width: 375px) {
   #pinkbg3 {
-    transform: scaleY(0.5);
+     transform: translate(-38%, 60%);
+    width: 248px;
+    height: 30px;
   }
 }
 
@@ -396,7 +403,9 @@ div {
 
 @media (max-width: 375px) {
   #orangestick3 {
-    transform: scaleY(0.5);
+    transform: translate(-50.5%, 60%);
+    width: 187px;
+    height: 30px;
   }
 }
 
@@ -414,6 +423,7 @@ div {
 @media (max-width: 375px) {
   #indesign75 {
     font-size: 1.25rem;
+    transform: translate(-610%, 150%);
   }
 }
 
@@ -428,7 +438,7 @@ div {
 
 @media (max-width: 375px) {
   #XD {
-    transform: translate(0%, -70%);
+     transform: translate(20%, -100%);
   }
 }
 
@@ -446,7 +456,7 @@ div {
 @media (max-width: 375px) {
   #XDtext {
     font-size: 1.25rem;
-    transform: translate(255%, 0%);
+    transform: translate(300%, 0%);
   }
 }
 
@@ -470,7 +480,9 @@ div {
 
 @media (max-width: 375px) {
   #pinkbg4 {
-    transform: scaleY(0.5);
+     transform: translate(-36%, 60%);
+    width: 248px;
+    height: 30px;
   }
 }
 
@@ -507,7 +519,9 @@ div {
 
 @media (max-width: 375px) {
   #orangestick4 {
-    transform: scaleY(0.5);
+    transform: translate(-39.5%, 60%);
+    width: 204px;
+    height: 30px;
   }
 }
 
@@ -525,8 +539,10 @@ div {
 @media (max-width: 375px) {
   #XD90 {
     font-size: 1.25rem;
+    transform: translate(-570%, 150%);
   }
 }
+
 #pa1 {
   fill: rgba(248, 234, 33, 1);
 }

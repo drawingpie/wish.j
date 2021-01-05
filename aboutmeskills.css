@@ -59,8 +59,8 @@ div {
 
 @media (max-width: 375px) {
   #skills {
-    transform: translate(-22%, -100%);
-    font-size: 1.188rem;
+    transform: translate(-40%, -650%);
+    font-size: 100%;
   }
 }
 
@@ -90,7 +90,7 @@ div {
 
 @media (max-width: 375px) {
   #photoshop {
-    transform: translate(0%, 170%);
+    transform: translate(20%, -100%);
   }
 }
 
@@ -132,7 +132,9 @@ div {
 
 @media (max-width: 375px) {
   #pinkbg1 {
-    transform: scaleY(0.5);
+    transform: translate(-37%, 60%);
+    width: 248px;
+    height: 30px;
   }
 }
 
@@ -169,7 +171,9 @@ div {
 
 @media (max-width: 375px) {
   #orangestick1 {
-    transform: scaleY(0.5);
+    transform: translate(-45%, 60%);
+    width: 204px;
+    height: 30px;
   }
 }
 
@@ -187,6 +191,7 @@ div {
 @media (max-width: 375px) {
   #photoshop85 {
     font-size: 1.25rem;
+    transform: translate(-590%, 150%);
   }
 }
 
@@ -522,7 +527,6 @@ div {
     font-size: 1.25rem;
   }
 }
-
 #pa1 {
   fill: rgba(248, 234, 33, 1);
 }

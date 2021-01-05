@@ -2849,3 +2849,12 @@ function clickCounter() {
     document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
   }
 }
+
+//슬라이드메뉴
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}

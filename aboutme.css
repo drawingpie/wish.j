@@ -187,7 +187,8 @@ div {
 @media (max-width: 375px) {
   #introduce {
     font-size: 90%;
-    transform: translate(-20%, -30%);
+    left: 12%;
+    top: 41.9%;
     width: 289px;
     line-height: 20px;
   }

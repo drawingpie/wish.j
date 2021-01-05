@@ -171,9 +171,10 @@ div {
 
 @media (max-width: 375px) {
   #orangestick1 {
-    transform: translate(-45%, 60%) rotate(360deg);
+    transform: translate(-45%, 60%);
     width: 204px;
     height: 30px;
+    animation: 1s cubic-bezier(.39, .575, .565, 1.000) both
   }
 }
 

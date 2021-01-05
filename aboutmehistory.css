@@ -471,7 +471,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for_er {
-    transform: translate(400%, 0%) scale(0.5, 0.5) rotate(90deg);
+    transform: translate(400%, 10%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 

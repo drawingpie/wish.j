@@ -74,8 +74,8 @@ div {
 
 @media (max-width: 375px) {
   #gtq1 {
-    transform: translate(-30%, -25%);
-    font-size: 1.188rem;
+    transform: translate(40%, -400%);
+    font-size: 100%;
   }
 }
 
@@ -108,8 +108,8 @@ div {
 
 @media (max-width: 375px) {
   #gtq2 {
-    transform: translate(-30%, -25%);
-    font-size: 1.188rem;
+    transform: translate(-30%, -200%);
+    font-size: 100%;
   }
 }
 
@@ -142,8 +142,8 @@ div {
 
 @media (max-width: 375px) {
   #career1 {
-    transform: translate(-30%, -25%);
-    font-size: 1.188rem;
+   transform: translate(-85%, 0%);
+    font-size: 100%;
   }
 }
 
@@ -176,8 +176,8 @@ div {
 
 @media (max-width: 375px) {
   #academy {
-    transform: translate(-30%, -25%);
-    font-size: 1.188rem;
+    transform: translate(-10%, -100%);
+    font-size: 100%;
   }
 }
 
@@ -210,8 +210,8 @@ div {
 
 @media (max-width: 375px) {
   #career2 {
-    transform: translate(-30%, -25%);
-    font-size: 1.188rem;
+      transform: translate(-65%, 100%);
+    font-size: 100%;
   }
 }
 
@@ -276,7 +276,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for {
-    transform: translate(-100%, -25%) scale(0.5, 0.5);
+    transform: translate(230%, -850%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 
@@ -341,7 +341,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for_ep {
-    transform: translate(-100%, -25%) scale(0.5, 0.5);
+        transform: translate(-70%, -350%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 
@@ -406,7 +406,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for_eq {
-    transform: translate(-100%, -25%) scale(0.5, 0.5);
+     transform: translate(40%, -550%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 
@@ -471,7 +471,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for_er {
-    transform: translate(-100%, -25%) scale(0.5, 0.5);
+    transform: translate(400%, 0%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 

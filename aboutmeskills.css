@@ -22,9 +22,24 @@ body {
   background: linear-gradient(to bottom, #002169, #001135);
   position: relative;
   height: auto;
-  padding-top: 49%;
   overflow: hidden;
+  padding-top: 49%;
   background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+  body {
+    background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
+    background-position: 0% 0%;
+    position: relative;
+    height: 643px;
+    overflow: hidden;
+    padding-top: 0%;
+    background-repeat: no-repeat;
+  }
+}
+
+div {
   font-family: 'Cafe24Dongdong';
   font-weight: normal;
   font-style: normal;
@@ -42,7 +57,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #skills {
     transform: translate(-22%, -100%);
     font-size: 1.188rem;
@@ -58,7 +73,7 @@ body {
   overflow: visible;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #program-dummy {
     transform: translate(-30%, -30%);
   }
@@ -73,7 +88,7 @@ body {
   overflow: visible;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #photoshop {
     transform: translate(0%, 170%);
   }
@@ -90,7 +105,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #photoshoptext {
     font-size: 1.25rem;
     transform: translate(170%, 0%);
@@ -115,7 +130,7 @@ body {
   top: 1px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #pinkbg1 {
     transform: scaleY(0.5);
   }
@@ -152,7 +167,7 @@ body {
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #orangestick1 {
     transform: scaleY(0.5);
   }
@@ -169,7 +184,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #photoshop85 {
     font-size: 1.25rem;
   }
@@ -184,7 +199,7 @@ body {
   overflow: visible;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #illust {
     transform: translate(0%, 90%);
   }
@@ -200,7 +215,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #illusttext {
     font-size: 1.25rem;
     transform: translate(135%, 0%);
@@ -225,7 +240,7 @@ body {
   top: 1px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #pinkbg2 {
     transform: scaleY(0.5);
   }
@@ -262,7 +277,7 @@ body {
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #orangestick2 {
     transform: scaleY(0.5);
   }
@@ -280,7 +295,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #illust90 {
     font-size: 1.25rem;
   }
@@ -295,7 +310,7 @@ body {
   overflow: visible;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #indesign {
     transform: translate(0%, 10%);
   }
@@ -312,7 +327,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #indesigntext {
     font-size: 1.25rem;
     transform: translate(130%, 0%);
@@ -337,7 +352,7 @@ body {
   top: 1px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #pinkbg3 {
     transform: scaleY(0.5);
   }
@@ -374,7 +389,7 @@ body {
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #orangestick3 {
     transform: scaleY(0.5);
   }
@@ -391,7 +406,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #indesign75 {
     font-size: 1.25rem;
   }
@@ -406,7 +421,7 @@ body {
   overflow: visible;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #XD {
     transform: translate(0%, -70%);
   }
@@ -423,7 +438,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #XDtext {
     font-size: 1.25rem;
     transform: translate(255%, 0%);
@@ -448,7 +463,7 @@ body {
   top: 1px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #pinkbg4 {
     transform: scaleY(0.5);
   }
@@ -485,7 +500,7 @@ body {
   }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #orangestick4 {
     transform: scaleY(0.5);
   }
@@ -502,7 +517,7 @@ body {
   color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #XD90 {
     font-size: 1.25rem;
   }
@@ -521,9 +536,9 @@ body {
   top: 38.4%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa1 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -540,9 +555,9 @@ body {
   top: 49.2%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa2 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -559,9 +574,9 @@ body {
   top: 63.6%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa3 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -578,9 +593,9 @@ body {
   top: 37.8%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa4 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -597,9 +612,9 @@ body {
   top: 43%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa5 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -616,9 +631,9 @@ body {
   top: 63.6%;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .pa6 {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    display: none;
   }
 }
 
@@ -630,6 +645,12 @@ body {
   top: -5.1%;
   overflow: visible;
   display: block;
+}
+
+@media (max-width: 375px) {
+  .light {
+    display: none;
+  }
 }
 
 #aboutme {
@@ -704,21 +725,21 @@ body {
   color: #F09D05;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #contact {
-    font-size: 90%;
+    display: none;
   }
 
   #today {
-    font-size: 90%;
+    display: none;
   }
 
   #portfolio {
-    font-size: 90%;
+    display: none;
   }
 
   #aboutme {
-    font-size: 90%;
+    display: none;
   }
 }
 
@@ -737,9 +758,85 @@ body {
   display: block;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   .logo {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    transform: translate(-40%, -47%) scale(0.6, 0.6);
+  }
+}
+
+.overlay, .overlay-content, .overlay a,
+.overlay .closebtn, .openbtn {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .overlay {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay-content {
+    display: block;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay a:hover {
+    color: #fff;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    fill: #818181;
+  }
+}
+
+@media (max-width: 375px) {
+  .overlay .closebtn:hover {
+    fill: #fff;
+  }
+}
+
+@media (max-width: 375px) {
+  .openbtn {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 87%;
   }
 }
 
@@ -750,9 +847,9 @@ body {
   overflow: visible;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #foxsmall {
-    transform: translate(-30%, -25%) scale(0.5, 0.5);
+    transform: translate(-38%, -100%) scale(0.6, 0.6);
   }
 }
 
@@ -766,13 +863,13 @@ body {
   overflow: visible;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
-  --web-action-target: aboutme.html;
+  --web-action-target: aboutmehistory.html;
   cursor: pointer;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #arrow_right {
-    transform: translate(-100%, -25%) scale(0.5, 0.5);
+    transform: translate(100%, -250%) scale(0.5, 0.5);
   }
 }
 
@@ -790,13 +887,13 @@ body {
   overflow: visible;
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
-  --web-action-target: aboutmehistory.html;
+  --web-action-target: aboutmeskills.html;
   cursor: pointer;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #arrow_left {
-    transform: translate(0%, -25%) scale(0.5, 0.5);
+    transform: translate(-160%, -250%) scale(0.5, 0.5);
   }
 }
 
@@ -817,9 +914,9 @@ body {
   display: block;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 375px) {
   #footer {
-    font-size: 80%;
-    transform: translate(-20%, -5%);
+    font-size: 50%;
+    transform: translate(-39%, -5%);
   }
 }

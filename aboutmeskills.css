@@ -154,7 +154,7 @@ div {
   height: 43px;
   left: 25.5%;
   top: 2%;
-  animation: effect4 1s cubic-bezier(.39, .575, .565, 1.000) both
+  animation: effect4 1s linear both
 }
 
 @keyframes effect4 {
@@ -174,8 +174,7 @@ div {
     transform: translate(-45%, 60%);
     width: 204px;
     height: 30px;
-    animation: effect4 1s cubic-bezier(.39, .575, .565, 1.000) both
-  }
+    }
 }
 
 #photoshop85 {
@@ -270,7 +269,7 @@ div {
   height: 43px;
   left: 27.5%;
   top: 2%;
-  animation: effect4 2s cubic-bezier(.39, .575, .565, 1.000) both
+  animation: effect4 1s linear both
 }
 
 @keyframes effect4 {
@@ -290,8 +289,7 @@ div {
     transform: translate(-41.2%, 60%);
     width: 226px;
     height: 30px;
-    animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
-  }
+    }
 }
 
 #illust90 {
@@ -388,7 +386,7 @@ div {
   height: 43px;
   left: 28%;
   top: 2%;
-  animation: effect4 3s cubic-bezier(.39, .575, .565, 1.000) both
+  animation: effect4 1s linear both
 }
 
 @keyframes effect4 {
@@ -408,7 +406,6 @@ div {
     transform: translate(-50.5%, 60%);
     width: 187px;
     height: 30px;
-    animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
   }
 }
 
@@ -505,8 +502,8 @@ div {
   height: 43px;
   left: 22.5%;
   top: 2%;
-  animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
-}
+  animation: effect4 1s linear both
+ }
 
 @keyframes effect4 {
   0% {
@@ -525,8 +522,7 @@ div {
     transform: translate(-39.5%, 60%);
     width: 204px;
     height: 30px;
-    animation: effect4 4s cubic-bezier(.39, .575, .565, 1.000) both
-  }
+    }
 }
 
 #XD90 {

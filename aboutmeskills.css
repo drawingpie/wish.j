@@ -154,7 +154,31 @@ div {
   height: 43px;
   left: 25.5%;
   top: 2%;
-  animation: effect4 1s linear both
+  animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
+}
+
+@keyframes effect4 {
+  0% {
+    transform: scaleX(.4);
+    transform-origin: 0 0
+  }
+
+  100% {
+    transform: scaleX(1);
+    transform-origin: 0 0
+  }
+}
+
+@media (max-width: 375px) {
+  .orangestick1 {
+    left: -2.3%;
+    top: 59%;
+
+    }
+   #orangestick1 {
+     width: 204px;
+    height: 30px;
+   }
 }
 
 @keyframes effect4 {
@@ -270,7 +294,7 @@ div {
   height: 43px;
   left: 27.5%;
   top: 2%;
-  animation: effect4 1s linear both
+  animation: effect4 1.5s linear both
 }
 
 @keyframes effect4 {
@@ -387,7 +411,7 @@ div {
   height: 43px;
   left: 28%;
   top: 2%;
-  animation: effect4 1s linear both
+  animation: effect4 1.5s linear both
 }
 
 @keyframes effect4 {
@@ -503,7 +527,7 @@ div {
   height: 43px;
   left: 22.5%;
   top: 2%;
-  animation: effect4 1s linear both
+  animation: effect4 1.5s linear both
  }
 
 @keyframes effect4 {

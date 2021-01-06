@@ -86,7 +86,8 @@ div {
 
 @media (max-width: 375px) {
   #date202012081 {
-    transform: translate(40%, -870%);
+    left: 16%;
+    top: 46%;
   }
 }
 
@@ -102,7 +103,8 @@ div {
 
 @media (max-width: 375px) {
   #boardtext1 {
-    transform: translate(18%, -820%);
+    left: 16%;
+    top: 52.5%;
   }
 }
 
@@ -118,7 +120,8 @@ div {
 
 @media (max-width: 375px) {
   #headline1 {
-    transform: translate(50%, -540%);
+    left: 16%;
+    top: 49%;
   }
 }
 
@@ -164,7 +167,8 @@ div {
 
 @media (max-width: 375px) {
   #date202012082 {
-    transform: translate(-100%, 480%);
+    left: 16%;
+    top: 83%;
   }
 }
 
@@ -181,7 +185,8 @@ div {
 
 @media (max-width: 375px) {
   #boardtext2 {
-    transform: translate(-44.5%, 550%);
+    left: 16%;
+    top: 89.5%;
   }
 }
 
@@ -198,7 +203,8 @@ div {
 
 @media (max-width: 375px) {
   #headline2 {
-    transform: translate(-120%, 310%);
+    left: 16%;
+    top: 86%;
   }
 }
 

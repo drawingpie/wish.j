@@ -587,6 +587,7 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
   cursor: pointer;
@@ -601,11 +602,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: portfolio.html;
   cursor: pointer;
 }
 
@@ -618,11 +617,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: contact.html;
   cursor: pointer;
 }
 
@@ -635,11 +632,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: today.html;
   cursor: pointer;
 }
 

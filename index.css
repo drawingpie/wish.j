@@ -578,9 +578,9 @@ div {
   text-align: center;
   font-size: 1.875rem;
   color: #fff;
-  animation: fadein 0.3s ease-out;
-  --action-type: page;
-  --action-target: aboutme.html;
+  --web-animation: fadein 0.3s ease-out;
+  --web-action-type: page;
+  --web-action-target: aboutme.html;
   cursor: pointer;
 }
 

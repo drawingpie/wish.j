@@ -402,9 +402,6 @@ div {
   left: 56.8%;
   top: 43.3%;
   overflow: visible;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: aboutmehistory.html;
   cursor: pointer;
 }
 
@@ -426,9 +423,6 @@ div {
   left: 41.5%;
   top: 43.3%;
   overflow: visible;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: aboutmeskills.html;
   cursor: pointer;
 }
 

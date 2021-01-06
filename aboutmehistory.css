@@ -610,13 +610,10 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
-  color: #00BDA4;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: aboutme.html;
+  color: #fff;
   cursor: pointer;
-  display: block;
 }
 
 #aboutme:hover {
@@ -628,13 +625,10 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: portfolio.html;
   cursor: pointer;
-  display: block;
 }
 
 #portfolio:hover {
@@ -646,13 +640,10 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: contact.html;
   cursor: pointer;
-  display: block;
 }
 
 #contact:hover {
@@ -664,13 +655,10 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: today.html;
   cursor: pointer;
-  display: block;
 }
 
 #today:hover {
@@ -704,10 +692,6 @@ div {
   top: 4.2%;
   overflow: visible;
   cursor: pointer;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: index.html;
-  display: block;
 }
 
 @media (max-width: 375px) {

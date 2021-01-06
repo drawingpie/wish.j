@@ -583,7 +583,8 @@ div {
   --web-action-target: aboutme.html;
   -ms-animation: fadein 0.3s ease-out;
   -ms-action-type: page;
-  -ms-action-target: aboutme.html;  cursor: pointer;
+  -ms-action-target: aboutme.html;
+  cursor: pointer;
 }
 
 #aboutme:hover {

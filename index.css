@@ -331,7 +331,7 @@ div {
   left: 64%;
   top: 60%;
   overflow: visible;
-  animation: blink 4s infinite;
+  animation: blink 3s infinite;
 }
 
 @keyframes blink {
@@ -380,7 +380,7 @@ div {
   height: 37.23px;
   left: 28%;
   top: 60%;
-  animation: blink 4s infinite;
+  animation: blink 3s infinite;
 }
 
 @keyframes blink {

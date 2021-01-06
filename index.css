@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'Cafe24Dongdong';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
@@ -579,9 +578,9 @@ div {
   text-align: center;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: aboutme.html;
+  animation: fadein 0.3s ease-out;
+  --action-type: page;
+  --action-target: aboutme.html;
   cursor: pointer;
 }
 

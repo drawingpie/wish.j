@@ -304,11 +304,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: aboutme.html;
   cursor: pointer;
 }
 
@@ -321,11 +319,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: portfolio.html;
   cursor: pointer;
 }
 
@@ -338,11 +334,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: contact.html;
   cursor: pointer;
 }
 
@@ -355,11 +349,9 @@ div {
   top: 27.7%;
   position: absolute;
   text-align: center;
+  text-decoration: none;
   font-size: 1.875rem;
   color: #fff;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: today.html;
   cursor: pointer;
 }
 
@@ -394,9 +386,6 @@ div {
   top: 4.2%;
   overflow: visible;
   cursor: pointer;
-  --web-animation: fadein 0.3s ease-out;
-  --web-action-type: page;
-  --web-action-target: index.html;
 }
 
 @media (max-width: 375px) {

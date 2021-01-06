@@ -419,7 +419,8 @@ div {
 
 @media (max-width: 375px) {
   #HANS_CAKE_Website_Renewal_Pers {
-    transform: translate(-44%, -570%);
+    left: 17%;
+    top: 48%;
     width: 250px;
     font-size: 1rem;
     text-align: center;
@@ -446,7 +447,9 @@ div {
 
 @media (max-width: 375px) {
   #heart {
-    transform: translate(-270%, -800%) scale(0.5, 0.5);
+    left: 20%;
+    top: 55%;
+    transform: scale(0.5)
   }
 }
 
@@ -456,7 +459,6 @@ div {
   position: absolute;
   overflow: visible;
   width: 53px;
-  white-space: nowrap;
   text-align: center;
   font-size: 1.625rem;
   color: rgba(255, 255, 255, 1);
@@ -464,7 +466,8 @@ div {
 
 @media (max-width: 375px) {
   #likes {
-    transform: translate(-90%, -890%);
+    left: 24%;
+    top: 55.5%;
     font-size: 1rem
   }
 }
@@ -475,7 +478,6 @@ div {
   position: absolute;
   overflow: visible;
   width: 53px;
-  white-space: nowrap;
   text-align: center;
   font-size: 1.625rem;
   color: rgba(255, 255, 255, 1);
@@ -483,7 +485,8 @@ div {
 
 @media (max-width: 375px) {
   #result {
-    transform: translate(-55%, -890%);
+    left: 33%;
+    top: 55.5%;
     font-size: 1rem
   }
 }
@@ -545,7 +548,9 @@ div {
 
 @media (max-width: 375px) {
   #download {
-    transform: translate(10%, -800%) scale(0.6, 0.6);
+    left: 58%;
+    top: 54.5%;
+    transform: scale(0.6, 0.6);
   }
 }
 

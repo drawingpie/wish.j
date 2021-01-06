@@ -142,7 +142,7 @@ div {
 
 @media (max-width: 375px) {
   #career1 {
-   transform: translate(-85%, 0%);
+    transform: translate(-85%, 0%);
     font-size: 100%;
   }
 }
@@ -210,7 +210,7 @@ div {
 
 @media (max-width: 375px) {
   #career2 {
-      transform: translate(-65%, 100%);
+    transform: translate(-65%, 100%);
     font-size: 100%;
   }
 }
@@ -341,7 +341,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for_ep {
-        transform: translate(-70%, -250%) scale(0.5, 0.5) rotate(90deg);
+    transform: translate(-70%, -250%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 
@@ -406,7 +406,7 @@ div {
 
 @media (max-width: 375px) {
   #Icon_ionic-ios-arrow-round-for_eq {
-     transform: translate(40%, -550%) scale(0.5, 0.5) rotate(90deg);
+    transform: translate(40%, -550%) scale(0.5, 0.5) rotate(90deg);
   }
 }
 

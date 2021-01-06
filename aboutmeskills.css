@@ -172,12 +172,12 @@ div {
 @media (max-width: 375px) {
   .orangestick1 {
     left: -2.3%;
-    top: 59%;
+    top: 61.1%;
 
     }
    #orangestick1 {
-     width: 204px;
-    height: 30px;
+    width: 204px;
+    height: 30.5px;
    }
 }
 
@@ -290,13 +290,13 @@ div {
 
 @media (max-width: 375px) {
   .orangestick2 {
-    left: 0%;
+    left: 0.4%;
     top: 59%;
 
     }
    #orangestick2 {
      width: 216px;
-    height: 30px;
+    height: 30.5px;
    }
 }
 
@@ -411,13 +411,13 @@ div {
 
 @media (max-width: 375px) {
   .orangestick3 {
-    left: 0%;
-    top: 59%;
+    left: 0.6%;
+    top: 61.1%;
 
     }
    #orangestick3 {
      width: 186px;
-    height: 30px;
+   height: 30.5px;
    }
 }
 
@@ -537,7 +537,7 @@ div {
     }
    #orangestick4 {
      width: 216px;
-    height: 30px;
+    height: 30.5px;
    }
 }
 

@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Cafe24Dongdong';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -197,7 +197,6 @@ div {
     transform: translate(-49.5%, -70%) scale(0.5, 0.5);
   }
 }
-
 
 #here {
   left: 120px;

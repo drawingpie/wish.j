@@ -1,13 +1,3 @@
-.mediaViewInfo {
-  --web-view-name: index;
-  --web-view-id: index;
-  --web-scale-on-resize: true;
-  --web-enable-deep-linking: true;
-}
-
-:root {
-  --web-view-ids: index;
-}
 
 @font-face {
   font-family: 'Cafe24Dongdong';

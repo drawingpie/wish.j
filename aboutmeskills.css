@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Cafe24Dongdong';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -173,12 +173,12 @@ div {
   .orangestick1 {
     left: -2.3%;
     top: 61.1%;
+  }
 
-    }
-   #orangestick1 {
+  #orangestick1 {
     width: 204px;
     height: 30.5px;
-   }
+  }
 }
 
 #photoshop85 {
@@ -292,12 +292,12 @@ div {
   .orangestick2 {
     left: 0.2%;
     top: 59.1%;
+  }
 
-    }
-   #orangestick2 {
-     width: 216px;
+  #orangestick2 {
+    width: 216px;
     height: 30.5px;
-   }
+  }
 }
 
 #illust90 {
@@ -330,7 +330,7 @@ div {
 
 @media (max-width: 375px) {
   #indesign {
-     transform: translate(20%, -100%);
+    transform: translate(20%, -100%);
   }
 }
 
@@ -372,7 +372,7 @@ div {
 
 @media (max-width: 375px) {
   #pinkbg3 {
-     transform: translate(-38%, 60%);
+    transform: translate(-38%, 60%);
     width: 248px;
     height: 30px;
   }
@@ -413,12 +413,12 @@ div {
   .orangestick3 {
     left: 0.6%;
     top: 61.1%;
+  }
 
-    }
-   #orangestick3 {
-     width: 186px;
-   height: 30.5px;
-   }
+  #orangestick3 {
+    width: 186px;
+    height: 30.5px;
+  }
 }
 
 #indesign75 {
@@ -450,7 +450,7 @@ div {
 
 @media (max-width: 375px) {
   #XD {
-     transform: translate(20%, -100%);
+    transform: translate(20%, -100%);
   }
 }
 
@@ -492,7 +492,7 @@ div {
 
 @media (max-width: 375px) {
   #pinkbg4 {
-     transform: translate(-36%, 60%);
+    transform: translate(-36%, 60%);
     width: 248px;
     height: 30px;
   }
@@ -515,7 +515,7 @@ div {
   left: 22.5%;
   top: 2%;
   animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
- }
+}
 
 @keyframes effect4 {
   0% {
@@ -533,12 +533,12 @@ div {
   .orangestick4 {
     left: -5.6%;
     top: 61%;
+  }
 
-    }
-   #orangestick4 {
-     width: 216px;
+  #orangestick4 {
+    width: 216px;
     height: 30.5px;
-   }
+  }
 }
 
 #XD90 {

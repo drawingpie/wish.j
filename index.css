@@ -1,3 +1,14 @@
+.mediaViewInfo {
+  --web-view-name: index;
+  --web-view-id: index;
+  --web-scale-on-resize: true;
+  --web-enable-deep-linking: true;
+}
+
+:root {
+  --web-view-ids: index;
+}
+
 @font-face {
   font-family: 'Cafe24Dongdong';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
@@ -581,9 +592,6 @@ div {
   --web-animation: fadein 0.3s ease-out;
   --web-action-type: page;
   --web-action-target: aboutme.html;
-  -ms-animation: fadein 0.3s ease-out;
-  -ms-action-type: page;
-  -ms-action-target: aboutme.html;
   cursor: pointer;
 }
 

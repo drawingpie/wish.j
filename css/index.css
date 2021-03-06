@@ -57,7 +57,7 @@ div {
   .pa1 {
     width: 10.8px;
     height: 10.8px;
-    left: 215.8px;
+    left: 50px;
     top: 173.7px;
   }
 }
@@ -115,7 +115,7 @@ div {
   .pa3 {
     width: 10.8px;
     height: 10.8px;
-    left: 536.47px;
+    left: 84.75vw;
     top: 147.77px;
   }
 }
@@ -135,7 +135,7 @@ div {
   .pa4 {
     width: 9.2px;
     height: 9.2px;
-    left: 275.3px;
+    left: 70vw;
     top: 241.04px;
   }
 }
@@ -202,7 +202,7 @@ div {
   .pa6 {
     width: 9.2px;
     height: 9.2px;
-    left: 498.13px;
+    left: 25vw;
     top: 239.27px;
   }
 }
@@ -258,7 +258,7 @@ div {
   .pa8 {
     width: 18px;
     height: 18px;
-    left: 211.8px;
+    left: 10vw;
     top: 302.7px;
   }
 }
@@ -286,7 +286,7 @@ div {
   .pa9 {
     width: 14.8px;
     height: 14.8px;
-    left: 527.47px;
+    left: 85vw;
     top: 296.77px;
   }
 }
@@ -303,7 +303,9 @@ div {
 
 @media screen and (max-width: 767px) {
   #fox {
-    top: 390px;
+    width: 198.53px;
+    height: 227.96px;
+    top: 370px;
     left: 50vw;
     transform: translateX(-50%);
   }
@@ -332,7 +334,14 @@ div {
     transform: rotateX(80deg);
   }
 }
-
+@media screen and (max-width: 767px) {
+  #eyer {
+    top: 136px;
+    left: 132px;
+    width: 17.62px;
+    height: 17.62px;
+  }
+}
 .whiteeyer {
   position: absolute;
   overflow: visible;
@@ -377,7 +386,14 @@ div {
     transform: rotateX(80deg);
   }
 }
-
+@media screen and (max-width: 767px) {
+  #eyel {
+    top: 136px;
+    left: 54px;
+    width: 17.62px;
+    height: 17.62px;
+  }
+}
 .whiteeyel {
   position: absolute;
   overflow: visible;
@@ -495,7 +511,7 @@ div {
 
 @media screen and (max-width: 767px) {
   #COME {
-    top: 240px;
+    top: 230px;
     left: 50vw;
     transform: translateX(-50%);
     font-size: 2.438rem;
@@ -545,7 +561,7 @@ div {
 
 @media screen and (max-width: 767px) {
   #TRUE {
-    top: 290px;
+    top: 280px;
     left: 50vw;
     transform: translateX(-50%);
     font-size: 5.063rem;
@@ -750,6 +766,7 @@ div {
   #footer {
     top: 613px;
     left: 50vw;
-    transform: translateX(-50%);
+    width: 247px;
+    margin-left: -123.5px;
   }
 }

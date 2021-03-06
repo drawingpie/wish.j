@@ -392,7 +392,7 @@ div {
   position: absolute;
   overflow: visible;
   text-align: center;
-  font-size: 8.33vw;
+  font-size: 5.94vw;
   color: #00BDA4;
   -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
@@ -440,7 +440,7 @@ div {
   position: absolute;
   overflow: visible;
   text-align: center;
-  font-size: 5.21vw;
+  font-size: 4.22vw;
   color: #fff;
   -webkit-animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
@@ -487,7 +487,7 @@ div {
   left: 22.7vw;
   top: 34vw;
   text-align: center;
-  font-size: 10.16vw;
+  font-size: 8.75vw;
   color: #F8EA21;
   -webkit-animation: TRUE .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: TRUE .8s cubic-bezier(.25, .46, .45, .94) both;

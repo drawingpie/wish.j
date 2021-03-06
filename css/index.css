@@ -8,11 +8,10 @@
 body {
   margin: 0;
   max-width: 100vw;
-  background: linear-gradient(to bottom, #002169, #001135);
   position: relative;
-  height: auto;
+  height: 48.85vw;
   overflow: hidden;
-  padding-top: 49vw;
+  background: linear-gradient(to bottom, #002169, #001135);
   background-repeat: no-repeat;
 }
 

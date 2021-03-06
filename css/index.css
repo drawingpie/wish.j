@@ -67,7 +67,7 @@ div {
   width: 0.48vw;
   height: 0.48vw;
   left: 58vw;
-  top: 20.86vw;
+  top: 19.12vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -121,7 +121,7 @@ div {
   width: 1.45vw;
   height: 1.45vw;
   left: 16vw;
-  top: 43vw;
+  top: 20.86vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -148,7 +148,7 @@ div {
   width: 1.46vw;
   height: 1.46vw;
   left: 53vw;
-  top: 40.6vw;
+  top: 21.24vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -175,7 +175,7 @@ div {
   width:  1.46vw;
   height:  1.46vw;
   left: 89vw;
-  top: 52vw;
+  top: 25.07vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -202,7 +202,7 @@ div {
   width: 0.98vw;
   height: 0.98vw;
   left: 52vw;
-  top: 55vw;
+  top: 25.53vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -229,7 +229,7 @@ div {
   width: 0.98vw;
   height: 0.98vw;
   left: 11vw;
-  top: 53vw;
+  top: 26.54vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -256,7 +256,7 @@ div {
   width: 0.98vw;
   height: 0.98vw;
   left: 87vw;
-  top: 35vw;
+  top: 16.67vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
@@ -283,7 +283,7 @@ div {
   width: 21.85vw;
   height:25.08vw;
   left: 57.2vw;
-  top: 37.9vw;
+  top: 18.23vw;
   overflow: visible;
   background-image: url('../image/fox.png');
   background-size: cover;
@@ -388,7 +388,7 @@ div {
 
 #DREAMS {
   left: 20vw;
-  top: 40vw;
+  top: 20.10vw;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -436,7 +436,7 @@ div {
 
 #COME {
   left: 27.7vw;
-  top: 57vw;
+  top: 27.20vw;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -485,7 +485,7 @@ div {
 #TRUE {
   position: absolute;
   left: 22.7vw;
-  top: 66.3vw;
+  top: 31.88vw;
   text-align: center;
   font-size: 10.16vw;
   color: #F8EA21;
@@ -547,7 +547,7 @@ div {
 
 #aboutme {
   left: 36.5vw;
-  top: 27.7vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -562,7 +562,7 @@ div {
 
 #portfolio {
   left: 47.5vw;
-  top: 27.7vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -577,7 +577,7 @@ div {
 
 #contact {
   left: 58.5vw;
-  top: 27.7vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -592,7 +592,7 @@ div {
 
 #today {
   left: 68.8vw;
-  top: 27.7vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -629,7 +629,7 @@ div {
   width: 5.39vw;
   height: 4.40vw;
   left: 48.2vw;
-  top: 4.2vw;
+  top: 2.05vw;
   overflow: visible;
   cursor: pointer;
 }
@@ -718,7 +718,7 @@ div {
 
 #footer {
   left: 37.8vw;
-  top: 95vw;
+  top: 45.21vw;
   position: absolute;
   overflow: visible;
   width: 24.43vw;

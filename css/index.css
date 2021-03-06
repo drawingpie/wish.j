@@ -319,10 +319,6 @@ div {
   }
 }
 
-#whiteeyer {
-  fill: rgba(255, 255, 255, 1);
-}
-
 .whiteeyer {
   position: absolute;
   overflow: visible;
@@ -330,10 +326,8 @@ div {
   height: 1.94vw;
   left: 0vw;
   top: 0vw;
-}
-
-#blackeyer {
-  fill: rgba(0, 0, 0, 1);
+  background-color: #fff;
+  border-radius: 50vw;
 }
 
 .blackeyer {
@@ -343,6 +337,8 @@ div {
   height: 1.65vw;
   left: 0vw;
   top: 0.16vw;
+  background-color: #000;
+  border-radius: 50vw;
 }
 
 #eyel {
@@ -368,10 +364,6 @@ div {
   }
 }
 
-#whiteeyel {
-  fill: rgba(255, 255, 255, 1);
-}
-
 .whiteeyel {
   position: absolute;
   overflow: visible;
@@ -379,10 +371,8 @@ div {
   height: 1.94vw;
   left: 0vw;
   top: 0vw;
-}
-
-#blackeyel {
-  fill: rgba(0, 0, 0, 1);
+  background-color: #fff;
+  border-radius: 50vw;
 }
 
 .blackeyel {
@@ -392,6 +382,8 @@ div {
   height: 1.65vw;
   left: 0.52vw;
   top: 0.16vw;
+  background-color: #000;
+  border-radius: 50vw;
 }
 
 #DREAMS {

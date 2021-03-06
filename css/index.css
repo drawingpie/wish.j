@@ -17,8 +17,6 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-    background: url('../image/lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
-    background-position: 0vw 0vw;
     position: relative;
     height: 643px;
     overflow: hidden;
@@ -57,7 +55,10 @@ div {
 
 @media screen and (max-width: 767px) {
   .pa1 {
-    transform: translate(0vw, 0vw) scale(0.5, 0.5);
+    width: 10.8px;
+    height: 10.8px;
+    left: 215.8px;
+    top: 173.7px;
   }
 }
 
@@ -112,7 +113,10 @@ div {
 
 @media screen and (max-width: 767px) {
   .pa3 {
-    transform: translate(0vw, 0vw) scale(0.5, 0.5);
+    width: 10.8px;
+    height: 10.8px;
+    left: 536.47px;
+    top: 147.77px;
   }
 }
 
@@ -129,7 +133,10 @@ div {
 
 @media screen and (max-width: 767px) {
   .pa4 {
-    transform: translate(0vw, 0vw) scale(0.5, 0.5);
+    width: 9.2px;
+    height: 9.2px;
+    left: 275.3px;
+    top: 241.04px;
   }
 }
 
@@ -147,7 +154,7 @@ div {
   position: absolute;
   width: 1.46vw;
   height: 1.46vw;
-  left: 48vw;
+  left: 53vw;
   top: 21.24vw;
   background-color: #F8EA21;
   border-radius: 50vw;
@@ -193,7 +200,10 @@ div {
 
 @media screen and (max-width: 767px) {
   .pa6 {
-    transform: translate(0vw, 0vw) scale(0.5, 0.5);
+    width: 9.2px;
+    height: 9.2px;
+    left: 498.13px;
+    top: 239.27px;
   }
 }
 
@@ -244,13 +254,14 @@ div {
     transform: scale(1)
   }
 }
-
 @media screen and (max-width: 767px) {
   .pa8 {
-    transform: translate(0vw, 0vw) scale(0.5, 0.5);
+    width: 18px;
+    height: 18px;
+    left: 211.8px;
+    top: 302.7px;
   }
 }
-
 .pa9 {
   position: absolute;
   width: 0.98vw;
@@ -271,13 +282,14 @@ div {
     transform: scale(1)
   }
 }
-
 @media screen and (max-width: 767px) {
   .pa9 {
-    transform: translate(0vw, 0vw) scale(0.5, 0.5);
+    width: 14.8px;
+    height: 14.8px;
+    left: 527.47px;
+    top: 296.77px;
   }
 }
-
 #fox {
   position: absolute;
   width: 21.85vw;
@@ -291,7 +303,9 @@ div {
 
 @media screen and (max-width: 767px) {
   #fox {
-    transform: translate(-55%, -2%) scale(0.5, 0.5);
+    top: 390px;
+    left: 50vw;
+    transform: translateX(-50%);
   }
 }
 
@@ -430,7 +444,10 @@ div {
 
 @media screen and (max-width: 767px) {
   #DREAMS {
-    transform: translate(-30%, -105%) scale(0.4, 0.4);
+    top: 160px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 3.375rem;
   }
 }
 
@@ -478,7 +495,10 @@ div {
 
 @media screen and (max-width: 767px) {
   #COME {
-    transform: translate(-15vw, -180vw) scale(0.5, 0.5);
+    top: 240px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 2.438rem;
   }
 }
 
@@ -525,7 +545,10 @@ div {
 
 @media screen and (max-width: 767px) {
   #TRUE {
-    transform: translate(-27%, -110%) scale(0.4, 0.4);
+    top: 290px;
+    left: 50vw;
+    transform: translateX(-50%);
+    font-size: 5.063rem;
   }
 }
 
@@ -541,7 +564,8 @@ div {
 
 @media screen and (max-width: 767px) {
   .light {
-    display: none;
+    left: 50vw;
+    transform: translateX(-50%);
   }
 }
 
@@ -634,12 +658,6 @@ div {
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-  .logo {
-    transform: translate(-40%, -47%) scale(0.6, 0.6);
-  }
-}
-
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn {
   display: none;
@@ -665,17 +683,16 @@ div {
   .overlay-content {
     display: block;
     position: relative;
-    top: 25vw;
+    top: 16vw;
     width: 100vw;
     text-align: center;
-    margin-top: 1.56vw;
   }
 }
 
 @media screen and (max-width: 767px) {
   .overlay a {
     display: block;
-    padding: 0.42vw;
+    padding:4vw;
     text-decoration: none;
     font-size: 2.25rem;
     color: #818181;
@@ -713,6 +730,7 @@ div {
     position: absolute;
     top: 2vw;
     left: 87vw;
+    z-index: 9;
   }
 }
 
@@ -730,7 +748,8 @@ div {
 
 @media screen and (max-width: 767px) {
   #footer {
-    font-size: 50vw;
-    transform: translate(-39vw, -5vw);
+    top: 613px;
+    left: 50vw;
+    transform: translateX(-50%);
   }
 }

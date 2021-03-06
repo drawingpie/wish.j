@@ -201,7 +201,7 @@ div {
   position: absolute;
   width: 0.98vw;
   height: 0.98vw;
-  left: 52vw;
+  left: 55vw;
   top: 25.53vw;
   background-color: #F8EA21;
   border-radius: 50vw;
@@ -387,8 +387,8 @@ div {
 }
 
 #DREAMS {
-  left: 20vw;
-  top: 19vw;
+  left: 22.5vw;
+  top: 20vw;
   position: absolute;
   overflow: visible;
   text-align: center;

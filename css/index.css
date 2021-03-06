@@ -418,7 +418,7 @@ div {
   position: absolute;
   overflow: visible;
   text-align: center;
-  font-size: 10rem;
+  font-size: 8.33vw;
   color: #00BDA4;
   -webkit-animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: DREAMS .8s cubic-bezier(.25, .46, .45, .94) both;
@@ -466,7 +466,7 @@ div {
   position: absolute;
   overflow: visible;
   text-align: center;
-  font-size: 6.25rem;
+  font-size: 5.21vw;
   color: #fff;
   -webkit-animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: COME .8s cubic-bezier(.25, .46, .45, .94) both;
@@ -513,7 +513,7 @@ div {
   left: 22.7vw;
   top: 66.3vw;
   text-align: center;
-  font-size: 12.188rem;
+  font-size: 10.16vw;
   color: #F8EA21;
   -webkit-animation: TRUE .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: TRUE .8s cubic-bezier(.25, .46, .45, .94) both;
@@ -577,7 +577,7 @@ div {
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -592,7 +592,7 @@ div {
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -607,7 +607,7 @@ div {
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -622,7 +622,7 @@ div {
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -750,7 +750,7 @@ div {
   width: 24.43vw;
   white-space: nowrap;
   text-align: center;
-  font-size: 1.301rem;
+  font-size: 1.04vw;
   color: rgba(151, 164, 240, 1);
 }
 

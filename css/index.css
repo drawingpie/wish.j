@@ -47,11 +47,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(1)
   }
 
-  100vw {
+  100%{
     transform: scale(2)
   }
 }
@@ -75,11 +75,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(1)
   }
 
-  100vw {
+  100% {
     transform: scale(2)
   }
 }
@@ -102,11 +102,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(1)
   }
 
-  100vw {
+  100% {
     transform: scale(2)
   }
 }
@@ -135,11 +135,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(1)
   }
 
-  100vw {
+  100% {
     transform: scale(2)
   }
 }
@@ -162,11 +162,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(1)
   }
 
-  100vw {
+  100% {
     transform: scale(2)
   }
 }
@@ -183,11 +183,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(1)
   }
 
-  100vw {
+  100% {
     transform: scale(2)
   }
 }
@@ -210,11 +210,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(0.5)
   }
 
-  100vw {
+  100% {
     transform: scale(1)
   }
 }
@@ -237,11 +237,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(0.5)
   }
 
-  100vw {
+  100% {
     transform: scale(1)
   }
 }
@@ -264,11 +264,11 @@ div {
 }
 
 @keyframes circle {
-  0vw {
+  0% {
     transform: scale(0.5)
   }
 
-  100vw {
+  100% {
     transform: scale(1)
   }
 }
@@ -291,7 +291,7 @@ div {
 
 @media screen and (max-width: 767px) {
   #fox {
-    transform: translate(-55vw, -2vw) scale(0.5, 0.5);
+    transform: translate(-55%, -2%) scale(0.5, 0.5);
   }
 }
 
@@ -352,14 +352,14 @@ div {
 
 @keyframes blink {
 
-  0vw,
-  45vw,
-  55vw,
-  100vw {
+  0%,
+  45%,
+  55%,
+  100% {
     transform: rotateX(0deg);
   }
 
-  50vw {
+  50% {
     transform: rotateX(80deg);
   }
 }
@@ -399,14 +399,14 @@ div {
 }
 
 @-webkit-keyframes DREAMS {
-  0vw {
+  0% {
     letter-spacing: -.5em;
-    -webkit-filter: blur(0.63vw);
-    filter: blur(0.63vw);
+    -webkit-filter: blur(0.63%);
+    filter: blur(0.63%);
     opacity: 0
   }
 
-  100vw {
+  100% {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -414,14 +414,14 @@ div {
 }
 
 @keyframes DREAMS {
-  0vw {
+  0% {
     letter-spacing: -.5em;
-    -webkit-filter: blur(0.63vw);
-    filter: blur(0.63vw);
+    -webkit-filter: blur(0.63%);
+    filter: blur(0.63%);
     opacity: 0
   }
 
-  100vw {
+  100% {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -430,7 +430,7 @@ div {
 
 @media screen and (max-width: 767px) {
   #DREAMS {
-    transform: translate(-30vw, -105vw) scale(0.4, 0.4);
+    transform: translate(-30%, -105%) scale(0.4, 0.4);
   }
 }
 
@@ -447,14 +447,14 @@ div {
 }
 
 @-webkit-keyframes COME {
-  0vw {
+  0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100vw {
+  100% {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -462,14 +462,14 @@ div {
 }
 
 @keyframes COME {
-  0vw {
+  0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100vw {
+  100% {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -494,14 +494,14 @@ div {
 }
 
 @-webkit-keyframes TRUE {
-  0vw {
+  0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100vw {
+  100% {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -509,14 +509,14 @@ div {
 }
 
 @keyframes TRUE {
-  0vw {
+  0% {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100vw {
+  100% {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -525,7 +525,7 @@ div {
 
 @media screen and (max-width: 767px) {
   #TRUE {
-    transform: translate(-27vw, -110vw) scale(0.4, 0.4);
+    transform: translate(-27%, -110%) scale(0.4, 0.4);
   }
 }
 
@@ -636,7 +636,7 @@ div {
 
 @media screen and (max-width: 767px) {
   .logo {
-    transform: translate(-40vw, -47vw) scale(0.6, 0.6);
+    transform: translate(-40%, -47%) scale(0.6, 0.6);
   }
 }
 

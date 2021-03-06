@@ -7,23 +7,23 @@
 
 body {
   margin: 0;
-  max-width: 1920px;
+  max-width: 100vw;
   background: linear-gradient(to bottom, #002169, #001135);
   position: relative;
   height: auto;
   overflow: hidden;
-  padding-top: 49%;
+  padding-top: 49vw;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   body {
     background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
-    background-position: 0% 0%;
+    background-position: 0vw 0vw;
     position: relative;
     height: 643px;
     overflow: hidden;
-    padding-top: 0%;
+    padding-top: 0vw;
     background-repeat: no-repeat;
   }
 }
@@ -41,26 +41,26 @@ div {
 .pa1 {
   position: absolute;
   overflow: visible;
-  width: 9.4px;
-  height: 9.4px;
-  left: 12%;
-  top: 31%;
+  width: 0.49vw;
+  height:0.49vw;
+  left: 12vw;
+  top: 31vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(1)
   }
 
-  100% {
+  100vw {
     transform: scale(2)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa1 {
-    transform: translate(0%, 0%) scale(0.5, 0.5);
+    transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }
 
@@ -71,24 +71,24 @@ div {
 .pa2 {
   position: absolute;
   overflow: visible;
-  width: 9.2px;
-  height: 9.2px;
-  left: 58%;
-  top: 39.2%;
+  width: 0.48vw;
+  height: 0.48vw;
+  left: 58vw;
+  top: 39.2vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(1)
   }
 
-  100% {
+  100vw {
     transform: scale(2)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa2 {
     display: none;
   }
@@ -100,26 +100,26 @@ div {
 
 .pa3 {
   position: absolute;
-  width: 9.2px;
-  height: 9.2px;
-  left: 91%;
-  top: 31%;
+  width: 0.48vw;
+  height:0.48vw;
+  left: 91vw;
+  top: 31vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(1)
   }
 
-  100% {
+  100vw {
     transform: scale(2)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa3 {
-    transform: translate(0%, 0%) scale(0.5, 0.5);
+    transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }
 
@@ -129,25 +129,25 @@ div {
 
 .pa4 {
   position: absolute;
-  width: 27.8px;
-  height: 27.8px;
-  left: 16%;
-  top: 43%;
+  width: 1.45vw;
+  height: 1.45vw;
+  left: 16vw;
+  top: 43vw;
   animation: circle 1s infinite alternate;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa4 {
-    transform: translate(0%, 0%) scale(0.5, 0.5);
+    transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(1)
   }
 
-  100% {
+  100vw {
     transform: scale(2)
   }
 }
@@ -158,25 +158,25 @@ div {
 
 .pa5 {
   position: absolute;
-  width: 28px;
-  height: 28px;
-  left: 53%;
-  top: 40.6%;
+  width: 1.46vw;
+  height: 1.46vw;
+  left: 53vw;
+  top: 40.6vw;
   animation: circle 1s infinite alternate;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa5 {
     display: none;
   }
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(1)
   }
 
-  100% {
+  100vw {
     transform: scale(2)
   }
 }
@@ -187,26 +187,26 @@ div {
 
 .pa6 {
   position: absolute;
-  width: 28px;
-  height: 28px;
-  left: 89%;
-  top: 52%;
+  width:  1.46vw;
+  height:  1.46vw;
+  left: 89vw;
+  top: 52vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(1)
   }
 
-  100% {
+  100vw {
     transform: scale(2)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa6 {
-    transform: translate(0%, 0%) scale(0.5, 0.5);
+    transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }
 
@@ -216,24 +216,24 @@ div {
 
 .pa7 {
   position: absolute;
-  width: 18.8px;
-  height: 18.8px;
-  left: 52%;
-  top: 55%;
+  width: 0.98vw;
+  height: 0.98vw;
+  left: 52vw;
+  top: 55vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(0.5)
   }
 
-  100% {
+  100vw {
     transform: scale(1)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa7 {
     display: none;
   }
@@ -245,26 +245,26 @@ div {
 
 .pa8 {
   position: absolute;
-  width: 18.8px;
-  height: 18.8px;
-  left: 11%;
-  top: 53%;
+  width: 0.98vw;
+  height: 0.98vw;
+  left: 11vw;
+  top: 53vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(0.5)
   }
 
-  100% {
+  100vw {
     transform: scale(1)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa8 {
-    transform: translate(0%, 0%) scale(0.5, 0.5);
+    transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }
 
@@ -274,65 +274,65 @@ div {
 
 .pa9 {
   position: absolute;
-  width: 18.8px;
-  height: 18.8px;
-  left: 87%;
-  top: 35%;
+  width: 0.98vw;
+  height: 0.98vw;
+  left: 87vw;
+  top: 35vw;
   animation: circle 1s infinite alternate;
 }
 
 @keyframes circle {
-  0% {
+  0vw {
     transform: scale(0.5)
   }
 
-  100% {
+  100vw {
     transform: scale(1)
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #pa9 {
-    transform: translate(0%, 0%) scale(0.5, 0.5);
+    transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }
 
 #fox {
   position: absolute;
-  width: 419.43px;
-  height: 481.61px;
-  left: 57.2%;
-  top: 37.9%;
+  width: 21.85vw;
+  height:25.08vw;
+  left: 57.2vw;
+  top: 37.9vw;
   overflow: visible;
   background-image: url('image/fox.png');
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #fox {
-    transform: translate(-55%, -2%) scale(0.5, 0.5);
+    transform: translate(-55vw, -2vw) scale(0.5, 0.5);
   }
 }
 
 #eyer {
   position: absolute;
-  width: 37.23px;
-  height: 37.23px;
-  left: 64%;
-  top: 60%;
+  width: 1.94vw;
+  height: 1.94vw;
+  left: 64vw;
+  top: 60vw;
   overflow: visible;
   animation: blink 3s infinite;
 }
 
 @keyframes blink {
 
-  0%,
-  45%,
-  55%,
-  100% {
+  0vw,
+  45vw,
+  55vw,
+  100vw {
     transform: rotateX(0deg);
   }
 
-  50% {
+  50vw {
     transform: rotateX(80deg);
   }
 }
@@ -344,10 +344,10 @@ div {
 .whiteeyer {
   position: absolute;
   overflow: visible;
-  width: 37.23px;
-  height: 37.23px;
-  left: 0px;
-  top: 0px;
+  width: 1.94vw;
+  height: 1.94vw;
+  left: 0vw;
+  top: 0vw;
 }
 
 #blackeyer {
@@ -357,31 +357,31 @@ div {
 .blackeyer {
   position: absolute;
   overflow: visible;
-  width: 27.34px;
-  height: 31.67px;
-  left: 0px;
-  top: 3px;
+  width: 1.42vw;
+  height: 1.65vw;
+  left: 0vw;
+  top: 0.16vw;
 }
 
 #eyel {
   position: absolute;
-  width: 37.23px;
-  height: 37.23px;
-  left: 28%;
-  top: 60%;
+  width: 1.94vw;
+  height: 1.94vw;
+  left: 28vw;
+  top: 60vw;
   animation: blink 3s infinite;
 }
 
 @keyframes blink {
 
-  0%,
-  45%,
-  55%,
-  100% {
+  0vw,
+  45vw,
+  55vw,
+  100vw {
     transform: rotateX(0deg);
   }
 
-  50% {
+  50vw {
     transform: rotateX(80deg);
   }
 }
@@ -393,10 +393,10 @@ div {
 .whiteeyel {
   position: absolute;
   overflow: visible;
-  width: 37.23px;
-  height: 37.23px;
-  left: 0px;
-  top: 0px;
+  width: 1.94vw;
+  height: 1.94vw;
+  left: 0vw;
+  top: 0vw;
 }
 
 #blackeyel {
@@ -406,15 +406,15 @@ div {
 .blackeyel {
   position: absolute;
   overflow: visible;
-  width: 27.34px;
-  height: 31.67px;
-  left: 10px;
-  top: 3px;
+  width: 1.42vw;
+  height: 1.65vw;
+  left: 0.52vw;
+  top: 0.16vw;
 }
 
 #DREAMS {
-  left: 20%;
-  top: 40%;
+  left: 20vw;
+  top: 40vw;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -425,14 +425,14 @@ div {
 }
 
 @-webkit-keyframes DREAMS {
-  0% {
+  0vw {
     letter-spacing: -.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
+    -webkit-filter: blur(0.63vw);
+    filter: blur(0.63vw);
     opacity: 0
   }
 
-  100% {
+  100vw {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -440,29 +440,29 @@ div {
 }
 
 @keyframes DREAMS {
-  0% {
+  0vw {
     letter-spacing: -.5em;
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
+    -webkit-filter: blur(0.63vw);
+    filter: blur(0.63vw);
     opacity: 0
   }
 
-  100% {
+  100vw {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #DREAMS {
-    transform: translate(-30%, -105%) scale(0.4, 0.4);
+    transform: translate(-30vw, -105vw) scale(0.4, 0.4);
   }
 }
 
 #COME {
-  left: 27.7%;
-  top: 57%;
+  left: 27.7vw;
+  top: 57vw;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -473,14 +473,14 @@ div {
 }
 
 @-webkit-keyframes COME {
-  0% {
+  0vw {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100% {
+  100vw {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -488,30 +488,30 @@ div {
 }
 
 @keyframes COME {
-  0% {
+  0vw {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100% {
+  100vw {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #COME {
-    transform: translate(-15%, -180%) scale(0.5, 0.5);
+    transform: translate(-15vw, -180vw) scale(0.5, 0.5);
   }
 }
 
 #TRUE {
   position: absolute;
-  left: 22.7%;
-  top: 66.3%;
+  left: 22.7vw;
+  top: 66.3vw;
   text-align: center;
   font-size: 12.188rem;
   color: #F8EA21;
@@ -520,14 +520,14 @@ div {
 }
 
 @-webkit-keyframes TRUE {
-  0% {
+  0vw {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100% {
+  100vw {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
@@ -535,45 +535,45 @@ div {
 }
 
 @keyframes TRUE {
-  0% {
+  0vw {
     letter-spacing: -.5em;
     -webkit-filter: blur(12px);
     filter: blur(12px);
     opacity: 0
   }
 
-  100% {
+  100vw {
     -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #TRUE {
-    transform: translate(-27%, -110%) scale(0.4, 0.4);
+    transform: translate(-27vw, -110vw) scale(0.4, 0.4);
   }
 }
 
 .light {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: auto;
-  left: 0.9%;
-  top: -5.1%;
+  left: 0.9vw;
+  top: -5.1vw;
   overflow: visible;
   display: block;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .light {
     display: none;
   }
 }
 
 #aboutme {
-  left: 36.5%;
-  top: 27.7%;
+  left: 36.5vw;
+  top: 27.7vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -587,8 +587,8 @@ div {
 }
 
 #portfolio {
-  left: 47.5%;
-  top: 27.7%;
+  left: 47.5vw;
+  top: 27.7vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -602,8 +602,8 @@ div {
 }
 
 #contact {
-  left: 58.5%;
-  top: 27.7%;
+  left: 58.5vw;
+  top: 27.7vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -617,8 +617,8 @@ div {
 }
 
 #today {
-  left: 68.8%;
-  top: 27.7%;
+  left: 68.8vw;
+  top: 27.7vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -631,7 +631,7 @@ div {
   color: #F09D05;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #contact {
     display: none;
   }
@@ -652,17 +652,17 @@ div {
 .logo {
   position: absolute;
   height: auto;
-  width: 103.4px;
-  height: 84.51px;
-  left: 48.2%;
-  top: 4.2%;
+  width: 5.39vw;
+  height: 4.40vw;
+  left: 48.2vw;
+  top: 4.2vw;
   overflow: visible;
   cursor: pointer;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .logo {
-    transform: translate(-40%, -47%) scale(0.6, 0.6);
+    transform: translate(-40vw, -47vw) scale(0.6, 0.6);
   }
 }
 
@@ -671,10 +671,10 @@ div {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .overlay {
     display: block;
-    height: 100%;
+    height: 100vw;
     width: 0;
     position: absolute;
     z-index: 1;
@@ -687,76 +687,76 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .overlay-content {
     display: block;
     position: relative;
-    top: 25%;
-    width: 100%;
+    top: 25vw;
+    width: 100vw;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.56vw;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .overlay a {
     display: block;
-    padding: 8px;
+    padding: 0.42vw;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #818181;
     transition: 0.3s;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .overlay a:hover {
     color: #fff;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .overlay .closebtn {
     display: block;
     position: absolute;
-    top: 3%;
-    left: 8%;
+    top: 3vw;
+    left: 8vw;
     fill: #818181;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .overlay .closebtn:hover {
     fill: #fff;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   .openbtn {
     display: block;
     font-size: 30px;
     cursor: pointer;
     position: absolute;
-    top: 2%;
-    left: 87%;
+    top: 2vw;
+    left: 87vw;
   }
 }
 
 #footer {
-  left: 37.8%;
-  top: 95%;
+  left: 37.8vw;
+  top: 95vw;
   position: absolute;
   overflow: visible;
-  width: 469px;
+  width: 24.43vw;
   white-space: nowrap;
   text-align: center;
   font-size: 1.301rem;
   color: rgba(151, 164, 240, 1);
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 767px) {
   #footer {
-    font-size: 50%;
-    transform: translate(-39%, -5%);
+    font-size: 50vw;
+    transform: translate(-39vw, -5vw);
   }
 }

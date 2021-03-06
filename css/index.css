@@ -18,7 +18,7 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-    background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
+    background: url('../image/lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
     background-position: 0vw 0vw;
     position: relative;
     height: 643px;
@@ -307,14 +307,14 @@ div {
 
 @keyframes blink {
 
-  0vw,
-  45vw,
-  55vw,
-  100vw {
+  0%,
+  45%,
+  55%,
+  10% {
     transform: rotateX(0deg);
   }
 
-  50vw {
+  50% {
     transform: rotateX(80deg);
   }
 }

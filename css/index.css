@@ -388,7 +388,7 @@ div {
 
 #DREAMS {
   left: 20vw;
-  top: 20.10vw;
+  top: 19vw;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -436,7 +436,7 @@ div {
 
 #COME {
   left: 27.7vw;
-  top: 27.20vw;
+  top: 28vw;
   position: absolute;
   overflow: visible;
   text-align: center;
@@ -485,7 +485,7 @@ div {
 #TRUE {
   position: absolute;
   left: 22.7vw;
-  top: 31.88vw;
+  top: 34vw;
   text-align: center;
   font-size: 10.16vw;
   color: #F8EA21;
@@ -534,7 +534,7 @@ div {
   width: 100vw;
   height: auto;
   left: 0.9vw;
-  top: -5.1vw;
+  top: -2.49vw;
   overflow: visible;
   display: block;
 }

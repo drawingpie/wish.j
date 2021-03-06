@@ -42,6 +42,7 @@ div {
   left: 12vw;
   top: 31vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -69,6 +70,7 @@ div {
   left: 58vw;
   top: 39.2vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -95,6 +97,7 @@ div {
   left: 91vw;
   top: 31vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -121,6 +124,7 @@ div {
   left: 16vw;
   top: 43vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -147,6 +151,7 @@ div {
   left: 53vw;
   top: 40.6vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -173,6 +178,7 @@ div {
   left: 89vw;
   top: 52vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -199,6 +205,7 @@ div {
   left: 52vw;
   top: 55vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -225,6 +232,7 @@ div {
   left: 11vw;
   top: 53vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -251,6 +259,7 @@ div {
   left: 87vw;
   top: 35vw;
   background-color: #F8EA21;
+  border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
@@ -265,7 +274,7 @@ div {
 }
 
 @media screen and (max-width: 767px) {
-  #pa9 {
+  .pa9 {
     transform: translate(0vw, 0vw) scale(0.5, 0.5);
   }
 }

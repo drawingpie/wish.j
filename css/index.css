@@ -304,7 +304,7 @@ div {
   left: 57.2vw;
   top: 37.9vw;
   overflow: visible;
-  background-image: url('image/fox.png');
+  background-image: url('../image/fox.png');
 }
 
 @media screen and (max-width: 767px) {

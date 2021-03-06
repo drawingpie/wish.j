@@ -7,8 +7,8 @@
 	<meta name="viewport" content="user-scalable=no, initial-scale=1 ,minimum-scale=1, maximum-scale=1, width=device-width" />
 	<title>WISH.J:portfolio</title>
 	<link rel="icon" sizes="32x32" href="favicon/32favicon.png">
-	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="portfolio.css"/>
-	<script id="applicationScript" type="text/javascript" src="portfolio.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+	<script id="applicationScript" type="text/javascript" src="js/portfolio.js"></script>
 </head>
 
 <body>
@@ -38,17 +38,6 @@
 			</ellipse>
 		</svg>
 
-		<div class="gnb">
-			<img src="light.png" class="light" />
-			<a href="aboutme.html" id="aboutme" onclick="application.goToTargetView(event)">about me</a>
-			<a href="portfolio.html" id="portfolio" onclick="application.goToTargetView(event)">portfolio</a>
-			<a href="contact.html" id="contact" onclick="application.goToTargetView(event)">contact</a>
-			<a href="today.html" id="today" onclick="application.goToTargetView(event)">today</a>
-			<a href="index.html"class="logo" onclick="application.goToTargetView(event)">
-				<img src="logo1226.png" />
-			</a>
-		</div>
-
 		<div id="myNav" class="overlay">
 			<div class="closebtn" onclick="closeNav()">
 				<svg>
@@ -56,13 +45,24 @@
 				</svg>
 			</div>
 			<div class="overlay-content">
-				<a href="aboutme.html">about me</a>
-				<a href="portfolio.html">portfolio</a>
-				<a href="contact.html">contact</a>
-				<a href="today.html">today</a>
+				<a href="html/aboutme.html">about me</a>
+				<a href="html/portfolio.html">portfolio</a>
+				<a href="html/contact.html">contact</a>
+				<a href="html/today.html">today</a>
 			</div>
 		</div>
-		<div class="openbtn" onclick="openNav()"><img src="Icon feather-menu.svg"></div>
+		<div class="openbtn" onclick="openNav()"><img src="image/Icon feather-menu.svg"></div>
+
+		<div class="gnb">
+			<img src="image/light.png" class="light" />
+			<a href="html/aboutme.html" id="aboutme" onclick="application.goToTargetView(event)">about me</a>
+			<a href="html/portfolio.html" id="portfolio" onclick="application.goToTargetView(event)">portfolio</a>
+			<a href="html/contact.html" id="contact" onclick="application.goToTargetView(event)">contact</a>
+			<a href="html/today.html" id="today" onclick="application.goToTargetView(event)">today</a>
+			<a href="html/index.html" class="logo" onclick="application.goToTargetView(event)">
+				<img src="image/logo1226.png" />
+			</a>
+		</div>
 
 		<div class="box bg">
 			<a href="#" id="visit">
@@ -101,7 +101,7 @@
 			</svg>
 		</a>
 
-		<a href="한스 웹디자인 리뉴얼_기획서_v2.pdf" target="_blank">
+		<a href="image/한스 웹디자인 리뉴얼_기획서_v2.pdf" target="_blank">
 			<svg id="download">
 				<g id="패스_71" data-name="패스 71" transform="translate(-352.519 -552.2)">
 					<path id="패스_85" data-name="패스 85" d="M365.632,570.685a1.5,1.5,0,0,1-1.061-.44l-6.452-6.452a1.5,1.5,0,0,1,2.121-2.121l5.391,5.391,5.388-5.391a1.5,1.5,0,0,1,2.122,2.121l-6.448,6.452A1.5,1.5,0,0,1,365.632,570.685Z" />
@@ -126,9 +126,9 @@
 		</a>
 
 		<div id="footer">
-			COPYRIGHT<span style="font-family:Noto Sans CJK KR"> ⓒ </span>
-			2021 WISH.J ALL RIGHT RESERVED.
+			<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
 		</div>
+		
 	</div>
 </body>
 

@@ -286,6 +286,7 @@ div {
   top: 37.9vw;
   overflow: visible;
   background-image: url('../image/fox.png');
+  background-size: cover;
 }
 
 @media screen and (max-width: 767px) {
@@ -298,8 +299,8 @@ div {
   position: absolute;
   width: 1.94vw;
   height: 1.94vw;
-  left: 64vw;
-  top: 60vw;
+  left: 13.96vw;
+  top: 14.84vw;
   overflow: visible;
   animation: blink 3s infinite;
 }
@@ -344,8 +345,8 @@ div {
   position: absolute;
   width: 1.94vw;
   height: 1.94vw;
-  left: 28vw;
-  top: 60vw;
+  left: 6.04vw;
+  top: 14.84vw;
   animation: blink 3s infinite;
 }
 

@@ -17,11 +17,7 @@ body {
 
 @media screen and (max-width: 480px) {
   body {
-    position: relative;
-    height: 643px;
-    overflow: hidden;
-    padding-top: 0vw;
-    background-repeat: no-repeat;
+    height: 760px;
   }
 }
 

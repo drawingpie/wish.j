@@ -330,14 +330,6 @@ div {
     transform: rotateX(80deg);
   }
 }
-@media screen and (max-width: 480px) {
-  #eyer {
-    top: 136px;
-    left: 132px;
-    width: 17.62px;
-    height: 17.62px;
-  }
-}
 .whiteeyer {
   position: absolute;
   overflow: visible;
@@ -359,7 +351,26 @@ div {
   background-color: #000;
   border-radius: 50vw;
 }
-
+@media screen and (max-width: 480px) {
+  #eyer {
+    top: 136px;
+    left: 54px;
+    width: 17.62px;
+    height: 17.62px;
+  }
+  .whiteeyer {
+    width: 17.62px;
+    height: 17.62px;
+    left: 70px;
+    top: 0;
+  }
+  .blackeyer {
+    width: 12.94px;
+    height: 14.99px;
+    left: 70px;
+    top: 2px;
+  }
+}
 #eyel {
   position: absolute;
   width: 1.94vw;
@@ -382,14 +393,7 @@ div {
     transform: rotateX(80deg);
   }
 }
-@media screen and (max-width: 480px) {
-  #eyel {
-    top: 136px;
-    left: 54px;
-    width: 17.62px;
-    height: 17.62px;
-  }
-}
+
 .whiteeyel {
   position: absolute;
   overflow: visible;
@@ -411,7 +415,26 @@ div {
   background-color: #000;
   border-radius: 50vw;
 }
-
+@media screen and (max-width: 480px) {
+  #eyel {
+    top: 136px;
+    left: 54px;
+    width: 17.62px;
+    height: 17.62px;
+  }
+  .whiteeyel {
+    width: 17.62px;
+    height: 17.62px;
+    left: 0;
+    top: 0;
+  }
+  .blackeyel {
+    width: 12.94px;
+    height: 14.99px;
+    left: 5px;
+    top: 2px;
+  }
+}
 #DREAMS {
   left: 22.5vw;
   top: 20vw;

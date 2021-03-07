@@ -580,8 +580,9 @@ div {
 
 @media screen and (max-width: 480px) {
   .light {
-    left: 50vw;
-    transform: translateX(-50%);
+    width: 767px;
+    left: 50%;
+    margin-left: -383.5px;
   }
 }
 
@@ -665,7 +666,6 @@ div {
 
 .logo {
   position: absolute;
-  height: auto;
   width: 5.39vw;
   height: 4.40vw;
   left: 48.2vw;
@@ -673,7 +673,14 @@ div {
   overflow: visible;
   cursor: pointer;
 }
-
+@media screen and (max-width: 480px) {
+  .logo {
+  width: 60px;
+  height: auto;
+  left: 50%;
+  margin-left: -30px;
+  }
+}
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn {
   display: none;
@@ -685,7 +692,7 @@ div {
     height: 100vw;
     width: 0;
     position: absolute;
-    z-index: 1;
+    z-index: 99;
     top: 0;
     right: 0;
     background-color: rgb(0, 0, 0);
@@ -699,7 +706,7 @@ div {
   .overlay-content {
     display: block;
     position: relative;
-    top: 16vw;
+    top: 30vw;
     width: 100vw;
     text-align: center;
   }
@@ -708,7 +715,7 @@ div {
 @media screen and (max-width: 480px) {
   .overlay a {
     display: block;
-    padding:4vw;
+    padding:7vw;
     text-decoration: none;
     font-size: 2.25rem;
     color: #818181;

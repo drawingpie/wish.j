@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   body {
     position: relative;
     height: 643px;
@@ -53,7 +53,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa1 {
     width: 10.8px;
     height: 10.8px;
@@ -84,7 +84,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa2 {
     display: none;
   }
@@ -111,7 +111,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa3 {
     width: 10.8px;
     height: 10.8px;
@@ -131,7 +131,7 @@ div {
   animation: circle 1s infinite alternate;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa4 {
     width: 9.2px;
     height: 9.2px;
@@ -154,14 +154,14 @@ div {
   position: absolute;
   width: 1.46vw;
   height: 1.46vw;
-  left: 53vw;
+  left: 48vw;
   top: 21.24vw;
   background-color: #F8EA21;
   border-radius: 50vw;
   animation: circle 1s infinite alternate;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa5 {
     display: none;
   }
@@ -198,7 +198,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa6 {
     width: 9.2px;
     height: 9.2px;
@@ -228,7 +228,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa7 {
     display: none;
   }
@@ -254,7 +254,7 @@ div {
     transform: scale(1)
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa8 {
     width: 18px;
     height: 18px;
@@ -282,7 +282,7 @@ div {
     transform: scale(1)
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .pa9 {
     width: 14.8px;
     height: 14.8px;
@@ -301,7 +301,7 @@ div {
   background-size: cover;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #fox {
     width: 198.53px;
     height: 227.96px;
@@ -334,7 +334,7 @@ div {
     transform: rotateX(80deg);
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #eyer {
     top: 136px;
     left: 132px;
@@ -386,7 +386,7 @@ div {
     transform: rotateX(80deg);
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #eyel {
     top: 136px;
     left: 54px;
@@ -458,7 +458,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #DREAMS {
     top: 160px;
     left: 50vw;
@@ -509,7 +509,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #COME {
     top: 230px;
     left: 50vw;
@@ -559,7 +559,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #TRUE {
     top: 280px;
     left: 50vw;
@@ -578,7 +578,7 @@ div {
   display: block;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .light {
     left: 50vw;
     transform: translateX(-50%);
@@ -645,7 +645,7 @@ div {
   color: #F09D05;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #contact {
     display: none;
   }
@@ -679,7 +679,7 @@ div {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .overlay {
     display: block;
     height: 100vw;
@@ -695,7 +695,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .overlay-content {
     display: block;
     position: relative;
@@ -705,7 +705,7 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .overlay a {
     display: block;
     padding:4vw;
@@ -716,13 +716,13 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .overlay a:hover {
     color: #fff;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .overlay .closebtn {
     display: block;
     position: absolute;
@@ -732,13 +732,13 @@ div {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .overlay .closebtn:hover {
     fill: #fff;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .openbtn {
     display: block;
     font-size: 30px;
@@ -762,7 +762,7 @@ div {
   color: rgba(151, 164, 240, 1);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   #footer {
     top: 613px;
     left: 50vw;

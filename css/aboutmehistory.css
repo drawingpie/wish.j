@@ -62,8 +62,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #gtq1 {
-    transform: translate(40%, -400%);
-    font-size: 100%;
+    left: 50vw;
+    width: 85px;
+    margin-left: -42.5px;
+    top: 272px;
+    font-size: 14px;
   }
 }
 
@@ -96,8 +99,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #gtq2 {
-    transform: translate(-30%, -200%);
-    font-size: 100%;
+    left: 50vw;
+    width: 100px;
+    margin-left: -50px;
+    top: 345px;
+    font-size: 14px;
   }
 }
 
@@ -130,8 +136,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #career1 {
-    transform: translate(-85%, 0%);
-    font-size: 100%;
+    left: 50vw;
+    width: 200px;
+    margin-left: -100px;
+    top: 420px;
+    font-size: 14px;
   }
 }
 
@@ -164,8 +173,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #academy {
-    transform: translate(-10%, -100%);
-    font-size: 100%;
+    left: 50vw;
+    width: 150px;
+    margin-left: -75px;
+    top: 495px;
+    font-size: 14px;
   }
 }
 
@@ -198,8 +210,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #career2 {
-    transform: translate(-65%, 100%);
-    font-size: 100%;
+    left: 50vw;
+    width: 200px;
+    margin-left: -100px;
+    top: 576px;
+    font-size: 14px;
   }
 }
 

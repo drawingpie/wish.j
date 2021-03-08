@@ -45,7 +45,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #skills {
     transform: translate(-40%, -650%);
     font-size: 100%;
@@ -61,7 +61,7 @@ div {
   overflow: visible;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #program-dummy {
     transform: translate(-30%, -30%);
   }
@@ -76,7 +76,7 @@ div {
   overflow: visible;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #photoshop {
     transform: translate(20%, -100%);
   }
@@ -93,7 +93,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #photoshoptext {
     font-size: 1.25rem;
     transform: translate(170%, 0%);
@@ -118,7 +118,7 @@ div {
   top: 0.05vw;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #pinkbg1 {
     transform: translate(-37%, 60%);
     width: 248px;
@@ -157,7 +157,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .orangestick1 {
     left: -2.3%;
     top: 61.1%;
@@ -180,7 +180,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #photoshop85 {
     font-size: 1.25rem;
     transform: translate(-590%, 150%);
@@ -196,7 +196,7 @@ div {
   overflow: visible;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #illust {
     transform: translate(20%, -100%);
   }
@@ -212,7 +212,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #illusttext {
     font-size: 1.25rem;
     transform: translate(135%, 0%);
@@ -237,7 +237,7 @@ div {
   top: 0.05vw;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #pinkbg2 {
     transform: translate(-37.5%, 60%);
     width: 248px;
@@ -276,7 +276,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .orangestick2 {
     left: 0.2%;
     top: 59.1%;
@@ -300,7 +300,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #illust90 {
     font-size: 1.25rem;
     transform: translate(-315%, 150%);
@@ -316,7 +316,7 @@ div {
   overflow: visible;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #indesign {
     transform: translate(20%, -100%);
   }
@@ -333,7 +333,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #indesigntext {
     font-size: 1.25rem;
     transform: translate(130%, 0%);
@@ -358,7 +358,7 @@ div {
   top: 0.05vw;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #pinkbg3 {
     transform: translate(-38%, 60%);
     width: 248px;
@@ -397,7 +397,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .orangestick3 {
     left: 0.6%;
     top: 61.1%;
@@ -420,7 +420,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #indesign75 {
     font-size: 1.25rem;
     transform: translate(-610%, 150%);
@@ -436,7 +436,7 @@ div {
   overflow: visible;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #XD {
     transform: translate(20%, -100%);
   }
@@ -453,7 +453,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #XDtext {
     font-size: 1.25rem;
     transform: translate(300%, 0%);
@@ -478,7 +478,7 @@ div {
   top: 0.05vw;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #pinkbg4 {
     transform: translate(-36%, 60%);
     width: 248px;
@@ -517,7 +517,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .orangestick4 {
     left: -5.6%;
     top: 61%;
@@ -540,7 +540,7 @@ div {
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #XD90 {
     font-size: 1.25rem;
     transform: translate(-570%, 150%);
@@ -659,7 +659,7 @@ div {
   display: block;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .light {
     width: 767px;
     left: 50%;
@@ -727,7 +727,7 @@ div {
   color: #F09D05;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #contact {
     display: none;
   }
@@ -755,7 +755,7 @@ div {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .logo {
     width: 60vw;
     height: auto;
@@ -769,7 +769,7 @@ div {
   display: none;
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .overlay {
     display: block;
     height: 760vw;
@@ -785,7 +785,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .overlay-content {
     display: block;
     position: relative;
@@ -795,7 +795,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .overlay a {
     display: block;
     padding: 7vw;
@@ -806,13 +806,13 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .overlay a:hover {
     color: #fff;
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .overlay .closebtn {
     display: block;
     position: absolute;
@@ -822,13 +822,13 @@ div {
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .overlay .closebtn:hover {
     fill: #fff;
   }
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   .openbtn {
     display: block;
     font-size: 30vw;
@@ -916,7 +916,7 @@ div {
   color: rgba(151, 164, 240, 1);
 }
 
-@media screen and (max-width: 480vw) {
+@media screen and (max-width: 480px) {
   #footer {
     top: 613px;
     left: 50vw;

@@ -83,24 +83,6 @@ div {
   }
 }
 
-#photoshoptext {
-  left: 0vw;
-  top: 0vw;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  text-align: center;
-  font-size: 2.08vw
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #photoshoptext {
-    font-size: 1.25rem;
-    transform: translate(170%, 0%);
-  }
-}
-
 .pinkbg {
   position: absolute;
   overflow: visible;
@@ -119,7 +101,7 @@ div {
   }
 }
 
-.orangestick1 {
+.orangestick {
   position: absolute;
   overflow: visible;
   width: 19.84vw;
@@ -143,7 +125,7 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  .orangestick1 {
+  .orangestick {
     left: -2.3%;
     top: 61.1%;
   }
@@ -174,28 +156,13 @@ div {
   left: 0.7vw;
   top: 28.3vw;
   overflow: visible;
+  font-size: 2.08vw;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
   #illust {
     transform: translate(20%, -100%);
-  }
-}
-
-#illusttext {
-  left: 0vw;
-  top: 0vw;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  font-size: 2.08vw
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #illusttext {
-    font-size: 1.25rem;
-    transform: translate(135%, 0%);
   }
 }
 
@@ -225,29 +192,13 @@ div {
   left: 0vw;
   top: 8.65vw;
   overflow: visible;
+  font-size: 2.08vw;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
   #indesign {
     transform: translate(20%, -100%);
-  }
-}
-
-#indesigntext {
-  left: 0vw;
-  top: 0vw;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  text-align: center;
-  font-size: 2.08vw
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #indesigntext {
-    font-size: 1.25rem;
-    transform: translate(130%, 0%);
   }
 }
 
@@ -276,29 +227,13 @@ div {
   left: 2.40vw;
   top: 12.97vw;
   overflow: visible;
+  font-size: 2.08vw;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
   #XD {
     transform: translate(20%, -100%);
-  }
-}
-
-#XDtext {
-  left: 0vw;
-  top: 0vw;
-  position: absolute;
-  overflow: visible;
-  white-space: nowrap;
-  text-align: center;
-  font-size: 2.08vw
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #XDtext {
-    font-size: 1.25rem;
-    transform: translate(300%, 0%);
   }
 }
 

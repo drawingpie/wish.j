@@ -151,6 +151,7 @@ div {
     top: 26px;
     margin-left: -124px;
   }
+
   .orangestick02 {
     width: 226px !important;
     height: 20px;
@@ -158,6 +159,7 @@ div {
     top: 26px;
     margin-left: -124px;
   }
+
   .orangestick03 {
     width: 187px !important;
     height: 20px;
@@ -165,6 +167,7 @@ div {
     top: 26px;
     margin-left: -124px;
   }
+
   .orangestick04 {
     width: 226px !important;
     height: 20px;
@@ -187,7 +190,7 @@ div {
 
 @media screen and (max-width: 480px) {
   #photoshop85 {
-    left: 8vw;
+    left: 38px;
     top: 26px;
     font-size: 20px;
   }
@@ -233,7 +236,7 @@ div {
 
 @media screen and (max-width: 480px) {
   #illust90 {
-    left: 8vw;
+    left: 59px;
     top: 26px;
     font-size: 20px;
   }
@@ -278,7 +281,7 @@ div {
 
 @media screen and (max-width: 480px) {
   #indesign75 {
-    left: 8vw;
+    left: 21px;
     top: 26px;
     font-size: 20px;
   }
@@ -323,7 +326,7 @@ div {
 
 @media screen and (max-width: 480px) {
   #XD90 {
-    left: 8vw;
+    left: 59px;
     top: 26px;
     font-size: 20px;
   }

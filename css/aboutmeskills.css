@@ -75,6 +75,8 @@ div {
   left: 3.5vw;
   top: 0vw;
   overflow: visible;
+  font-size: 2.08vw;
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -174,7 +176,7 @@ div {
   width: 4.01vw;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.08vw
+  font-size: 2.08vw;
   color: #fff;
 }
 
@@ -209,7 +211,7 @@ div {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.08vw
+  font-size: 2.08vw;
   color: #fff;
 }
 
@@ -244,7 +246,7 @@ div {
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.08vw
+  font-size: 2.08vw;
   color: #fff;
 }
 

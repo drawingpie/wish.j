@@ -48,8 +48,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #skills {
-    transform: translate(-40%, -650%);
-    font-size: 100%;
+    left: 50vw;
+    top: 259.05px;
+    width: 192px;
+    margin-left: -96px;
+    font-size: 15px;
   }
 }
 
@@ -64,7 +67,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #program-dummy {
-    transform: translate(-30%, -30%);
+    left: 50vw;
+    top: 309px;
+    width: 248px;
+    margin-left: -124px;
+    display: inline-flex;
   }
 }
 
@@ -81,7 +88,15 @@ div {
 
 @media screen and (max-width: 480px) {
   #photoshop {
-    transform: translate(20%, -100%);
+    left: 94px;
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #photoshoptext {
+    left: 94px;
+    top: 0px;
   }
 }
 
@@ -97,9 +112,11 @@ div {
 
 @media screen and (max-width: 480px) {
   .pinkbg {
-    transform: translate(-37%, 60%);
-    width: 248px;
-    height: 30vw;
+    width: 51.67vw;
+    height: 20px;
+    left: 0vw;
+    top: 26px;
+    margin-left: -25.83vw;
   }
 }
 
@@ -128,8 +145,10 @@ div {
 
 @media screen and (max-width: 480px) {
   .orangestick {
-    left: -2.3%;
-    top: 61.1%;
+    width: 19.84vw;
+    height: 2.24vw;
+    left: 8.23vw;
+    top: 0.05vw;
   }
 }
 
@@ -240,7 +259,7 @@ div {
 }
 
 #XD90 {
-  left: 16.93vw;
+  left: 14.79vw;
   top: 0.2vw;
   position: absolute;
   overflow: visible;

@@ -54,7 +54,7 @@ div {
 }
 
 #program-dummy {
-  position: absolute;
+  position: relative;
   width: 33.13vw;
   height: 15.26vw;
   left: 33.3vw;
@@ -72,7 +72,7 @@ div {
   position: absolute;
   width: 31.98vw;
   height: 2.29vw;
-  left: 3.5vw;
+  left: 0vw;
   top: 0vw;
   overflow: visible;
   font-size: 2.08vw;
@@ -155,8 +155,8 @@ div {
   position: absolute;
   width: 32.86vw;
   height: 2.29vw;
-  left: 0.7vw;
-  top: 28.3vw;
+  left: 0vw;
+  top: 4.32vw;
   overflow: visible;
   font-size: 2.08vw;
   color: #fff;
@@ -226,7 +226,7 @@ div {
   position: absolute;
   width: 590vw;
   height: 2.29vw;
-  left: 2.40vw;
+  left: 0vw;
   top: 12.97vw;
   overflow: visible;
   font-size: 2.08vw;

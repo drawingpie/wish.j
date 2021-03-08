@@ -206,27 +206,26 @@ div {
 .arrow01 {
   fill: #F8EA21;
   overflow: visible;
-  position: absolute;
+  position: relative;
   width: 1.05vw;
   height: 0.70vw;
   left: 40.4vw;
   top: 29.5vw;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  margin-right: 15vw;
   animation: effect3 1.1s both
 }
 
 .arrow02 {
   fill: #F8EA21;
   overflow: visible;
-  position: absolute;
+  position: relative;
   width: 1.05vw;
   height: 0.70vw;
-  left: 40.4vw;
-  top: 37.92vw;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+  left: -1vw;
+  top: 37vw;
+  margin-right: 17vw;
   animation: effect3 1.1s both
 }
-
 @keyframes effect3 {
   0% {
     transform: translateX(-600px);

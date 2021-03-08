@@ -92,6 +92,14 @@ div {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #photoshoptext {
+    left: 50% !important;
+    width: 48px;
+    margin-left: -24px;
+  }
+}
+
 .pinkbg {
   position: absolute;
   overflow: visible;
@@ -158,8 +166,8 @@ div {
 
 @media screen and (max-width: 480px) {
   #photoshop85 {
-    left: 16.04vw;
-    top: 6.04px;
+    left: 8vw;
+    top: 26px;
     font-size: 20px;
   }
 }
@@ -182,6 +190,14 @@ div {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #illusttext {
+    left: 50% !important;
+    width: 66px;
+    margin-left: -33px;
+  }
+}
+
 #illust90 {
   left: 16.93vw;
   top: 0.2vw;
@@ -196,8 +212,9 @@ div {
 
 @media screen and (max-width: 480px) {
   #illust90 {
-    font-size: 1.25rem;
-    transform: translate(-315%, 150%);
+    left: 8vw;
+    top: 26px;
+    font-size: 20px;
   }
 }
 
@@ -219,6 +236,14 @@ div {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #indesigntext {
+    left: 50% !important;
+    width: 80px;
+    margin-left: -40px;
+  }
+}
+
 #indesign75 {
   left: 15.93vw;
   top: 0.2vw;
@@ -232,8 +257,9 @@ div {
 
 @media screen and (max-width: 480px) {
   #indesign75 {
-    font-size: 1.25rem;
-    transform: translate(-610%, 150%);
+    left: 8vw;
+    top: 26px;
+    font-size: 20px;
   }
 }
 
@@ -255,6 +281,14 @@ div {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #XDtext {
+    left: 50% !important;
+    width: 24px;
+    margin-left: -12px;
+  }
+}
+
 #XD90 {
   left: 14.79vw;
   top: 0.2vw;
@@ -268,8 +302,9 @@ div {
 
 @media screen and (max-width: 480px) {
   #XD90 {
-    font-size: 1.25rem;
-    transform: translate(-570%, 150%);
+    left: 8vw;
+    top: 26px;
+    font-size: 20px;
   }
 }
 

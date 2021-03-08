@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
     background-position: 0% 0%;

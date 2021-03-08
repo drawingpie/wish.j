@@ -328,7 +328,7 @@ div {
   left: 15.3vw;
   top: 15.73vw;
   background-color: #F8EA21;
-  border-radius: 50vw;
+  border-radius: 100vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -362,7 +362,7 @@ div {
   left: 12.9vw;
   top: 25.99vw;
   background-color: #F8EA21;
-  border-radius: 50vw;
+  border-radius: 100vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -379,7 +379,7 @@ div {
   left: 83.3vw;
   top: 15.46vw;
   background-color: #F8EA21;
-  border-radius: 50vw;
+  border-radius: 100vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -396,7 +396,7 @@ div {
   left: 10.7vw;
   top: 17.60vw;
   background-color: #F8EA21;
-  border-radius: 50vw;
+  border-radius: 100vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -413,7 +413,7 @@ div {
   left: 84.7vw;
   top: 26.03vw;
   background-color: #F8EA21;
-  border-radius: 50vw;
+  border-radius: 100vw;
 }
 
 @media screen and (max-width: 480px) {

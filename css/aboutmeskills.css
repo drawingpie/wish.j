@@ -120,7 +120,7 @@ div {
   }
 }
 
-.orangestick {
+.orangestick01, .orangestick02, .orangestick03, .orangestick04 {
   position: absolute;
   overflow: visible;
   width: 19.84vw;
@@ -144,8 +144,29 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  .orangestick {
+  .orangestick01 {
     width: 204px !important;
+    height: 20px;
+    left: 0;
+    top: 26px;
+    margin-left: -124px;
+  }
+  .orangestick02 {
+    width: 226px !important;
+    height: 20px;
+    left: 0;
+    top: 26px;
+    margin-left: -124px;
+  }
+  .orangestick03 {
+    width: 187px !important;
+    height: 20px;
+    left: 0;
+    top: 26px;
+    margin-left: -124px;
+  }
+  .orangestick04 {
+    width: 226px !important;
     height: 20px;
     left: 0;
     top: 26px;

@@ -15,12 +15,12 @@ body {
   background-repeat: no-repeat;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   body {
     background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
     background-position: 0% 0%;
     position: relative;
-    height: 760px;
+    height: 760vw;
     overflow: hidden;
     padding-top: 0%;
     background-repeat: no-repeat;
@@ -34,18 +34,18 @@ div {
 }
 
 #skills {
-  left: 36.6%;
-  top: 54.2%;
+  left: 36.6vw;
+  top: 54.2vw;
   position: absolute;
   overflow: visible;
-  width: 515px;
+  width: 332.63vw;
   white-space: nowrap;
   text-align: center;
-  font-size: 1.563rem;
+  font-size: 1.30vw;
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #skills {
     transform: translate(-40%, -650%);
     font-size: 100%;
@@ -54,14 +54,14 @@ div {
 
 #program-dummy {
   position: absolute;
-  width: 636px;
-  height: 293px;
-  left: 33.3%;
-  top: 62.3%;
+  width: 33.13vw;
+  height: 15.26vw;
+  left: 33.3vw;
+  top: 62.3vw;
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #program-dummy {
     transform: translate(-30%, -30%);
   }
@@ -69,31 +69,31 @@ div {
 
 #photoshop {
   position: absolute;
-  width: 614px;
-  height: 44px;
-  left: 3.5%;
-  top: 0%;
+  width: 31.98vw;
+  height: 2.29vw;
+  left: 3.5vw;
+  top: 0vw;
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #photoshop {
     transform: translate(20%, -100%);
   }
 }
 
 #photoshoptext {
-  left: 0%;
-  top: 0%;
+  left: 0vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #photoshoptext {
     font-size: 1.25rem;
     transform: translate(170%, 0%);
@@ -101,8 +101,8 @@ div {
 }
 
 #pinkbg1 {
-  fill: rgba(240, 99, 150, 1);
-  stroke: rgba(240, 99, 150, 1);
+  fill: #F06396;
+  stroke: #F06396;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -112,23 +112,23 @@ div {
 .pinkbg1 {
   position: absolute;
   overflow: visible;
-  width: 462px;
-  height: 43px;
-  left: 158px;
-  top: 1px;
+  width: 24.06vw;
+  height: 2.24vw;
+  left: 8.23vw;
+  top: 0.05vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #pinkbg1 {
     transform: translate(-37%, 60%);
     width: 248px;
-    height: 30px;
+    height: 30vw;
   }
 }
 
 #orangestick1 {
-  fill: rgba(240, 157, 5, 1);
-  stroke: rgba(240, 157, 5, 1);
+  fill: #F09D05;
+  stroke: #F09D05;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -138,10 +138,10 @@ div {
 .orangestick1 {
   position: absolute;
   overflow: visible;
-  width: 381px;
-  height: 43px;
-  left: 25.5%;
-  top: 2%;
+  width: 19.84vw;
+  height: 2.24vw;
+  left: 25.5vw;
+  top: 2vw;
   animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
 }
 
@@ -157,30 +157,30 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .orangestick1 {
     left: -2.3%;
     top: 61.1%;
   }
 
   #orangestick1 {
-    width: 204px;
-    height: 30.5px;
+    width: 10.63vw;
+    height: 1.59vw;
   }
 }
 
 #photoshop85 {
-  left: 308px;
-  top: 0px;
+  left: 16.04vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw;
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #photoshop85 {
     font-size: 1.25rem;
     transform: translate(-590%, 150%);
@@ -189,30 +189,30 @@ div {
 
 #illust {
   position: absolute;
-  width: 631px;
-  height: 44px;
-  left: 0.7%;
-  top: 28.3%;
+  width: 32.86vw;
+  height: 2.29vw;
+  left: 0.7vw;
+  top: 28.3vw;
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #illust {
     transform: translate(20%, -100%);
   }
 }
 
 #illusttext {
-  left: 0px;
-  top: 0px;
+  left: 0vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #illusttext {
     font-size: 1.25rem;
     transform: translate(135%, 0%);
@@ -220,8 +220,8 @@ div {
 }
 
 #pinkbg2 {
-  fill: rgba(240, 99, 150, 1);
-  stroke: rgba(240, 99, 150, 1);
+  fill: #F06396;
+  stroke: #F06396;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -231,23 +231,23 @@ div {
 .pinkbg2 {
   position: absolute;
   overflow: visible;
-  width: 462px;
-  height: 43px;
-  left: 175px;
-  top: 1px;
+  width: 24.06vw;
+  height: 2.24vw;
+  left: 9.11vw;
+  top: 0.05vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #pinkbg2 {
     transform: translate(-37.5%, 60%);
     width: 248px;
-    height: 30px;
+    height: 30vw;
   }
 }
 
 #orangestick2 {
-  fill: rgba(240, 157, 5, 1);
-  stroke: rgba(240, 157, 5, 1);
+  fill: #F09D05;
+  stroke: #F09D05;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -257,10 +257,10 @@ div {
 .orangestick2 {
   position: absolute;
   overflow: visible;
-  width: 422px;
-  height: 43px;
-  left: 27.5%;
-  top: 2%;
+  width: 21.98vw;
+  height: 2.24vw;
+  left: 27.5vw;
+  top: 2vw;
   animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
 }
 
@@ -276,31 +276,31 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .orangestick2 {
     left: 0.2%;
     top: 59.1%;
   }
 
   #orangestick2 {
-    width: 216px;
-    height: 30.5px;
+    width: 11.25vw;
+    height: 1.59vw;
   }
 }
 
 #illust90 {
-  left: 325px;
-  top: 0px;
+  left: 16.93vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
-  width: 77px;
+  width: 4.01vw;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #illust90 {
     font-size: 1.25rem;
     transform: translate(-315%, 150%);
@@ -309,31 +309,31 @@ div {
 
 #indesign {
   position: absolute;
-  width: 636px;
-  height: 44px;
-  left: 0px;
-  top: 166px;
+  width: 33.13vw;
+  height: 2.29vw;
+  left: 0vw;
+  top: 8.65vw;
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #indesign {
     transform: translate(20%, -100%);
   }
 }
 
 #indesigntext {
-  left: 0px;
-  top: 0px;
+  left: 0vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #indesigntext {
     font-size: 1.25rem;
     transform: translate(130%, 0%);
@@ -341,8 +341,8 @@ div {
 }
 
 #pinkbg3 {
-  fill: rgba(240, 99, 150, 1);
-  stroke: rgba(240, 99, 150, 1);
+  fill: #F06396;
+  stroke: #F06396;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -352,23 +352,23 @@ div {
 .pinkbg3 {
   position: absolute;
   overflow: visible;
-  width: 462px;
-  height: 43px;
-  left: 180px;
-  top: 1px;
+  width: 24.06vw;
+  height: 2.24vw;
+  left: 180vw;
+  top: 0.05vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #pinkbg3 {
     transform: translate(-38%, 60%);
     width: 248px;
-    height: 30px;
+    height: 30vw;
   }
 }
 
 #orangestick3 {
-  fill: rgba(240, 157, 5, 1);
-  stroke: rgba(240, 157, 5, 1);
+  fill: #F09D05;
+  stroke: #F09D05;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -378,10 +378,10 @@ div {
 .orangestick3 {
   position: absolute;
   overflow: visible;
-  width: 349px;
-  height: 43px;
-  left: 28%;
-  top: 2%;
+  width: 18.18vw;
+  height: 2.24vw;
+  left: 28vw;
+  top: 2vw;
   animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
 }
 
@@ -397,30 +397,30 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .orangestick3 {
     left: 0.6%;
     top: 61.1%;
   }
 
   #orangestick3 {
-    width: 186px;
-    height: 30.5px;
+    width: 9.69vw;
+    height: 1.59vw;
   }
 }
 
 #indesign75 {
-  left: 331px;
-  top: 0px;
+  left: 330.05vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #indesign75 {
     font-size: 1.25rem;
     transform: translate(-610%, 150%);
@@ -429,31 +429,31 @@ div {
 
 #XD {
   position: absolute;
-  width: 590px;
-  height: 44px;
-  left: 46px;
-  top: 249px;
+  width: 590vw;
+  height: 2.29vw;
+  left: 2.40vw;
+  top: 12.97vw;
   overflow: visible;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #XD {
     transform: translate(20%, -100%);
   }
 }
 
 #XDtext {
-  left: 0%;
-  top: 0%;
+  left: 0vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #XDtext {
     font-size: 1.25rem;
     transform: translate(300%, 0%);
@@ -461,8 +461,8 @@ div {
 }
 
 #pinkbg4 {
-  fill: rgba(240, 99, 150, 1);
-  stroke: rgba(240, 99, 150, 1);
+  fill: #F06396;
+  stroke: #F06396;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -472,23 +472,23 @@ div {
 .pinkbg4 {
   position: absolute;
   overflow: visible;
-  width: 462px;
-  height: 43px;
-  left: 134px;
-  top: 1px;
+  width: 24.06vw;
+  height: 2.24vw;
+  left: 6.98vw;
+  top: 0.05vw;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #pinkbg4 {
     transform: translate(-36%, 60%);
     width: 248px;
-    height: 30px;
+    height: 30vw;
   }
 }
 
 #orangestick4 {
-  fill: rgba(240, 157, 5, 1);
-  stroke: rgba(240, 157, 5, 1);
+  fill: #F09D05;
+  stroke: #F09D05;
   stroke-linejoin: miter;
   stroke-linecap: butt;
   stroke-miterlimit: 4;
@@ -498,10 +498,10 @@ div {
 .orangestick4 {
   position: absolute;
   overflow: visible;
-  width: 422px;
-  height: 43px;
-  left: 22.5%;
-  top: 2%;
+  width: 21.98vw;
+  height: 2.24vw;
+  left: 22.5vw;
+  top: 2vw;
   animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
 }
 
@@ -517,30 +517,30 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .orangestick4 {
     left: -5.6%;
     top: 61%;
   }
 
   #orangestick4 {
-    width: 216px;
-    height: 30.5px;
+    width: 11.25vw;
+    height: 1.59vw;
   }
 }
 
 #XD90 {
-  left: 284px;
-  top: 0px;
+  left: 14.79vw;
+  top: 0vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.08vw
   color: rgba(255, 255, 255, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #XD90 {
     font-size: 1.25rem;
     transform: translate(-570%, 150%);
@@ -558,7 +558,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .pa1 {
     display: none;
   }
@@ -575,7 +575,7 @@ div {
   border-radius: 500vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .pa2 {
     display: none;
   }
@@ -592,7 +592,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .pa3 {
     display: none;
   }
@@ -609,7 +609,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .pa4 {
     display: none;
   }
@@ -626,7 +626,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .pa5 {
     display: none;
   }
@@ -643,7 +643,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .pa6 {
     display: none;
   }
@@ -659,7 +659,7 @@ div {
   display: block;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .light {
     width: 767px;
     left: 50%;
@@ -727,7 +727,7 @@ div {
   color: #F09D05;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #contact {
     display: none;
   }
@@ -755,12 +755,12 @@ div {
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .logo {
-    width: 60px;
+    width: 60vw;
     height: auto;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -30vw;
   }
 }
 
@@ -769,10 +769,10 @@ div {
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .overlay {
     display: block;
-    height: 760px;
+    height: 760vw;
     width: 0;
     position: absolute;
     z-index: 99;
@@ -785,7 +785,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .overlay-content {
     display: block;
     position: relative;
@@ -795,7 +795,7 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .overlay a {
     display: block;
     padding: 7vw;
@@ -806,13 +806,13 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .overlay a:hover {
     color: #fff;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .overlay .closebtn {
     display: block;
     position: absolute;
@@ -822,16 +822,16 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .overlay .closebtn:hover {
     fill: #fff;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   .openbtn {
     display: block;
-    font-size: 30px;
+    font-size: 30vw;
     cursor: pointer;
     position: absolute;
     top: 2vw;
@@ -848,7 +848,7 @@ div {
   margin-left: -2.57vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   #foxsmall {
     top: 155.25px;
     width: 78.83px;
@@ -867,10 +867,10 @@ div {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .arrow_right {
     width: 20.29px;
-    height: 19.77px;
+    height: 19.4.01vw;
     left: 65vw;
     top: 196.47px;
   }
@@ -891,10 +891,10 @@ div {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480vw) {
   .arrow_left {
     width: 20.29px;
-    height: 19.77px;
+    height: 19.4.01vw;
     left: 30vw;
     top: 196.47px;
   }
@@ -916,7 +916,7 @@ div {
   color: rgba(151, 164, 240, 1);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480vw) {
   #footer {
     top: 613px;
     left: 50vw;

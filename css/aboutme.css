@@ -76,7 +76,6 @@ div {
   top: 25.99vw;
   background-color: #F8EA21;
   border-radius: 50vw;
-
 }
 
 @media (max-width: 480px) {
@@ -94,7 +93,6 @@ div {
   top: 15.46vw;
   background-color: #F8EA21;
   border-radius: 50vw;
-
 }
 
 @media (max-width: 480px) {
@@ -112,7 +110,6 @@ div {
   top: 17.60vw;
   background-color: #F8EA21;
   border-radius: 50vw;
-
 }
 
 @media (max-width: 480px) {
@@ -130,7 +127,6 @@ div {
   top: 26.03vw;
   background-color: #F8EA21;
   border-radius: 50vw;
-
 }
 
 @media (max-width: 480px) {
@@ -166,10 +162,11 @@ div {
 
 @media (max-width: 480px) {
   #introduce {
-    font-size: 90%;
-    left: 12%;
-    top: 38%;
+    font-size: 0.875rem;
+    left: 50vw;
+    top: 270px;
     width: 289px;
+    margin-left: -144.5px;
     line-height: 20px;
   }
 }
@@ -279,14 +276,16 @@ div {
   overflow: visible;
   cursor: pointer;
 }
+
 @media screen and (max-width: 480px) {
   .logo {
-  width: 60px;
-  height: auto;
-  left: 50%;
-  margin-left: -30px;
+    width: 60px;
+    height: auto;
+    left: 50%;
+    margin-left: -30px;
   }
 }
+
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn {
   display: none;
@@ -321,7 +320,7 @@ div {
 @media screen and (max-width: 480px) {
   .overlay a {
     display: block;
-    padding:7vw;
+    padding: 7vw;
     text-decoration: none;
     font-size: 2.25rem;
     color: #818181;
@@ -373,7 +372,9 @@ div {
 
 @media (max-width: 480px) {
   #foxsmall {
-    transform: translate(-38%, -100%) scale(0.6, 0.6);
+    top: 155.25px;
+    width: 78.83px;
+    margin-left: -39.415px;
   }
 }
 
@@ -390,7 +391,10 @@ div {
 
 @media (max-width: 480px) {
   .arrow_right {
-    transform: translate(100%, -250%) scale(0.5, 0.5);
+    width: 20.29px;
+    height: 19.77px;
+    left: 65vw;
+    top: 196.47px;
   }
 }
 
@@ -411,7 +415,10 @@ div {
 
 @media (max-width: 480px) {
   .arrow_left {
-    transform: translate(-160%, -250%) scale(0.5, 0.5);
+    width: 20.29px;
+    height: 19.77px;
+    left: 30vw;
+    top: 196.47px;
   }
 }
 

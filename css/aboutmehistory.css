@@ -286,8 +286,15 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  #Icon_ionic-ios-arrow-round-for {
-    transform: translate(230%, -750%) scale(0.5, 0.5) rotate(90deg);
+  .arrow01 {
+    width: 20.24px;
+    height: 13.5px;
+    left: 50vw;
+    top: 69.30vw;
+    display: flex;
+    margin-left: -10.12px;
+    margin-bottom: 50px;
+    transform: rotate(90deg)!important;
   }
 }
 

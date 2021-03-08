@@ -34,15 +34,16 @@ div {
 }
 
 #skills {
-  left: 36.6vw;
-  top: 54.2vw;
+  left: 50vw;
+  top: 26.36vw;
   position: absolute;
   overflow: visible;
-  width: 332.63vw;
+  width: 192px;
+  margin-left: -96px;
   white-space: nowrap;
   text-align: center;
   font-size: 1.30vw;
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -57,7 +58,7 @@ div {
   width: 33.13vw;
   height: 15.26vw;
   left: 33.3vw;
-  top: 62.3vw;
+  top: 29.27vw;
   overflow: visible;
 }
 
@@ -90,7 +91,7 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -100,39 +101,22 @@ div {
   }
 }
 
-#pinkbg1 {
-  fill: #F06396;
-  stroke: #F06396;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.pinkbg1 {
+.pinkbg {
   position: absolute;
   overflow: visible;
   width: 24.06vw;
   height: 2.24vw;
   left: 8.23vw;
   top: 0.05vw;
+  background-color: #F06396;
 }
 
 @media screen and (max-width: 480px) {
-  #pinkbg1 {
+  .pinkbg {
     transform: translate(-37%, 60%);
     width: 248px;
     height: 30vw;
   }
-}
-
-#orangestick1 {
-  fill: #F09D05;
-  stroke: #F09D05;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
 }
 
 .orangestick1 {
@@ -142,6 +126,7 @@ div {
   height: 2.24vw;
   left: 25.5vw;
   top: 2vw;
+  background-color: #F09D05;
   animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
 }
 
@@ -162,11 +147,6 @@ div {
     left: -2.3%;
     top: 61.1%;
   }
-
-  #orangestick1 {
-    width: 10.63vw;
-    height: 1.59vw;
-  }
 }
 
 #photoshop85 {
@@ -177,7 +157,7 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw;
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -209,82 +189,13 @@ div {
   overflow: visible;
   white-space: nowrap;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
   #illusttext {
     font-size: 1.25rem;
     transform: translate(135%, 0%);
-  }
-}
-
-#pinkbg2 {
-  fill: #F06396;
-  stroke: #F06396;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.pinkbg2 {
-  position: absolute;
-  overflow: visible;
-  width: 24.06vw;
-  height: 2.24vw;
-  left: 9.11vw;
-  top: 0.05vw;
-}
-
-@media screen and (max-width: 480px) {
-  #pinkbg2 {
-    transform: translate(-37.5%, 60%);
-    width: 248px;
-    height: 30vw;
-  }
-}
-
-#orangestick2 {
-  fill: #F09D05;
-  stroke: #F09D05;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.orangestick2 {
-  position: absolute;
-  overflow: visible;
-  width: 21.98vw;
-  height: 2.24vw;
-  left: 27.5vw;
-  top: 2vw;
-  animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
-}
-
-@keyframes effect4 {
-  0% {
-    transform: scaleX(.4);
-    transform-origin: 0 0
-  }
-
-  100% {
-    transform: scaleX(1);
-    transform-origin: 0 0
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .orangestick2 {
-    left: 0.2%;
-    top: 59.1%;
-  }
-
-  #orangestick2 {
-    width: 11.25vw;
-    height: 1.59vw;
   }
 }
 
@@ -297,7 +208,7 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -330,82 +241,13 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
   #indesigntext {
     font-size: 1.25rem;
     transform: translate(130%, 0%);
-  }
-}
-
-#pinkbg3 {
-  fill: #F06396;
-  stroke: #F06396;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.pinkbg3 {
-  position: absolute;
-  overflow: visible;
-  width: 24.06vw;
-  height: 2.24vw;
-  left: 180vw;
-  top: 0.05vw;
-}
-
-@media screen and (max-width: 480px) {
-  #pinkbg3 {
-    transform: translate(-38%, 60%);
-    width: 248px;
-    height: 30vw;
-  }
-}
-
-#orangestick3 {
-  fill: #F09D05;
-  stroke: #F09D05;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.orangestick3 {
-  position: absolute;
-  overflow: visible;
-  width: 18.18vw;
-  height: 2.24vw;
-  left: 28vw;
-  top: 2vw;
-  animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
-}
-
-@keyframes effect4 {
-  0% {
-    transform: scaleX(.4);
-    transform-origin: 0 0
-  }
-
-  100% {
-    transform: scaleX(1);
-    transform-origin: 0 0
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .orangestick3 {
-    left: 0.6%;
-    top: 61.1%;
-  }
-
-  #orangestick3 {
-    width: 9.69vw;
-    height: 1.59vw;
   }
 }
 
@@ -417,7 +259,7 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
@@ -450,82 +292,13 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {
   #XDtext {
     font-size: 1.25rem;
     transform: translate(300%, 0%);
-  }
-}
-
-#pinkbg4 {
-  fill: #F06396;
-  stroke: #F06396;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.pinkbg4 {
-  position: absolute;
-  overflow: visible;
-  width: 24.06vw;
-  height: 2.24vw;
-  left: 6.98vw;
-  top: 0.05vw;
-}
-
-@media screen and (max-width: 480px) {
-  #pinkbg4 {
-    transform: translate(-36%, 60%);
-    width: 248px;
-    height: 30vw;
-  }
-}
-
-#orangestick4 {
-  fill: #F09D05;
-  stroke: #F09D05;
-  stroke-linejoin: miter;
-  stroke-linecap: butt;
-  stroke-miterlimit: 4;
-  shape-rendering: auto;
-}
-
-.orangestick4 {
-  position: absolute;
-  overflow: visible;
-  width: 21.98vw;
-  height: 2.24vw;
-  left: 22.5vw;
-  top: 2vw;
-  animation: effect4 1s cubic-bezier(0.25, 0.25, 0.75, 0.75) both
-}
-
-@keyframes effect4 {
-  0% {
-    transform: scaleX(.4);
-    transform-origin: 0 0
-  }
-
-  100% {
-    transform: scaleX(1);
-    transform-origin: 0 0
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .orangestick4 {
-    left: -5.6%;
-    top: 61%;
-  }
-
-  #orangestick4 {
-    width: 11.25vw;
-    height: 1.59vw;
   }
 }
 
@@ -537,7 +310,7 @@ div {
   white-space: nowrap;
   text-align: center;
   font-size: 2.08vw
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 
 @media screen and (max-width: 480px) {

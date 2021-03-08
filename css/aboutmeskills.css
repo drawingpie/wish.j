@@ -67,11 +67,10 @@ div {
 
 @media screen and (max-width: 480px) {
   #program-dummy {
-    left: 50vw;
-    top: 309px;
+    left: 50%;
+    top: 305px;
     width: 248px;
-    margin-left: -124px;
-    display: inline-flex;
+    display: flex;
   }
 }
 
@@ -88,15 +87,8 @@ div {
 
 @media screen and (max-width: 480px) {
   #photoshop {
-    left: 94px;
     top: 0px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #photoshoptext {
-    left: 94px;
-    top: 0px;
+    font-size: 20px;
   }
 }
 
@@ -112,11 +104,11 @@ div {
 
 @media screen and (max-width: 480px) {
   .pinkbg {
-    width: 51.67vw;
+    width: 248px;
     height: 20px;
-    left: 0vw;
+    left: 0;
     top: 26px;
-    margin-left: -25.83vw;
+    margin-left: -124px;
   }
 }
 
@@ -145,10 +137,11 @@ div {
 
 @media screen and (max-width: 480px) {
   .orangestick {
-    width: 19.84vw;
-    height: 2.24vw;
-    left: 8.23vw;
-    top: 0.05vw;
+    width: 204px !important;
+    height: 20px;
+    left: 0;
+    top: 26px;
+    margin-left: -124px;
   }
 }
 
@@ -165,8 +158,9 @@ div {
 
 @media screen and (max-width: 480px) {
   #photoshop85 {
-    font-size: 1.25rem;
-    transform: translate(-590%, 150%);
+    left: 16.04vw;
+    top: 6.04px;
+    font-size: 20px;
   }
 }
 
@@ -183,7 +177,8 @@ div {
 
 @media screen and (max-width: 480px) {
   #illust {
-    transform: translate(20%, -100%);
+    top: 74px;
+    font-size: 20px;
   }
 }
 
@@ -219,7 +214,8 @@ div {
 
 @media screen and (max-width: 480px) {
   #indesign {
-    transform: translate(20%, -100%);
+    top: 165px;
+    font-size: 20px;
   }
 }
 
@@ -254,7 +250,8 @@ div {
 
 @media screen and (max-width: 480px) {
   #XD {
-    transform: translate(20%, -100%);
+    top: 241px;
+    font-size: 20px;
   }
 }
 
@@ -486,10 +483,10 @@ div {
 
 @media screen and (max-width: 480px) {
   .logo {
-    width: 60vw;
+    width: 60px;
     height: auto;
     left: 50%;
-    margin-left: -30vw;
+    margin-left: -30px;
   }
 }
 
@@ -599,7 +596,7 @@ div {
 @media screen and (max-width: 480px) {
   .arrow_right {
     width: 20.29px;
-    height: 19.4.01vw;
+    height: 19.77px;
     left: 65vw;
     top: 196.47px;
   }
@@ -623,7 +620,7 @@ div {
 @media screen and (max-width: 480px) {
   .arrow_left {
     width: 20.29px;
-    height: 19.4.01vw;
+    height: 19.77px;
     left: 30vw;
     top: 196.47px;
   }

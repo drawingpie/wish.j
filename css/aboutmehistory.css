@@ -35,7 +35,7 @@ div {
 
 #gtq1 {
   left: 30vw;
-  top: 60.5vw;
+  top: 29.06vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -69,7 +69,7 @@ div {
 
 #gtq2 {
   left: 45.2vw;
-  top: 60.5vw;
+  top: 29.06vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -103,7 +103,7 @@ div {
 
 #career1 {
   left: 61.6vw;
-  top: 60.5vw;
+  top: 29.06vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -137,7 +137,7 @@ div {
 
 #academy {
   left: 35.7vw;
-  top: 76.8vw;
+  top: 36.93vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -171,7 +171,7 @@ div {
 
 #career2 {
   left: 54.8vw;
-  top: 76.8vw;
+  top: 36.93vw;
   position: absolute;
   overflow: visible;
   white-space: nowrap;
@@ -203,7 +203,19 @@ div {
   }
 }
 
-.arrow {
+.arrow01 {
+  fill: #F8EA21;
+  overflow: visible;
+  position: absolute;
+  width: 1.05vw;
+  height: 0.70vw;
+  left: 40.4vw;
+  top: 61vw;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  animation: effect3 1.1s both
+}
+
+.arrow02 {
   fill: #F8EA21;
   overflow: visible;
   position: absolute;
@@ -264,7 +276,6 @@ div {
     transform: translate(230%, -750%) scale(0.5, 0.5) rotate(90deg);
   }
 }
-
 
 .pa1 {
   position: absolute;

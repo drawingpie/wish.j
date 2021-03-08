@@ -39,7 +39,7 @@ div {
   width: 0.48vw;
   height: 0.48vw;
   left: 15.3vw;
-  top: 38.4vw;
+  top: 15.73vw;
   background-color: #F8EA21;
   border-radius: 50vw;
 }
@@ -56,10 +56,9 @@ div {
   width: 0.48vw;
   height: 0.48vw;
   left: 88.9vw;
-  top: 49.2vw;
+  top: 20.17vw;
   background-color: #F8EA21;
-  border-radius: 50vw;
-
+  border-radius: 500vw;
 }
 
 @media (max-width: 480px) {
@@ -74,7 +73,7 @@ div {
   width: 1.46vw;
   height: 1.46vw;
   left: 12.9vw;
-  top: 63.6vw;
+  top: 25.99vw;
   background-color: #F8EA21;
   border-radius: 50vw;
 
@@ -92,7 +91,7 @@ div {
   width: 1.46vw;
   height: 1.46vw;
   left: 83.3vw;
-  top: 37.8vw;
+  top: 15.46vw;
   background-color: #F8EA21;
   border-radius: 50vw;
 
@@ -109,8 +108,8 @@ div {
   overflow: visible;
   width: 0.98vw;
   height: 0.98vw;
-  left: 10.7%;
-  top: 43%;
+  left: 10.7vw;
+  top: 17.60vw;
   background-color: #F8EA21;
   border-radius: 50vw;
 
@@ -128,7 +127,7 @@ div {
   width: 0.98vw;
   height: 0.98vw;
   left: 84.7vw;
-  top: 63.6vw;
+  top: 26.03vw;
   background-color: #F8EA21;
   border-radius: 50vw;
 

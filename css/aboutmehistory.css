@@ -290,14 +290,26 @@ div {
     width: 20.24px;
     height: 13.5px;
     left: 50vw;
-    top: 69.30vw;
+    top: 66vw;
     display: flex;
     margin-left: -10.12px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     transform: rotate(90deg)!important;
   }
 }
 
+@media screen and (max-width: 480px) {
+  .arrow02 {
+    width: 20.24px;
+    height: 13.5px;
+    left: 50vw;
+    top: 67vw;
+    display: flex;
+    margin-left: -10.12px;
+    margin-bottom: 60px;
+    transform: rotate(90deg)!important;
+  }
+}
 .pa1 {
   position: absolute;
   overflow: visible;

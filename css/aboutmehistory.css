@@ -294,6 +294,7 @@ div {
     display: flex;
     margin-left: -10.12px;
     margin-bottom: 60px;
+    -webkit-transform: rotate(90deg)!important;
     transform: rotate(90deg)!important;
   }
 }
@@ -307,6 +308,7 @@ div {
     display: flex;
     margin-left: -10.12px;
     margin-bottom: 60px;
+    -webkit-transform: rotate(90deg)!important;
     transform: rotate(90deg)!important;
   }
 }

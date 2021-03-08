@@ -290,7 +290,7 @@ div {
     width: 20.24px;
     height: 13.5px;
     left: 50vw;
-    top: 66vw;
+    top: 317px;
     display: flex;
     margin-left: -10.12px;
     margin-bottom: 60px;
@@ -303,13 +303,14 @@ div {
     width: 20.24px;
     height: 13.5px;
     left: 50vw;
-    top: 67vw;
+    top: 322px;
     display: flex;
     margin-left: -10.12px;
     margin-bottom: 60px;
     transform: rotate(90deg)!important;
   }
 }
+
 .pa1 {
   position: absolute;
   overflow: visible;

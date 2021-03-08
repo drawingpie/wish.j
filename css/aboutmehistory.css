@@ -324,7 +324,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pa1 {
     display: none;
   }
@@ -341,7 +341,7 @@ div {
   border-radius: 500vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pa2 {
     display: none;
   }
@@ -358,7 +358,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pa3 {
     display: none;
   }
@@ -375,7 +375,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pa4 {
     display: none;
   }
@@ -392,7 +392,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pa5 {
     display: none;
   }
@@ -409,7 +409,7 @@ div {
   border-radius: 50vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .pa6 {
     display: none;
   }
@@ -614,7 +614,7 @@ div {
   margin-left: -2.57vw;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   #foxsmall {
     top: 155.25px;
     width: 78.83px;
@@ -633,7 +633,7 @@ div {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .arrow_right {
     width: 20.29px;
     height: 19.77px;
@@ -657,7 +657,7 @@ div {
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .arrow_left {
     width: 20.29px;
     height: 19.77px;

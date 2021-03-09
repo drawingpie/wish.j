@@ -1,14 +1,3 @@
-.mediaViewInfo {
-  --web-view-name: portfolio;
-  --web-view-id: portfolio;
-  --web-scale-on-resize: true;
-  --web-enable-deep-linking: true;
-}
-
-:root {
-  --web-view-ids: portfolio;
-}
-
 @font-face {
   font-family: 'Cafe24Dongdong';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
@@ -18,21 +7,20 @@
 
 body {
   margin: 0;
-  max-width: 1920px;
-  background: linear-gradient(to bottom, #002169, #001135);
+  max-width: 100vw;
   position: relative;
-  height: auto;
+  height: 48.85vw;
   overflow: hidden;
-  padding-top: 49%;
+  background: linear-gradient(to bottom, #002169, #001135);
   background-repeat: no-repeat;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   body {
     background: url('lightmobile.png'), linear-gradient(to bottom, #002169, #001135);
     background-position: 0% 0%;
     position: relative;
-    height: 643px;
+    height: 760vw;
     overflow: hidden;
     padding-top: 0%;
     background-repeat: no-repeat;
@@ -45,115 +33,103 @@ div {
   font-style: normal;
 }
 
-#pa1 {
-  fill: rgba(248, 234, 33, 1);
-}
-
 .pa1 {
   position: absolute;
   overflow: visible;
-  width: 9.2px;
-  height: 9.2px;
-  left: 15.3%;
-  top: 38.4%;
+  width: 0.48vw;
+  height: 0.48vw;
+  left: 15.3vw;
+  top: 15.73vw;
+  background-color: #F8EA21;
+  border-radius: 100vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .pa1 {
     display: none;
   }
 }
 
-#pa2 {
-  fill: rgba(248, 234, 33, 1);
-}
-
 .pa2 {
   position: absolute;
   overflow: visible;
-  width: 9.2px;
-  height: 9.2px;
-  left: 88.9%;
-  top: 49.2%;
+  width: 0.48vw;
+  height: 0.48vw;
+  left: 88.9vw;
+  top: 20.17vw;
+  background-color: #F8EA21;
+  border-radius: 500vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .pa2 {
     display: none;
   }
 }
 
-#pa3 {
-  fill: rgba(248, 234, 33, 1);
-}
-
 .pa3 {
   position: absolute;
   overflow: visible;
-  width: 28px;
-  height: 28px;
-  left: 12.9%;
-  top: 63.6%;
+  width: 1.46vw;
+  height: 1.46vw;
+  left: 12.9vw;
+  top: 25.99vw;
+  background-color: #F8EA21;
+  border-radius: 100vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .pa3 {
     display: none;
   }
 }
 
-#pa4 {
-  fill: rgba(248, 234, 33, 1);
-}
-
 .pa4 {
   position: absolute;
   overflow: visible;
-  width: 28px;
-  height: 28px;
-  left: 83.3%;
-  top: 37.8%;
+  width: 1.46vw;
+  height: 1.46vw;
+  left: 83.3vw;
+  top: 15.46vw;
+  background-color: #F8EA21;
+  border-radius: 100vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .pa4 {
     display: none;
   }
 }
 
-#pa5 {
-  fill: rgba(248, 234, 33, 1);
-}
-
 .pa5 {
   position: absolute;
   overflow: visible;
-  width: 18.8px;
-  height: 18.8px;
-  left: 10.7%;
-  top: 43%;
+  width: 0.98vw;
+  height: 0.98vw;
+  left: 10.7vw;
+  top: 17.60vw;
+  background-color: #F8EA21;
+  border-radius: 100vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .pa5 {
     display: none;
   }
 }
 
-#pa6 {
-  fill: rgba(248, 234, 33, 1);
-}
-
 .pa6 {
   position: absolute;
   overflow: visible;
-  width: 18.8px;
-  height: 18.8px;
-  left: 84.7%;
-  top: 63.6%;
+  width: 0.98vw;
+  height: 0.98vw;
+  left: 84.7vw;
+  top: 26.03vw;
+  background-color: #F8EA21;
+  border-radius: 100vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .pa6 {
     display: none;
   }
@@ -161,27 +137,29 @@ div {
 
 .light {
   position: absolute;
-  width: 100%;
+  width: 100vw;
   height: auto;
-  left: 0.9%;
-  top: -5.1%;
+  left: 0.9vw;
+  top: -2.49vw;
   overflow: visible;
   display: block;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .light {
-    display: none;
+    width: 767px;
+    left: 50%;
+    margin-left: -383.5px;
   }
 }
 
 #aboutme {
-  left: 36.5%;
-  top: 27.7%;
+  left: 36.5vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -191,12 +169,12 @@ div {
 }
 
 #portfolio {
-  left: 47.5%;
-  top: 27.7%;
+  left: 47.5vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -206,12 +184,12 @@ div {
 }
 
 #contact {
-  left: 58.5%;
-  top: 27.7%;
+  left: 58.5vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -221,12 +199,12 @@ div {
 }
 
 #today {
-  left: 68.8%;
-  top: 27.7%;
+  left: 68.8vw;
+  top: 13.33vw;
   position: absolute;
   text-align: center;
   text-decoration: none;
-  font-size: 1.875rem;
+  font-size: 1.56vw;
   color: #fff;
   cursor: pointer;
 }
@@ -235,7 +213,7 @@ div {
   color: #F09D05;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #contact {
     display: none;
   }
@@ -255,18 +233,20 @@ div {
 
 .logo {
   position: absolute;
-  height: auto;
-  width: 103.4px;
-  height: 84.51px;
-  left: 48.2%;
-  top: 4.2%;
+  width: 5.39vw;
+  height: 4.40vw;
+  left: 48.2vw;
+  top: 2.05vw;
   overflow: visible;
   cursor: pointer;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .logo {
-    transform: translate(-40%, -47%) scale(0.6, 0.6);
+    width: 60px;
+    height: auto;
+    left: 50%;
+    margin-left: -30px;
   }
 }
 
@@ -275,13 +255,13 @@ div {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .overlay {
     display: block;
-    height: 100%;
+    height: 760vw;
     width: 0;
     position: absolute;
-    z-index: 1;
+    z-index: 99;
     top: 0;
     right: 0;
     background-color: rgb(0, 0, 0);
@@ -291,58 +271,58 @@ div {
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .overlay-content {
     display: block;
     position: relative;
-    top: 25%;
-    width: 100%;
+    top: 30vw;
+    width: 100vw;
     text-align: center;
-    margin-top: 30px;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .overlay a {
     display: block;
-    padding: 8px;
+    padding: 7vw;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #818181;
     transition: 0.3s;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .overlay a:hover {
     color: #fff;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .overlay .closebtn {
     display: block;
     position: absolute;
-    top: 3%;
-    left: 8%;
+    top: 3vw;
+    left: 8vw;
     fill: #818181;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .overlay .closebtn:hover {
     fill: #fff;
   }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .openbtn {
     display: block;
     font-size: 30px;
     cursor: pointer;
     position: absolute;
-    top: 2%;
-    left: 87%;
+    top: 2vw;
+    left: 87vw;
+    z-index: 9;
   }
 }
 
@@ -355,7 +335,7 @@ div {
   display: block;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .box {
     transform: translate(-40%, -60%) scale(0.4, 0.4);
   }
@@ -363,11 +343,11 @@ div {
 
 #visit {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0%;
-  top: 0%;
-  border-radius: 22px;
+  width: 100vw;
+  height: 100vw;
+  left: 0vw;
+  top: 0vw;
+  border-radius: 1.15vw;
   transition: all .3s ease;
   -moz-transition: all .3s ease;
   -webkit-transition: all .3s ease;
@@ -377,15 +357,15 @@ div {
 
 .visittext {
   position: relative;
-  padding-left: 40%;
-  top: 45%;
-  font-size: 1.625rem;
+  padding-left: 40vw;
+  top: 45vw;
+  font-size: 1.35vw;
   color: #fff;
   text-align: center;
 }
 
 .bg {
-  background-image: url("index1.html.png");
+  background-image: url("../image/hansweb.png");
 }
 
 #visit:hover {
@@ -396,22 +376,22 @@ div {
 }
 
 #HANS_CAKE_Website_Renewal_Pers {
-  left: 46.7%;
-  top: 79%;
-  width: 370px;
+  left: 46.7vw;
+  top: 79vw;
+  width: 19.27vw;
   position: absolute;
   overflow: visible;
   text-align: right;
-  font-size: 1.625rem;
-  color: rgba(255, 255, 255, 1);
+  font-size: 1.35vw;
+  color: #fff;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #HANS_CAKE_Website_Renewal_Pers {
-    left: 17.5%;
-    top: 48%;
+    left: 17.5vw;
+    top: 193px;
     width: 250px;
-    font-size: 1rem;
+    font-size: 16px;
     text-align: center;
   }
 }
@@ -420,112 +400,71 @@ div {
   position: absolute;
   fill: transparent;
   stroke: rgba(255, 255, 255, 1);
-  stroke-width: 3px;
+  stroke-width: 0.16vw;
   overflow: visible;
-  width: 20px;
-  height: 20px;
-  left: 36%;
-  top: 79.3%;
+  width: 1.04vw;
+  height: 1.04vw;
+  left: 36vw;
+  top: 79.3vw;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 #heart:hover {
   fill: #F06396;
-  stroke-width: 0px;
+  stroke-width: 0vw;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #heart {
-    left: 21%;
-    top: 55%;
-    transform: scale(0.5)
+    left: 21vw;
+    top: 328px;
   }
 }
 
 #likes {
-  left: 37.8%;
-  top: 79%;
+  left: 37.8vw;
+  top: 79vw;
   position: absolute;
   overflow: visible;
-  width: 53px;
+  width: 2.76vw;
   text-align: center;
-  font-size: 1.625rem;
-  color: rgba(255, 255, 255, 1);
+  font-size: 1.35vw;
+  color: #fff;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #likes {
-    left: 24%;
-    top: 55.5%;
-    font-size: 1rem
+    left: 24vw;
+    top: 328px;
+    font-size: 16px;
   }
 }
 
 #result {
-  left: 40.9%;
-  top: 79%;
+  left: 40.9vw;
+  top: 79vw;
   position: absolute;
   overflow: visible;
-  width: 53px;
+  width: 2.76vw;
   text-align: center;
-  font-size: 1.625rem;
-  color: rgba(255, 255, 255, 1);
+  font-size: 1.35vw;
+  color: #fff;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #result {
-    left: 33%;
-    top: 55.5%;
-    font-size: 1rem
-  }
-}
-
-#arrow_left {
-  fill: #fff;
-  position: absolute;
-  width: 41px;
-  height: 41px;
-  left: 26.7%;
-  top: 58.1%;
-  overflow: visible;
-}
-
-#arrow_left:hover {
-  fill: #F8EA21;
-}
-
-@media (max-width: 375px) {
-  #arrow_left {
-    display: none;
-  }
-}
-
-#arrow_right {
-  fill: #fff;
-  position: absolute;
-  width: 41px;
-  height: 41px;
-  left: 73.1%;
-  top: 58.1%;
-  overflow: visible;
-}
-
-#arrow_right:hover {
-  fill: #F8EA21;
-}
-
-@media (max-width: 375px) {
-  #arrow_right {
-    display: none;
+    left: 33vw;
+    top: 328px;
+    font-size: 16px;
   }
 }
 
 #download {
   position: absolute;
-  width: 95.92px;
-  height: 26.23px;
-  left: 60.9%;
-  top: 86%;
+  width: 5.00vw;
+  height: 1.37vw;
+  left: 60.9vw;
+  top: 86vw;
   overflow: visible;
   fill: #fff;
   cursor: pointer;
@@ -535,30 +474,31 @@ div {
   fill: #F8EA21;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #download {
-    left: 58%;
-    top: 54.5%;
-    transform: scale(0.6, 0.6);
-  }
+    left: 58vw;
+    top: 328px;
+    }
 }
 
 #footer {
-  left: 37.8%;
-  top: 95%;
+  left: 37.8vw;
+  top: 45.21vw;
   position: absolute;
   overflow: visible;
-  width: 469px;
+  width: 24.43vw;
   white-space: nowrap;
   text-align: center;
-  font-size: 1.301rem;
+  font-size: 0.78vw;
   color: rgba(151, 164, 240, 1);
-  display: block;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 480px) {
   #footer {
-    font-size: 50%;
-    transform: translate(-39%, -5%);
+    top: 613px;
+    left: 50vw;
+    width: 247px;
+    margin-left: -123.5px;
+    font-size: 11px;
   }
 }

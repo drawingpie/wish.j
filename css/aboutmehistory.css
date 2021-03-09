@@ -241,6 +241,7 @@ div {
   margin-right: 17vw;
   animation: effect3 1.1s both
 }
+
 @keyframes effect3 {
   0% {
     transform: translateX(-600px);
@@ -294,8 +295,8 @@ div {
     display: flex;
     margin-left: -10.12px;
     margin-bottom: 60px;
-    -webkit-transform: rotate(90deg)!important;
-    transform: rotate(90deg)!important;
+    -webkit-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
   }
 }
 
@@ -308,8 +309,8 @@ div {
     display: flex;
     margin-left: -10.12px;
     margin-bottom: 60px;
-    -webkit-transform: rotate(90deg)!important;
-    transform: rotate(90deg)!important;
+    -webkit-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
   }
 }
 
@@ -688,6 +689,6 @@ div {
     left: 50vw;
     width: 247px;
     margin-left: -123.5px;
-    font-size: 17px;
+    font-size: 11px;
   }
 }

@@ -37,7 +37,7 @@ div {
   position: absolute;
   overflow: visible;
   width: 0.49vw;
-  height:0.49vw;
+  height: 0.49vw;
   left: 12vw;
   top: 15vw;
   background-color: #F8EA21;
@@ -50,7 +50,7 @@ div {
     transform: scale(1)
   }
 
-  100%{
+  100% {
     transform: scale(2)
   }
 }
@@ -95,7 +95,7 @@ div {
 .pa3 {
   position: absolute;
   width: 0.48vw;
-  height:0.48vw;
+  height: 0.48vw;
   left: 91vw;
   top: 15vw;
   background-color: #F8EA21;
@@ -181,8 +181,8 @@ div {
 
 .pa6 {
   position: absolute;
-  width:  1.46vw;
-  height:  1.46vw;
+  width: 1.46vw;
+  height: 1.46vw;
   left: 89vw;
   top: 25.07vw;
   background-color: #F8EA21;
@@ -256,6 +256,7 @@ div {
     transform: scale(1)
   }
 }
+
 @media screen and (max-width: 480px) {
   .pa8 {
     width: 18px;
@@ -264,6 +265,7 @@ div {
     top: 302.7px;
   }
 }
+
 .pa9 {
   position: absolute;
   width: 0.98vw;
@@ -284,6 +286,7 @@ div {
     transform: scale(1)
   }
 }
+
 @media screen and (max-width: 480px) {
   .pa9 {
     width: 14.8px;
@@ -292,10 +295,11 @@ div {
     top: 296.77px;
   }
 }
+
 #fox {
   position: absolute;
   width: 21.85vw;
-  height:25.08vw;
+  height: 25.08vw;
   left: 57.2vw;
   top: 18.23vw;
   overflow: visible;
@@ -336,6 +340,7 @@ div {
     transform: rotateX(80deg);
   }
 }
+
 .whiteeyer {
   position: absolute;
   overflow: visible;
@@ -357,6 +362,7 @@ div {
   background-color: #000;
   border-radius: 100vw;
 }
+
 @media screen and (max-width: 480px) {
   #eyer {
     top: 136px;
@@ -364,12 +370,14 @@ div {
     width: 17.62px;
     height: 17.62px;
   }
+
   .whiteeyer {
     width: 17.62px;
     height: 17.62px;
     left: 73px;
     top: 0;
   }
+
   .blackeyer {
     width: 12.94px;
     height: 14.99px;
@@ -377,6 +385,7 @@ div {
     top: 2px;
   }
 }
+
 #eyel {
   position: absolute;
   width: 1.94vw;
@@ -421,6 +430,7 @@ div {
   background-color: #000;
   border-radius: 100vw;
 }
+
 @media screen and (max-width: 480px) {
   #eyel {
     top: 136px;
@@ -428,12 +438,14 @@ div {
     width: 17.62px;
     height: 17.62px;
   }
+
   .whiteeyel {
     width: 17.62px;
     height: 17.62px;
     left: 0;
     top: 0;
   }
+
   .blackeyel {
     width: 12.94px;
     height: 14.99px;
@@ -441,6 +453,7 @@ div {
     top: 2px;
   }
 }
+
 #DREAMS {
   left: 22.5vw;
   top: 20vw;
@@ -698,14 +711,16 @@ div {
   overflow: visible;
   cursor: pointer;
 }
+
 @media screen and (max-width: 480px) {
   .logo {
-  width: 60px;
-  height: auto;
-  left: 50%;
-  margin-left: -30px;
+    width: 60px;
+    height: auto;
+    left: 50%;
+    margin-left: -30px;
   }
 }
+
 .overlay, .overlay-content, .overlay a,
 .overlay .closebtn, .openbtn {
   display: none;
@@ -740,7 +755,7 @@ div {
 @media screen and (max-width: 480px) {
   .overlay a {
     display: block;
-    padding:7vw;
+    padding: 7vw;
     text-decoration: none;
     font-size: 2.25rem;
     color: #818181;
@@ -800,6 +815,6 @@ div {
     left: 50vw;
     width: 247px;
     margin-left: -123.5px;
-    font-size: 17px;
+    font-size: 11px;
   }
 }

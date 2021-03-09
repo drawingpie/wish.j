@@ -209,7 +209,7 @@ div {
 
 @media screen and (max-width: 480px) {
   #illust {
-    top: 74px;
+    top: 83px;
     font-size: 20px;
   }
 }
@@ -707,6 +707,6 @@ div {
     left: 50vw;
     width: 247px;
     margin-left: -123.5px;
-    font-size: 17px;
+    font-size: 11px;
   }
 }

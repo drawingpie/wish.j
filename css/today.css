@@ -41,6 +41,7 @@ div {
   left: 9vw;
   top: 21.36vw;
   margin-left: 15px;
+
 }
 
 .card {
@@ -75,12 +76,13 @@ div {
 
 .date {
   left: 0vw;
-  top: 15vw;
+  top: 14.5vw;
   position: absolute;
   overflow: visible;
   text-align: left;
   font-size: 0.83vw;
   color: rgba(151, 164, 240, 1);
+  margin-bottom: 20vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -99,6 +101,7 @@ div {
   text-align: left;
   font-size: 0.83vw;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 20vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -117,6 +120,7 @@ div {
   text-align: left;
   font-size: 1.35vw;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 20vw;
 }
 
 @media screen and (max-width: 480px) {
@@ -129,7 +133,7 @@ div {
 
 @media screen and (max-width: 480px) {
   .boardboxwrapper {
-    height: 485.17px;
+    height: 600px;
     overflow: auto;
   }
 }

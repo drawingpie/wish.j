@@ -128,7 +128,7 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  .boxwrapper {
+  .boardboxwrapper {
     height: 485.17px;
     overflow: auto;
   }

@@ -335,12 +335,6 @@ div {
   display: block;
 }
 
-@media screen and (max-width: 480px) {
-  .box {
-    transform: translate(-40%, -60%) scale(0.4, 0.4);
-  }
-}
-
 #visit {
   position: absolute;
   width: 30.78vw;
@@ -376,6 +370,36 @@ div {
   opacity: 1;
 }
 
+@media screen and (max-width: 480px) {
+  .box {
+    width: 231px;
+    height: 135px;
+    left: 50%;
+    top: 193px;
+    margin-left: -115.5px;
+    border-radius: 16px;
+  }
+
+  #visit {
+    width: 231px;
+    height: 135px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+  }
+
+  .visittext {
+    position: absolute;
+    margin-left: -108px;
+    width: 216px;
+    left: 50%;
+    top: 52px;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+
+/**
 #heart {
   position: absolute;
   fill: transparent;
@@ -438,7 +462,7 @@ div {
     font-size: 16px;
   }
 }
-
+**/
 #download {
   position: absolute;
   width: 5.00vw;
@@ -456,8 +480,10 @@ div {
 
 @media screen and (max-width: 480px) {
   #download {
-    left: 58vw;
-    top: 328px;
+    left: 60%;
+    top: 332.97px;
+    width: 67.14px;
+    height: 18.36px;
   }
 }
 

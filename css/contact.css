@@ -146,8 +146,11 @@ div {
 
 @media screen and (max-width: 480px) {
   #foxcontact {
-    left: 300px;
-    top: 435.59px;
+    left: 50vw;
+    top: 400px;
+    width: 167px;
+    height: auto;
+    margin-left: -83.5px;
   }
 }
 
@@ -168,15 +171,6 @@ div {
 
   50% {
     transform: translateX(1100px)
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #email {
-    width: 35.14px;
-    height: 23.72px;
-    left: 366px;
-    top: 228.23;
   }
 }
 
@@ -231,6 +225,41 @@ div {
 
   to {
     transform: translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #email {
+    left: 50vw;
+    top: 228.23px;
+    width: 302px;
+    margin-left: -151px;
+    text-align: center;
+  }
+
+  #here {
+    font-size: 20px;
+    line-height: 25px;
+    width: 184px;
+    left: 60px;
+    top: 95px;
+  }
+
+  #E-mail_designezenavercom {
+    width: 302px;
+    ;
+    font-size: 30px;
+    line-height: 3.65vw;
+    margin-top: -0.26vw;
+    top: 60px;
+  }
+
+  .Icon_zocial-email {
+    width: 35.14px;
+    height: 23.72px;
+    left: 50%;
+    top: 0px;
+    margin-left: -17.57px;
   }
 }
 

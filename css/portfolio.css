@@ -328,10 +328,10 @@ div {
 
 .box {
   position: absolute;
-  width: 591px;
-  height: 343px;
-  left: 35.4%;
-  top: 40.5%;
+  width: 30.78vw;
+  height: 17.86vw;
+  left: 35.4vw;
+  top: 19.47vw;
   display: block;
 }
 
@@ -343,8 +343,8 @@ div {
 
 #visit {
   position: absolute;
-  width: 100vw;
-  height: 100vw;
+  width: 30.78vw;
+  height: 17.86vw;
   left: 0vw;
   top: 0vw;
   border-radius: 1.15vw;
@@ -357,8 +357,8 @@ div {
 
 .visittext {
   position: relative;
-  padding-left: 40vw;
-  top: 45vw;
+  left: 5.42vw;
+  top: 7.50vw;
   font-size: 1.35vw;
   color: #fff;
   text-align: center;
@@ -366,34 +366,12 @@ div {
 
 .bg {
   background-image: url("../image/hansweb.png");
+  background-size: cover;
 }
 
 #visit:hover {
-  position: absolute;
-  overflow: visible;
   background: rgba(0, 0, 0, .7);
   opacity: 1;
-}
-
-#HANS_CAKE_Website_Renewal_Pers {
-  left: 46.7vw;
-  top: 79vw;
-  width: 19.27vw;
-  position: absolute;
-  overflow: visible;
-  text-align: right;
-  font-size: 1.35vw;
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #HANS_CAKE_Website_Renewal_Pers {
-    left: 17.5vw;
-    top: 193px;
-    width: 250px;
-    font-size: 16px;
-    text-align: center;
-  }
 }
 
 #heart {
@@ -405,7 +383,7 @@ div {
   width: 1.04vw;
   height: 1.04vw;
   left: 36vw;
-  top: 79.3vw;
+  top: 37.60vw;
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
@@ -423,7 +401,7 @@ div {
 
 #likes {
   left: 37.8vw;
-  top: 79vw;
+  top: 37.60vw;
   position: absolute;
   overflow: visible;
   width: 2.76vw;
@@ -442,7 +420,7 @@ div {
 
 #result {
   left: 40.9vw;
-  top: 79vw;
+  top: 37.60vw;
   position: absolute;
   overflow: visible;
   width: 2.76vw;
@@ -464,7 +442,7 @@ div {
   width: 5.00vw;
   height: 1.37vw;
   left: 60.9vw;
-  top: 86vw;
+  top: 37.60vw;
   overflow: visible;
   fill: #fff;
   cursor: pointer;
@@ -478,7 +456,7 @@ div {
   #download {
     left: 58vw;
     top: 328px;
-    }
+  }
 }
 
 #footer {

@@ -137,7 +137,9 @@ div {
 
 #foxcontact {
   position: absolute;
-  left: 26.5vw;
+  width: 20.21vw;
+  height: 22.55vw;
+  left: 26.56vw;
   top: 39vw;
   overflow: visible;
 }

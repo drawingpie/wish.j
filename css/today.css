@@ -34,36 +34,48 @@ div {
 }
 
 .image-box {
-  position: absolute;
-  margin: auto;
-  overflow: hidden;
-  width: 27.08vw;
-  left: 8.2vw;
-  top: 40vw;
+  position: relative;
+  display: inline-flex;
+  width: 26vw;
+  height: auto;
+  left: 9vw;
+  top: 21.36vw;
+  margin-left: 15px;
 }
 
 .card {
-  max-width: 100vw;
-  transition: all 0.3s;
-  display: block;
-  width: 100vw;
-  height: auto;
+  width: 27.08vw;
+  height: 13.80vw;
   transform: scale(1);
-}
+  transition: all 0.3s;
+  overflow: hidden;
+ }
 
 @media screen and (max-width: 480px) {
   .image-box {
-    transform: translate(-19%, -65%) scale(0.5);
+    display: block;
+    width: 276px;
+    height: 140.65px;
+    left: 50%;
+    top: 181.67px;
+    margin-left: -138px;
+    margin-bottom: 20px;
   }
+  .card {
+    width: 276px;
+    height: 140.65px;
+
+
+ }
 }
 
-.card {
-  transform: scale(1.1);
+.card:hover {
+  transform: scale(1.05);
 }
 
 .date {
-  left: 8vw;
-  top: 70vw;
+  left: 0vw;
+  top: 15vw;
   position: absolute;
   overflow: visible;
   text-align: left;
@@ -79,8 +91,8 @@ div {
 }
 
 .boardtext {
-  left: 8vw;
-  top: 76vw;
+  left: 0vw;
+  top: 17.5vw;
   position: absolute;
   overflow: visible;
   text-align: left;
@@ -96,8 +108,8 @@ div {
 }
 
 .headline {
-  left: 8%;
-  top: 73%;
+  left: 0vw;
+  top: 16vw;
   position: absolute;
   overflow: visible;
   text-align: left;

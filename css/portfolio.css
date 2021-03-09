@@ -356,11 +356,13 @@ div {
 }
 
 .visittext {
-  position: relative;
-  left: 5.42vw;
+  position: absolute;
+  left: 15.5vw;
   top: 7.50vw;
   font-size: 1.35vw;
   color: #fff;
+  width: 18.33vw;
+  margin-left: -9.165vw;
   text-align: center;
 }
 

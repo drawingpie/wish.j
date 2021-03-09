@@ -33,8 +33,7 @@ div {
   font-style: normal;
 }
 
-/*첫번째게시판*/
-.image-box1 {
+.image-box {
   position: absolute;
   margin: auto;
   overflow: hidden;
@@ -43,7 +42,7 @@ div {
   top: 40%;
 }
 
-.image-box1 img {
+.card {
   max-width: 100%;
   transition: all 0.3s;
   display: block;
@@ -53,16 +52,16 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  .image-box1 {
+  .image-box {
     transform: translate(-19%, -65%) scale(0.5);
   }
 }
 
-.image-box1:hover img {
+.image-box:hover img {
   transform: scale(1.1);
 }
 
-#date202012081 {
+.date {
   left: 8%;
   top: 70%;
   position: absolute;
@@ -73,13 +72,13 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  #date202012081 {
+  .date {
     left: 16%;
     top: 46%;
   }
 }
 
-#boardtext1 {
+.boardtext {
   left: 8%;
   top: 76%;
   position: absolute;
@@ -90,13 +89,13 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  #boardtext1 {
+  .boardtext {
     left: 16%;
     top: 52.5%;
   }
 }
 
-#headline1 {
+.headline {
   left: 8%;
   top: 73%;
   position: absolute;
@@ -107,169 +106,12 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  #headline1 {
+  .headline {
     left: 16%;
     top: 49%;
   }
 }
 
-/*두번째게시판*/
-.image-box2 {
-  position: absolute;
-  margin: auto;
-  overflow: hidden;
-  width: 520px;
-  left: 36.4%;
-  top: 40%;
-}
-
-.image-box2 img {
-  max-width: 100%;
-  transition: all 0.3s;
-  display: block;
-  width: 100%;
-  height: auto;
-  transform: scale(1);
-}
-
-.image-box2:hover img {
-  transform: scale(1.1);
-}
-
-@media screen and (max-width: 480px) {
-  .image-box2 {
-    transform: translate(-39.5%, 25%) scale(0.5);
-  }
-}
-
-#date202012082 {
-  left: 36.4%;
-  top: 70%;
-  position: absolute;
-  overflow: visible;
-  width: 77px;
-  text-align: left;
-  font-size: 1rem;
-  color: rgba(151, 164, 240, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #date202012082 {
-    left: 16%;
-    top: 83%;
-  }
-}
-
-#boardtext2 {
-  left: 36.4%;
-  top: 76%;
-  position: absolute;
-  overflow: visible;
-  width: 173px;
-  text-align: left;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #boardtext2 {
-    left: 16%;
-    top: 89.5%;
-  }
-}
-
-#headline2 {
-  left: 36.4%;
-  top: 73%;
-  position: absolute;
-  overflow: visible;
-  width: 63px;
-  text-align: left;
-  font-size: 1.625rem;
-  color: rgba(255, 255, 255, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #headline2 {
-    left: 16%;
-    top: 86%;
-  }
-}
-
-/*세번째게시판*/
-.image-box3 {
-  position: absolute;
-  margin: auto;
-  overflow: hidden;
-  width: 520px;
-  left: 64.5%;
-  top: 40%;
-}
-
-.image-box3 img {
-  max-width: 100%;
-  transition: all 0.3s;
-  display: block;
-  width: 100%;
-  height: auto;
-  transform: scale(1);
-}
-
-.image-box3:hover img {
-  transform: scale(1.1);
-}
-
-@media screen and (max-width: 480px) {
-  .image-box3 {
-    display: none;
-  }
-}
-
-#date202012083 {
-  left: 64.5%;
-  top: 70%;
-  position: absolute;
-  overflow: visible;
-  width: 77px;
-  font-size: 1rem;
-  color: rgba(151, 164, 240, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #date202012083 {
-    display: none;
-  }
-}
-
-#boardtext3 {
-  left: 64.5%;
-  top: 76%;
-  position: absolute;
-  overflow: visible;
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #boardtext3 {
-    display: none;
-  }
-}
-
-#headline3 {
-  left: 64.5%;
-  top: 73%;
-  position: absolute;
-  overflow: visible;
-  font-size: 1.625rem;
-  color: rgba(255, 255, 255, 1);
-}
-
-@media screen and (max-width: 480px) {
-  #headline3 {
-    display: none;
-  }
-}
 
 .light {
   position: absolute;

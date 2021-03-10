@@ -335,7 +335,7 @@ div {
   display: block;
 }
 
-#visit {
+.visit {
   position: absolute;
   width: 30.78vw;
   height: 17.86vw;
@@ -365,7 +365,7 @@ div {
   background-size: cover;
 }
 
-#visit:hover {
+.visit:hover {
   background: rgba(0, 0, 0, .7);
   opacity: 1;
 }
@@ -380,7 +380,7 @@ div {
     border-radius: 16px;
   }
 
-  #visit {
+  .visit {
     width: 231px;
     height: 135px;
     left: 0px;
@@ -399,71 +399,7 @@ div {
   }
 }
 
-/**
-#heart {
-  position: absolute;
-  fill: transparent;
-  stroke: rgba(255, 255, 255, 1);
-  stroke-width: 0.16vw;
-  overflow: visible;
-  width: 1.04vw;
-  height: 1.04vw;
-  left: 36vw;
-  top: 37.60vw;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-}
-
-#heart:hover {
-  fill: #F06396;
-  stroke-width: 0vw;
-}
-
-@media screen and (max-width: 480px) {
-  #heart {
-    left: 21vw;
-    top: 328px;
-  }
-}
-
-#likes {
-  left: 37.8vw;
-  top: 37.60vw;
-  position: absolute;
-  overflow: visible;
-  width: 2.76vw;
-  text-align: center;
-  font-size: 1.35vw;
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #likes {
-    left: 24vw;
-    top: 328px;
-    font-size: 16px;
-  }
-}
-
-#result {
-  left: 40.9vw;
-  top: 37.60vw;
-  position: absolute;
-  overflow: visible;
-  width: 2.76vw;
-  text-align: center;
-  font-size: 1.35vw;
-  color: #fff;
-}
-
-@media screen and (max-width: 480px) {
-  #result {
-    left: 33vw;
-    top: 328px;
-    font-size: 16px;
-  }
-}
-**/
-#download {
+.download {
   position: absolute;
   width: 5.00vw;
   height: 1.37vw;
@@ -474,8 +410,8 @@ div {
   cursor: pointer;
 }
 
-#download:hover {
-  fill: #F8EA21;
+.download:hover {
+  fill: #F8EA21 !important;
 }
 
 @media screen and (max-width: 480px) {

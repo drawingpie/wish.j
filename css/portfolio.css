@@ -402,9 +402,8 @@ div {
 .plan {
   width: 5.34vw;
   height: 1.10vw;
-}
-#planbtn {
-  fill: #F8EA21;
+  left: 50vw;
+  top: 52vw;
 }
 
 @media screen and (max-width: 480px) {

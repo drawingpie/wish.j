@@ -399,11 +399,11 @@ div {
   }
 }
 
-#planbtn {
+.plan {
   width: 5.34vw;
   height: 1.10vw;
 }
-#planbtn:hover {
+#planbtn {
   fill: #F8EA21;
 }
 

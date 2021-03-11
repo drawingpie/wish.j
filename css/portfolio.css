@@ -400,13 +400,16 @@ div {
 }
 
 .plan {
-  fill: #fff;
   width: 5.34vw;
   height: 1.10vw;
   left: 60vw;
   top: 38vw;
   position: absolute;
   overflow: visible;
+}
+
+.plan:hover {
+  fill: #F8EA21;
 }
 
 @media screen and (max-width: 480px) {

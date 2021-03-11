@@ -400,10 +400,13 @@ div {
 }
 
 .plan {
+  fill: #fff;
   width: 5.34vw;
   height: 1.10vw;
-  left: 50vw;
-  top: 52vw;
+  left: 60vw;
+  top: 38vw;
+  position: absolute;
+  overflow: visible;
 }
 
 @media screen and (max-width: 480px) {

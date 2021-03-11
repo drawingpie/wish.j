@@ -421,8 +421,9 @@ div {
   position: absolute;
 }
 
-.download img:hover {
+.download a span:hover, .Icon_ionic-md-download:hover {
   color: #F8EA21 !important;
+  fill: #F8EA21 !important;
 }
 
 @media screen and (max-width: 480px) {

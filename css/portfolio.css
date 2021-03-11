@@ -401,14 +401,28 @@ div {
 
 .download {
   position: absolute;
-  left: 60.9vw;
-  top: 37.60vw;
+  left: 59vw;
+  top: 38.2vw;
   overflow: visible;
   cursor: pointer;
 }
 
-.download:hover {
-  fill: #F8EA21 !important;
+.planbtn {
+  width: 4.64vw;
+  height: 1.51vw;
+}
+
+.download a span {
+  font-size: 1.35vw;
+  color: #fff;
+  text-decoration: none;
+  left:3.5vw;
+  top: 0.2vw;
+  position: absolute;
+}
+
+.download img:hover {
+  color: #F8EA21 !important;
 }
 
 @media screen and (max-width: 480px) {

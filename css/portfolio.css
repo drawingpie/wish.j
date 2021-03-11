@@ -406,11 +406,10 @@ div {
   left: 60.9vw;
   top: 37.60vw;
   overflow: visible;
-  fill: #fff;
   cursor: pointer;
 }
 
-.download:hover {
+.cls-1:hover {
   fill: #F8EA21 !important;
 }
 

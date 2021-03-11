@@ -399,13 +399,6 @@ div {
   }
 }
 
-.download {
-  position: absolute;
-  left: 60vw;
-  top: 38.2vw;
-  overflow: visible;
-}
-
 #planbtn {
   width: 5.34vw;
   height: 1.10vw;

@@ -420,14 +420,15 @@ a svg:active #plan {
 }
 
 @media screen and (max-width: 480px) {
-  .plan a svg {
-    left: 0px !important;
-    top: 165px !important;
-    width: 61px !important;
-    height: 12.28px !important;
-    position: absolute !important;
-  }
+  .plan a svg  {
+    left: 60vw;
+    top: 340px;
+    width: 61px;
+    height: 12.28px;
+    position: fixed;
+   }
 }
+
 
 @media screen and (max-width: 480px) {
   a svg:hover #plan {

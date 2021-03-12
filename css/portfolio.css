@@ -426,7 +426,7 @@ div {
 
 @media screen and (max-width: 480px) {
   .plan:hover {
-    filter: invert(0) brightness(1);
+    filter: brightness(0%) contrast(0%) opacity(0%) saturate(0%);
   }
 }
 

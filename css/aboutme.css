@@ -406,6 +406,12 @@ div {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #arrow_right:active {
+    fill: #F8EA21;
+  }
+}
+
 #arrow_left {
   fill: #fff;
   position: absolute;
@@ -431,6 +437,12 @@ div {
     height: 19.77px;
     left: 30vw;
     top: 196.47px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #arrow_left:active {
+    fill: #F8EA21;
   }
 }
 

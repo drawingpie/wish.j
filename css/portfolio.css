@@ -420,11 +420,12 @@ a svg:active #plan {
 }
 
 @media screen and (max-width: 480px) {
-  #plan {
-    left: 60%;
-    top: 332.97px;
-    width: 67.14px;
-    height: 18.36px;
+  .plan a svg {
+    left: 0px !important;
+    top: 165px !important;
+    width: 61px !important;
+    height: 12.28px !important;
+    position: absolute !important;
   }
 }
 

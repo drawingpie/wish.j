@@ -393,12 +393,22 @@ div {
   fill: #F8EA21;
 }
 
+#arrow_right:active {
+  fill: #F8EA21;
+}
+
 @media screen and (max-width: 480px) {
   #arrow_right {
     width: 20.29px;
     height: 19.77px;
     left: 65vw;
     top: 196.47px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #arrow_right:hover {
+    fill: #fff;
   }
 }
 
@@ -417,12 +427,22 @@ div {
   fill: #F8EA21;
 }
 
+#arrow_active:active {
+  fill: #F8EA21;
+}
+
 @media screen and (max-width: 480px) {
   #arrow_left {
     width: 20.29px;
     height: 19.77px;
     left: 30vw;
     top: 196.47px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #arrow_left:hover {
+    fill: #fff;
   }
 }
 

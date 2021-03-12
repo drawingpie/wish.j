@@ -407,11 +407,15 @@ div {
   overflow: visible;
 }
 
-#plan {
+.plan a svg {
   fill: #fff;
 }
 
-#plan:hover {
+.plan a svg:hover {
+  fill: #F8EA21;
+}
+
+.plan a svg:active {
   fill: #F8EA21;
 }
 
@@ -426,8 +430,8 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  #plan:active {
-    fill: #F8EA21;
+  .plan a svg:hover {
+    fill: #fff;
   }
 }
 

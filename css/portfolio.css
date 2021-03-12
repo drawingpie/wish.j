@@ -415,7 +415,7 @@ a svg:hover #plan {
   fill: #F8EA21;
 }
 
-a svg:hover #plan {
+a svg:active #plan {
   fill: #F8EA21;
 }
 
@@ -429,7 +429,7 @@ a svg:hover #plan {
 }
 
 @media screen and (max-width: 480px) {
-  #plan:hover {
+  a svg:hover #plan {
     fill: #fff;
   }
 }

@@ -415,10 +415,6 @@ div {
   fill: #F8EA21;
 }
 
-#plan:active {
-  fill: #F8EA21;
-}
-
 @media screen and (max-width: 480px) {
   .plan a svg {
     left: 60vw;
@@ -430,8 +426,8 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  #plan:hover {
-    fill: #fff;
+  #plan:active {
+    fill: #F8EA21;
   }
 }
 

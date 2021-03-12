@@ -398,7 +398,7 @@ div {
   }
 }
 
-.plan {
+#plan {
   width: 5.34vw;
   height: 1.10vw;
   left: 60vw;
@@ -407,16 +407,16 @@ div {
   overflow: visible;
 }
 
-.plan:hover {
-  filter: invert(82%) sepia(98%) saturate(585%) hue-rotate(338deg) brightness(106%) contrast(95%);
+a svg:hover #plan {
+  fill: #F8EA21;
 }
 
-.plan:active {
-  filter: invert(82%) sepia(98%) saturate(585%) hue-rotate(338deg) brightness(106%) contrast(95%);
+a svg:hover #plan {
+  fill: #F8EA21;
 }
 
 @media screen and (max-width: 480px) {
-  .plan {
+  #plan {
     left: 60%;
     top: 332.97px;
     width: 67.14px;
@@ -425,8 +425,8 @@ div {
 }
 
 @media screen and (max-width: 480px) {
-  .plan:hover {
-    filter: invert(93%) sepia(100%) saturate(0%) hue-rotate(182deg) brightness(105%) contrast(103%);
+  #plan:hover {
+    fill: #fff;
   }
 }
 

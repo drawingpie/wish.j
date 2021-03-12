@@ -641,7 +641,7 @@ div {
   }
 }
 
-.arrow_right {
+#arrow_right {
   fill: #fff;
   position: absolute;
   width: 2.14vw;
@@ -652,8 +652,16 @@ div {
   cursor: pointer;
 }
 
+#arrow_right:hover {
+  fill: #F8EA21;
+}
+
+#arrow_right:active {
+  fill: #F8EA21;
+}
+
 @media screen and (max-width: 480px) {
-  .arrow_right {
+  #arrow_right {
     width: 20.29px;
     height: 19.77px;
     left: 65vw;
@@ -661,11 +669,13 @@ div {
   }
 }
 
-.arrow_right:hover {
-  fill: #F8EA21;
+@media screen and (max-width: 480px) {
+  #arrow_right:active {
+    fill: #F8EA21;
+  }
 }
 
-.arrow_left {
+#arrow_left {
   fill: #fff;
   position: absolute;
   width: 2.14vw;
@@ -676,8 +686,16 @@ div {
   cursor: pointer;
 }
 
+#arrow_left:hover {
+  fill: #F8EA21;
+}
+
+#arrow_left:active {
+  fill: #F8EA21;
+}
+
 @media screen and (max-width: 480px) {
-  .arrow_left {
+  #arrow_left {
     width: 20.29px;
     height: 19.77px;
     left: 30vw;
@@ -685,8 +703,10 @@ div {
   }
 }
 
-.arrow_left:hover {
-  fill: #F8EA21;
+@media screen and (max-width: 480px) {
+  #arrow_left:active {
+    fill: #F8EA21;
+  }
 }
 
 #footer {

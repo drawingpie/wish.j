@@ -398,13 +398,17 @@ div {
   }
 }
 
-#plan {
+.plan {
   width: 5.34vw;
   height: 1.10vw;
   left: 60vw;
   top: 38vw;
   position: absolute;
   overflow: visible;
+}
+
+#plan {
+  fill: #fff;
 }
 
 a svg:hover #plan {

@@ -406,12 +406,6 @@ div {
   }
 }
 
-@media screen and (max-width: 480px) {
-  #arrow_right:hover {
-    fill: #fff;
-  }
-}
-
 #arrow_left {
   fill: #fff;
   position: absolute;
@@ -427,7 +421,7 @@ div {
   fill: #F8EA21;
 }
 
-#arrow_active:active {
+#arrow_left:active {
   fill: #F8EA21;
 }
 
@@ -437,12 +431,6 @@ div {
     height: 19.77px;
     left: 30vw;
     top: 196.47px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #arrow_left:hover {
-    fill: #fff;
   }
 }
 

@@ -29,8 +29,15 @@ body {
 
 .custom-button-1 {
 	position: absolute;
-	left: 95vw;
+	left: 93vw;
 	top: 45vw;
+}
+
+@media screen and (max-width: 480px) {
+	.custom-button-1 {
+		left: 77vw;
+		top: 165vw;
+	}
 }
 
 div {

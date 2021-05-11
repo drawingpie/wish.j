@@ -143,10 +143,15 @@
 	<!-- End Channel Plugin -->
 
 	<!-- 브라우저창크기변화감지 -->
-	<script>
-		window.addEventListener('resize', function() {
-			console.log('Resizing...');
-		}, true);
+	<script language="JavaScript" type="text/javascript">
+		$(document).ready(function() {
+			$('selector').css('width', $(window).width());
+			$('selector').css('height', $(window).height());
+			$(window).resize(function() {
+				$('selector').css('width', $(window).width());
+				$('selector').css('height', $(window).height());
+			});
+		});
 	</script>
 
 </body>

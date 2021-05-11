@@ -100,6 +100,7 @@
 	</div>
 
 	<!-- Channel Plugin Scripts -->
+	<!-- Channel Plugin Scripts -->
 	<script>
 		(function() {
 			var w = window;
@@ -138,12 +139,15 @@
 			}
 		})();
 		ChannelIO('boot', {
-			"pluginKey": "e1f43ac4-3e81-4e9c-8502-5260d93a5611"
-		});
+			"pluginKey": "e1f43ac4-3e81-4e9c-8502-5260d93a5611",
+			"customLauncherSelector": ".custom-button-1, #custom-button-2",
+			"hideChannelButtonOnBoot": true
+		}); <
+		!--End Channel Plugin-- >
 	</script>
-	<!-- End Channel Plugin -->
 
-	<!-- 브라우저창크기변화감지 -->
+	<button class="custom-button-1">Open</button>
+	<a id="custom-button-2">Open</a>
 
 </body>
 

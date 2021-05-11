@@ -27,14 +27,14 @@ body {
 	}
 }
 
-.custom-button-1 {
+#custom-button-2 {
 	position: absolute;
 	left: 93vw;
 	top: 45vw;
 }
 
 @media screen and (max-width: 480px) {
-	.custom-button-1 {
+	#custom-button-2 {
 		left: 300px;
 	  top: 620px;
 	}

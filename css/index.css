@@ -35,8 +35,8 @@ body {
 
 @media screen and (max-width: 480px) {
 	.custom-button-1 {
-		left: 77vw;
-		top: 165vw;
+		left: 300px;
+	  top: 620px;
 	}
 }
 

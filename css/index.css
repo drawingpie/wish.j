@@ -28,15 +28,18 @@ body {
 }
 
 #custom-button-2 {
-	position: absolute;
-	left: 93vw;
-	top: 45vw;
+	display: inline-block;
+	width: 100vw;
+	/* 	position: absolute; */
+	margin-left: 85vw;
+	margin-top: 40vw;
 }
 
 @media screen and (max-width: 480px) {
 	#custom-button-2 {
-		left: 300px;
-	  top: 620px;
+		transform: scale(0.8);
+		margin-left: 35vw;
+		margin-top: 145vw;
 	}
 }
 

@@ -143,16 +143,15 @@
 	<!-- End Channel Plugin -->
 
 	<!-- 브라우저창크기변화감지 -->
-	<script language="JavaScript" type="text/javascript">
-		$(document).ready(function() {
-			$('selector').css('width', $(window).width());
-			$('selector').css('height', $(window).height());
-			$(window).resize(function() {
-				$('selector').css('width', $(window).width());
-				$('selector').css('height', $(window).height());
-			});
-		});
-	</script>
+	<script>
+    document.write('value of window.outerWidth is ' + window.outerWidth);
+    document.write("<br />");
+    document.write('value of window.outerHeight is ' + window.outerHeight);
+    document.write("<br />");
+    document.write('value of window.innerWidth is ' + window.innerWidth);
+    document.write("<br />");
+    document.write('value of window.innerHeight is ' + window.innerHeight);
+</script>
 
 </body>
 

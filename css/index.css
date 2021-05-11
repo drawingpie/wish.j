@@ -37,7 +37,7 @@ body {
 
 @media screen and (max-width: 480px) {
 	#custom-button-2 {
-		transform: scale(0.8);
+		transform: scale(0.9);
 		margin-left: 35vw;
 		margin-top: 140vw;
 	}

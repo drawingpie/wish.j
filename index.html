@@ -144,14 +144,12 @@
 
 	<!-- 브라우저창크기변화감지 -->
 	<script>
-    document.write('value of window.outerWidth is ' + window.outerWidth);
-    document.write("<br />");
-    document.write('value of window.outerHeight is ' + window.outerHeight);
-    document.write("<br />");
-    document.write('value of window.innerWidth is ' + window.innerWidth);
-    document.write("<br />");
-    document.write('value of window.innerHeight is ' + window.innerHeight);
-</script>
+		$(window).resize(function() {
+			if (window.outerWidth <= 800) {
+				alert('현재 브라우저 크기가 <= 800px');
+			}
+		})
+	</script>
 
 </body>
 

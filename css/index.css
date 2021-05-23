@@ -77,7 +77,6 @@
   left: 87%;
   top: 320px;
 }
-
 @media screen and (max-width: 1300px) {
   .pa2, .pa5, .pa7   {
     display: none;
@@ -86,36 +85,62 @@
     width: 10.8px;
     height: 10.8px;
     left: 10%;
-    top: 130px;
+    top: 230px;
   }
   .pa3 {
     width: 10.8px;
     height: 10.8px;
     left: 85%;
-    top: 130px;
+    top: 230px;
   }
   .pa4 {
     width: 18px;
     height: 18px;
     left: 75%;
-    top: 230px;
+    top: 330px;
   }
   .pa6 {
     width: 9.2px;
     height: 9.2px;
     left: 20%;
-    top: 230px;
+    top: 330px;
   }
   .pa8 {
     width: 9.2px;
     height: 9.2px;
     left: 85%;
-    top: 330px;
+    top: 430px;
   }
   .pa9 {
     position: absolute;
     width: 14.8px;
     height: 14.8px;
+    left: 10%;
+    top: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pa1 {
+    left: 10%;
+    top: 130px;
+  }
+  .pa3 {
+    left: 85%;
+    top: 130px;
+  }
+  .pa4 {
+    left: 75%;
+    top: 230px;
+  }
+  .pa6 {
+    left: 20%;
+    top: 230px;
+  }
+  .pa8 {
+    left: 85%;
+    top: 330px;
+  }
+  .pa9 {
     left: 10%;
     top: 300px;
   }
@@ -151,14 +176,12 @@
 }
 
 @keyframes blink {
-
   0%,
   45%,
   55%,
   10% {
     transform: rotateX(0deg);
   }
-
   50% {
     transform: rotateX(80deg);
   }
@@ -276,7 +299,7 @@
 
 .head {
   position: absolute;
-  top: 55px;
+  top: 30px;
 }
 #DREAMS, #COME, #TRUE {
   -webkit-animation: head_ani .8s cubic-bezier(.25, .46, .45, .94) both;
@@ -357,7 +380,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 20px;
+    top: 15%;
   }
   #DREAMS {
     top: 118px !important;
@@ -378,4 +401,9 @@
     left: 50%;
     transform: translateX(-50%);
     font-size: 5.063rem;
+  }
+  @media screen and (max-width: 600px) {
+    .head {
+      top: 5%;
+    }
   }

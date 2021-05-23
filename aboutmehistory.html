@@ -35,7 +35,32 @@
 </head>
 
 <body>
-	<div id="cover">
+	<div id="myNav" class="overlay">
+		<div class="closebtn" onclick="closeNav()">
+			<svg>
+				<path id="Icon_material-close" data-name="Icon-material-close" d="M28.5,9.615,26.385,7.5,18,15.885,9.615,7.5,7.5,9.615,15.885,18,7.5,26.385,9.615,28.5,18,20.115,26.385,28.5,28.5,26.385,20.115,18Z" transform="translate(-7.5 -7.5)" />
+			</svg>
+		</div>
+		<div class="overlay-content">
+			<a href="aboutme.html">about me</a>
+			<a href="portfolio.html">portfolio</a>
+			<a href="contact.html">contact</a>
+			<a href="today.html">today</a>
+		</div>
+	</div>
+	<div class="openbtn" onclick="openNav()"><img src="image/Icon feather-menu.svg"></div>
+
+	<div class="gnb">
+		<a href="https://www.wishj.net/">
+			<img src="image/logo1226.png" class="logo" />
+		</a>
+		<img src="image/light.png" class="gnb_img">
+		<a href="aboutme.html" class="menu">about me</a>
+		<a href="portfolio.html" class="menu">portfolio</a>
+		<a href="contact.html" class="menu">contact</a>
+		<a href="today.html" class="menu">today</a>
+	</div>
+
 		<div id="gtq1"><span>2017.05<br>GTQ포토샵1급</span></div>
 		<div id="gtq2"><span>2017.07<br>GTQ일러스트2급</span></div>
 		<div id="career1"><span>2017.09~2018.10<br>매** 벤처기업 인디자인작업</span></div>
@@ -56,32 +81,6 @@
 		<div class="pa8"></div>
 		<div class="pa9"></div>
 
-		<div id="myNav" class="overlay">
-			<div class="closebtn" onclick="closeNav()">
-				<svg>
-					<path id="Icon_material-close" data-name="Icon-material-close" d="M28.5,9.615,26.385,7.5,18,15.885,9.615,7.5,7.5,9.615,15.885,18,7.5,26.385,9.615,28.5,18,20.115,26.385,28.5,28.5,26.385,20.115,18Z" transform="translate(-7.5 -7.5)" />
-				</svg>
-			</div>
-			<div class="overlay-content">
-				<a href="aboutme.html">about me</a>
-				<a href="portfolio.html">portfolio</a>
-				<a href="contact.html">contact</a>
-				<a href="today.html">today</a>
-			</div>
-		</div>
-		<div class="openbtn" onclick="openNav()"><img src="image/Icon feather-menu.svg"></div>
-
-		<div class="gnb">
-			<img src="image/light.png" class="light" />
-			<a href="aboutme.html" id="aboutme">about me</a>
-			<a href="portfolio.html" id="portfolio">portfolio</a>
-			<a href="contact.html" id="contact">contact</a>
-			<a href="today.html" id="today">today</a>
-			<a href="https://www.wishj.net/">
-				<img src="image/logo1226.png" class="logo" />
-			</a>
-		</div>
-
 		<img src="image/foxsmall.png" id="foxsmall">
 
 		<a href="aboutmeskills.html" class="arrow_right">
@@ -100,7 +99,6 @@
 			<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
 		</div>
 
-	</div>
 </body>
 
 </html>

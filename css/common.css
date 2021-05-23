@@ -142,3 +142,19 @@ body {
     font-size: 11px;
   }
 }
+#custom-button-2 {
+	display: inline-block;
+	width: 100vw;
+	position: absolute;
+  bottom: 20px;
+  left: 40%;
+
+}
+
+@media screen and (max-width: 1300px) {
+	#custom-button-2 {
+		transform: scale(0.9);
+		margin-left: 35vw;
+		margin-top: 140vw;
+	}
+}

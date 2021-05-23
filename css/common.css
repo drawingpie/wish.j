@@ -142,12 +142,12 @@ body {
     font-size: 11px;
   }
 }
-#custom-button-2 {
+/* #custom-button-2 {
 	display: inline-block;
 	width: 100vw;
 	position: absolute;
-  bottom: 20px;
-  left: 40%;
+  bottom: 10px;
+  left: 50%;
 
 }
 
@@ -156,5 +156,5 @@ body {
 		transform: scale(0.9);
 		margin-left: 35vw;
 		margin-top: 140vw;
-	}
+	} */
 }

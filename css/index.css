@@ -150,37 +150,6 @@
   animation: blink 3s infinite;
 }
 
-#fox {
-  position: absolute;
-  width: 21.85vw;
-  height: 25.08vw;
-  left: 57.2vw;
-  top: 18.23vw;
-  overflow: visible;
-  background-image: url('../image/fox.png');
-  background-size: cover;
-}
-
-@media screen and (max-width: 1300px) {
-  #fox {
-    width: 198.53px;
-    height: 227.96px;
-    top: 370px;
-    left: 50vw;
-    transform: translateX(-50%);
-  }
-}
-
-#eyer {
-  position: absolute;
-  width: 1.94vw;
-  height: 1.94vw;
-  left: 13.96vw;
-  top: 14.84vw;
-  overflow: visible;
-  animation: blink 3s infinite;
-}
-
 @keyframes blink {
 
   0%,
@@ -247,49 +216,6 @@
   animation: blink 3s infinite;
 }
 
-.blackeyer {
-  position: absolute;
-  overflow: visible;
-  width: 1.42vw;
-  height: 1.65vw;
-  left: 0vw;
-  top: 0.16vw;
-  background-color: #000;
-  border-radius: 100vw;
-}
-
-@media screen and (max-width: 1300px) {
-  #eyer {
-    top: 136px;
-    left: 54px;
-    width: 17.62px;
-    height: 17.62px;
-  }
-
-  .whiteeyer {
-    width: 17.62px;
-    height: 17.62px;
-    left: 73px;
-    top: 0;
-  }
-
-  .blackeyer {
-    width: 12.94px;
-    height: 14.99px;
-    left: 73px;
-    top: 2px;
-  }
-}
-
-#eyel {
-  position: absolute;
-  width: 1.94vw;
-  height: 1.94vw;
-  left: 6.04vw;
-  top: 14.84vw;
-  animation: blink 3s infinite;
-}
-
 @keyframes blink {
 
   0%,
@@ -347,39 +273,6 @@
   }
 }
 
-.blackeyel {
-  position: absolute;
-  overflow: visible;
-  width: 1.42vw;
-  height: 1.65vw;
-  left: 0.52vw;
-  top: 0.16vw;
-  background-color: #000;
-  border-radius: 100vw;
-}
-
-@media screen and (max-width: 1300px) {
-  #eyel {
-    top: 136px;
-    left: 54px;
-    width: 17.62px;
-    height: 17.62px;
-  }
-
-  .whiteeyel {
-    width: 17.62px;
-    height: 17.62px;
-    left: 0;
-    top: 0;
-  }
-
-  .blackeyel {
-    width: 12.94px;
-    height: 14.99px;
-    left: 5px;
-    top: 2px;
-  }
-}
 
 .head {
   position: absolute;
@@ -407,7 +300,6 @@
     opacity: 0
   }
 }
-
 
 #COME {
   left: 27.7vw;

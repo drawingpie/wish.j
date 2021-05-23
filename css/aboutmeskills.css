@@ -23,11 +23,10 @@
 
 #program-dummy {
   position: relative;
-  width: 33.13vw;
+  width: 33vw;
   height: 15.26vw;
-  left: 33.3vw;
-  top: 29.27vw;
-  overflow: visible;
+  margin: 250px auto;
+  text-align: left;
 }
 
 @media screen and (max-width: 480px) {
@@ -68,7 +67,7 @@
 .pinkbg {
   position: absolute;
   overflow: visible;
-  width: 24.06vw;
+  width: 450px;
   height: 2.24vw;
   left: 8.23vw;
   top: 0.05vw;

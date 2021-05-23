@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Cafe24Dongdong';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Dongdong.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0 auto;
+  height: 100vw;
+  background: linear-gradient(to bottom, #002169, #001135);
+  font-family: 'Cafe24Dongdong';
+  font-size: 0;
+  text-align: center;
+}
+.gnb_img {
+  position: absolute;
+  width: 100%;
+  top: -20px;
+  left: 0;
+}
+@media screen and (max-width: 1300px) {
+  body {
+    height: 1000px;
+  }
+}
+.logo {
+ display: block;
+ margin: 25px auto;
+ width: 7%;
+}
+.menu {
+  text-decoration: none;
+  font-size: 34px;
+  color: #fff;
+  display: inline-block;
+  margin: 100px 50px 0 20px;
+
+}
+
+.menu:hover {
+  color: #F09D05;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .logo {
+    margin: 10px auto;
+    width: 65.66px;
+  }
+  .menu {
+    display: none;
+  }
+  .gnb_img {
+    top: 40px;
+  }
+}
+
+.overlay, .overlay-content, .overlay a,
+.overlay .closebtn, .openbtn {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .overlay {
+    display: block;
+    height: 1000px;
+    width: 0;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    display: block;
+    position: relative;
+    top: 30vw;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .overlay a {
+    display: block;
+    padding: 7vw;
+    text-decoration: none;
+    font-size: 2.25rem;
+    color: #818181;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover {
+    color: #fff;
+  }
+
+  .overlay .closebtn {
+    display: block;
+    position: absolute;
+    top: 3vw;
+    left: 8vw;
+    fill: #818181;
+  }
+
+  .overlay .closebtn:hover {
+    fill: #fff;
+  }
+
+  .openbtn {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 2vw;
+    left: 87vw;
+    z-index: 9;
+  }
+}
+
+#footer {
+  position: absolute;
+  top: 880px;
+  left: 50%;
+  transform:translateX(-50%);
+  white-space: nowrap;
+  text-align: center;
+  font-size: 20px;
+  color: rgba(151, 164, 240, 1);
+}
+
+@media screen and (max-width: 1300px) {
+  #footer {
+    top: 95%;
+    font-size: 11px;
+  }
+}

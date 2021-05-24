@@ -51,18 +51,18 @@
 }
 
 #foxsmall {
-  display: block;
-  margin: 20px auto;
+	display: block;
+	margin: 20px auto;
 }
 
 @media screen and (max-width: 1300px) {
-  #foxsmall {
-    margin-top: 155px;
-    width: 74px;
-  }
+	#foxsmall {
+		margin-top: 130px;
+		width: 74px;
+	}
 }
 
-#arrow_right {
+.arrow_right {
 	fill: #fff;
 	position: absolute;
 	width: 2.14vw;
@@ -73,15 +73,15 @@
 	cursor: pointer;
 }
 
-#arrow_right:hover {
+.arrow_right:hover {
 	fill: #F8EA21;
 }
 
-#arrow_right:active {
+.arrow_right:active {
 	fill: #F8EA21;
 }
 
-#arrow_left {
+.arrow_left {
 	fill: #fff;
 	position: absolute;
 	width: 2.14vw;
@@ -92,38 +92,37 @@
 	cursor: pointer;
 }
 
-#arrow_left:hover {
+.arrow_left:hover {
 	fill: #F8EA21;
 }
 
-#arrow_left:active {
+.arrow_left:active {
 	fill: #F8EA21;
 }
 
 @media screen and (max-width: 1300px) {
-	#arrow_right {
+	.arrow_right {
 		width: 20.29px;
 		height: 19.77px;
-		left: 70vw;
-		top: 196.47px;
+		left: 70%;
+		top: 170px;
 	}
 
-	#arrow_right:active {
+	.arrow_right:active {
 		fill: #F8EA21;
 	}
 
-	#arrow_left {
+	.arrow_left {
 		width: 20.29px;
 		height: 19.77px;
-		left: 24vw;
-		top: 196.47px;
+		left: 25%;
+		top: 170px;
 	}
 
-	#arrow_left:active {
+	.arrow_left:active {
 		fill: #F8EA21;
 	}
 }
-
 #introduce {
   left: 26.9vw;
   top: 25.99vw;
@@ -151,7 +150,7 @@
   #introduce {
     font-size: 0.875rem;
     left: 50vw;
-    top: 270px;
+    top: 230px;
     width: 289px;
     margin-left: -144.5px;
     line-height: 20px;

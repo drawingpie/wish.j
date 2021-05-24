@@ -56,11 +56,13 @@
 		display: none;
 	}
 }
+
 .wrap {
-  max-width: 600px;
-  margin: 0 auto;
-  box-sizing: border-box;
+	max-width: 600px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
+
 .bxslider {
 	position: relative;
 	max-width: 591px;
@@ -79,26 +81,26 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: #F8EA21 !important;
+	background: #fff !important;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
-	background: #fff !important;
+	background: #F8EA21 !important;
 }
 
 .visit:before {
-	content: 'rrr';
+	content: '준비중';
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: 2;
 	width: 0;
-	height: 100%;
+	height: 343px;
 	background: rgba(0, 0, 0, 0.5);
-  border-radius: 22px;
-  -webkit-transition: width 0.3s ease-out;
+	border-radius: 22px;
+	-webkit-transition: width 0.3s ease-out;
 	transition: width 0.3s ease-out;
 }
 
@@ -111,100 +113,55 @@
 }
 
 .visit:after {
-	content: 'eee';
+	content: '';
 	-webkit-transition: opacity 0.3s ease-out;
 	transition: opacity 0.3s ease-out;
 }
 
 .visit .visittext:hover:before {
-  width: 100%;
+	width: 100%;
 	font-size: 1.35vw;
 	color: #fff;
 	text-align: center;
-  z-index: 3;
+	z-index: 3;
 }
 
-/* .thumbList3 .thumb:before { content:''; position:absolute; right:0; top:0; z-index:2; width:0; height:100%; }
-.thumbList3.blog .thumb:before { background:#f37320; background:rgba(243, 115, 32, 0.9); }
-.thumbList3.facebook .thumb:before { background:#2e5bb6; background:rgba(46, 91, 182, 0.9); }
-.thumbList3.naverpost .thumb:before { background:#2eb300; background:rgba(46, 179, 0, 0.9); }
-.thumbList3.instagram .thumb:before { background:#e3279d; background:rgba(227, 39, 157, 0.9); }
-.thumbList3.youtube .thumb:before { background:#d92632; background:rgba(217, 38, 50, 0.9); }
-.thumbList3 .thumb:hover:before, .thumbList3 .thumb:focus:before { left:0; right:auto; width:100%; } */
-/* .box {
-  position: absolute;
-  width: 30.78vw;
-  height: 17.86vw;
-  left: 35.4vw;
-  top: 19.47vw;
-  display: block;
-} */
-/* .visit {
-  position: absolute;
-  width: 30.78vw;
-  height: 17.86vw;
-  left: 0vw;
-  top: 0vw;
-  border-radius: 1.15vw;
-  transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -webkit-transition: all .3s ease;
-  opacity: 0;
-  text-decoration: none;
+@media screen and (max-width: 1300px) {
+	.wrap {
+		max-width: 280px;
+	}
+
+	.slider_container {
+		text-align: center;
+    overflow: visible;
+	}
+
+	.bxslider {
+		max-width: 280px;
+	}
+
+	.bx-wrapper .bx-pager {
+		padding-top: 0 !important;
+    top: 200px !important;
+	}
+
+	.bx-wrapper {
+		margin: 180px auto;
+	}
+
+	.visit img {
+		width: 280px;
+	}
+
+	.visit:hover:before {
+		border-radius: 10px;
+	}
 }
 
-.visittext {
-  position: absolute;
-  left: 15.5vw;
-  top: 6vw;
-  font-size: 1.35vw;
-  color: #fff;
-  width: 18.33vw;
-  margin-left: -9.165vw;
-  text-align: center;
-}
-
-.bg {
-  background-image: url("../image/dcsyweb.png");
-  background-size: cover;
-}
-
-.visit:hover {
-  background: rgba(0, 0, 0, .7);
-  opacity: 1;
-}
-
-@media screen and (max-width: 480px) {
-  .box {
-    width: 231px;
-    height: 135px;
-    left: 50%;
-    top: 193px;
-    margin-left: -115.5px;
-    border-radius: 16px;
-  }
-
-  .visit {
-    width: 231px;
-    height: 135px;
-    left: 0px;
-    top: 0px;
-    border-radius: 16px;
-  }
-
-  .visittext {
-    position: absolute;
-    margin-left: -108px;
-    width: 216px;
-    left: 50%;
-    top: 52px;
-    font-size: 12px;
-  }
-} */
 .plan {
 	display: block;
-  float: right;
-  margin-top: -10px;
+	float: right;
+	margin-top: 10px;
 	fill: #fff;
 }
 
@@ -216,17 +173,16 @@
 	fill: #F8EA21;
 }
 
-@media screen and (max-width: 480px) {
-	.plan svg {
-		left: 60vw;
-		top: 340px;
-		width: 61px;
-		height: 12.28px;
-		position: fixed;
+@media screen and (max-width: 1300px) {
+	.plan {
+		width: 40px !important;
+		height: 15px;
+    float: none;
+    margin: 7px;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1300px) {
 	.plan:hover {
 		fill: #fff;
 	}

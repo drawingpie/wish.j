@@ -50,6 +50,80 @@
   }
 }
 
+#foxsmall {
+  display: block;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 1300px) {
+  #foxsmall {
+    margin-top: 155px;
+    width: 74px;
+  }
+}
+
+#arrow_right {
+	fill: #fff;
+	position: absolute;
+	width: 2.14vw;
+	height: 2.14vw;
+	left: 56.8vw;
+	top: 20.83vw;
+	overflow: visible;
+	cursor: pointer;
+}
+
+#arrow_right:hover {
+	fill: #F8EA21;
+}
+
+#arrow_right:active {
+	fill: #F8EA21;
+}
+
+#arrow_left {
+	fill: #fff;
+	position: absolute;
+	width: 2.14vw;
+	height: 2.14vw;
+	left: 41.5vw;
+	top: 20.83vw;
+	overflow: visible;
+	cursor: pointer;
+}
+
+#arrow_left:hover {
+	fill: #F8EA21;
+}
+
+#arrow_left:active {
+	fill: #F8EA21;
+}
+
+@media screen and (max-width: 1300px) {
+	#arrow_right {
+		width: 20.29px;
+		height: 19.77px;
+		left: 70vw;
+		top: 196.47px;
+	}
+
+	#arrow_right:active {
+		fill: #F8EA21;
+	}
+
+	#arrow_left {
+		width: 20.29px;
+		height: 19.77px;
+		left: 24vw;
+		top: 196.47px;
+	}
+
+	#arrow_left:active {
+		fill: #F8EA21;
+	}
+}
+
 #introduce {
   left: 26.9vw;
   top: 25.99vw;
@@ -73,13 +147,6 @@
     transform: translateY(0vw);
   }
 }
-#foxsmall {
-  position: absolute;
-  left: 50vw;
-  top: 18.59vw;
-  width: 5.15vw;
-  margin-left: -2.57vw;
-}
 @media screen and (max-width: 1300px) {
   #introduce {
     font-size: 0.875rem;
@@ -88,68 +155,5 @@
     width: 289px;
     margin-left: -144.5px;
     line-height: 20px;
-  }
-
-  #foxsmall {
-    top: 155.25px;
-    width: 78.83px;
-    margin-left: -39.415px;
-  }
-}
-
-#arrow_right {
-  fill: #fff;
-  position: absolute;
-  width: 2.14vw;
-  height: 2.14vw;
-  left: 56.8vw;
-  top: 20.83vw;
-  overflow: visible;
-  cursor: pointer;
-}
-
-#arrow_right:hover {
-  fill: #F8EA21;
-}
-
-#arrow_right:active {
-  fill: #F8EA21;
-}
-#arrow_left {
-  fill: #fff;
-  position: absolute;
-  width: 2.14vw;
-  height: 2.14vw;
-  left: 41.5vw;
-  top: 20.83vw;
-  overflow: visible;
-  cursor: pointer;
-}
-
-#arrow_left:hover {
-  fill: #F8EA21;
-}
-
-#arrow_left:active {
-  fill: #F8EA21;
-}
-@media screen and (max-width: 1300px) {
-  #arrow_right {
-    width: 20.29px;
-    height: 19.77px;
-    left: 70vw;
-    top: 196.47px;
-  }
-  #arrow_right:active {
-    fill: #F8EA21;
-  }
-  #arrow_left {
-    width: 20.29px;
-    height: 19.77px;
-    left: 24vw;
-    top: 196.47px;
-  }
-  #arrow_left:active {
-    fill: #F8EA21;
   }
 }

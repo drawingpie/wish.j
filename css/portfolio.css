@@ -65,7 +65,7 @@
 
 .bxslider {
 	position: relative;
-	max-width: 591px;
+	width: 591px;
 	margin: 0 auto;
 	text-align: center;
 	box-sizing: border-box;
@@ -73,7 +73,7 @@
 
 .bx-wrapper {
 	margin: 50px auto;
-	background: transparent !important;
+	background: none !important;
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
@@ -90,70 +90,77 @@
 	background: #F8EA21 !important;
 }
 
-.visit:before {
-	content: '준비중';
+.pic, .pic1 {
+	overflow: hidden;
+	position: relative;
+}
+
+.bxslider .slider_container:hover .pic::before,
+.bxslider .slider_container:hover .pic1::before {
+	background: rgba(0, 0, 0, 0.8);
+	border-radius: 22px;
+	content: "";
+	z-index: 1;
 	position: absolute;
-	right: 0;
 	top: 0;
-	z-index: 2;
-	width: 0;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
-	border-radius: 22px;
-	-webkit-transition: width 0.3s ease-out;
-	transition: width 0.3s ease-out;
-}
-
-.visit:hover:before {
 	left: 0;
-	right: auto;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
-	border-radius: 22px;
+	height: 100%;
+	animation: hoverbg 1s forwards;
 }
 
-.visit:after {
-	content: '';
-	-webkit-transition: opacity 0.3s ease-out;
-	transition: opacity 0.3s ease-out;
+@keyframes hoverbg {
+	from {
+		opacity: 0;
+		width: 0;
+	}
+
+	to {
+		opacity: 1;
+		width: 100%;
+	}
 }
 
-.visit .visittext:hover:before {
-	width: 100%;
-	font-size: 1.35vw;
+.bxslider .slider_container:hover .pic:after {
+	content: "Hans Renewal\A Design & Publishing\A 2021.05.30\A Go Visit";
+	white-space: pre;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	font-size: 26px;
+	line-height: 35px;
 	color: #fff;
 	text-align: center;
-	z-index: 3;
+	margin-left: -130px;
+	margin-top: -50px;
+	animation: hoverbtn 1s forwards;
 }
 
-@media screen and (max-width: 1300px) {
-	.wrap {
-		max-width: 280px;
+.bxslider .slider_container:hover .pic1:after {
+	content: "Daechang Motors Agency\A Website(OnePage)\A Design & Publishing\A 2021.03.15\A Go Visit";
+	white-space: pre;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	line-height: 35px;
+	text-align: center;
+	margin-left: -150px;
+	margin-top: -80px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+
+@keyframes hoverbtn {
+	from {
+		opacity: 0;
+		margin-top: -10px;
 	}
 
-	.bxslider {
-		max-width: 280px;
-	}
-  .slider_container {
-    height:135px;
-  }
-	.bx-wrapper .bx-pager {
-		padding-top: 0 !important;
-    top: 200px !important;
-	}
-
-	.bx-wrapper {
-		margin: 180px auto;
-	}
-
-	.visit img {
-		width: 280px;
-	}
-  .visit:before {
-    border-radius: 10px;
-  }
-	.visit:hover:before {
-		border-radius: 10px;
+	to {
+		opacity: -30px;
 	}
 }
 
@@ -164,25 +171,69 @@
 	fill: #fff;
 }
 
-.plan:hover {
-	fill: #F8EA21;
-}
-
+.plan:hover,
 .plan:active {
 	fill: #F8EA21;
 }
-
-@media screen and (max-width: 1300px) {
-	.plan {
-		width: 40px !important;
-		height: 15px;
-    float: none;
-    margin: 10px;
-	}
+.mobile_text {
+	display: none;
 }
-
 @media screen and (max-width: 1300px) {
+	.wrap {
+		max-width: 280px;
+	}
+	.bx-viewport {
+		height: 400px;
+		width: 100%;
+	}
+	.bx-wrapper .bx-next,
+	.bx-wrapper .bx-prev {
+		margin-top: -190px !important;
+	}
+	.bxslider {
+		width: 232px;
+		height: 500px;
+	}
+
+	.slider_container {
+		height: 500px;
+	}
+
+	.bx-wrapper .bx-pager {
+		padding-top: 0 !important;
+		top: 180px !important;
+	}
+
+	.bx-wrapper {
+		margin: 180px auto;
+	}
+	.pic, .pic1 {
+		width: 232px;
+		margin: 0 auto;
+		overflow: visible;
+	}
+
+	.bxslider .slider_container:hover .pic::before,
+	.bxslider .slider_container:hover .pic1::before {
+		background: none;
+	}
+
+	.bxslider .slider_container:hover .pic::after,
+	.bxslider .slider_container:hover .pic1::after {
+		content:"";
+	}
+	.plan {
+		float: none;
+		margin: 10px;
+	}
 	.plan:hover {
 		fill: #fff;
+	}
+	.mobile_text {
+		display: inline-block !important;
+		font-size: 17px !important;
+		color: #fff;
+		line-height: 27px;
+		margin-top: 50px;
 	}
 }

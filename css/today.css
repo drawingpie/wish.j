@@ -1,114 +1,87 @@
+a {
+	text-decoration: none;
+}
+
+.boardboxwrapper {
+	max-width: 1591px;
+	margin: 100px auto;
+	box-sizing: border-box;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 .image-box {
-  position: relative;
-  display: inline-flex;
-  width: 26vw;
-  height: auto;
-  left: 9vw;
-  top: 21.36vw;
-  margin-left: 15px;
+	display: block;
+	margin-right: 20px;
+	width: 520px;
 }
 
 .card {
-  width: 27.08vw;
-  height: 13.80vw;
-  transform: scale(1);
-  transition: all 0.3s;
-  overflow: hidden;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 480px) {
-  .image-box {
-    display: block;
-    width: 276px;
-    height: 140.65px;
-    left: 50%;
-    top: 140px;
-    margin-left: -138px;
-    margin-bottom: 100px;
-  }
-
-  .card {
-    width: 276px;
-    height: 140.65px;
-  }
+	width: 520px;
+	height: 265px;
+	transform: scale(1);
+	transition: all 0.3s;
+	overflow: hidden;
+	object-fit: cover;
+	margin-bottom: 10px;
 }
 
 .card:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .date {
-  left: 0vw;
-  top: 14.5vw;
-  position: absolute;
-  overflow: visible;
-  text-align: left;
-  font-size: 0.83vw;
-  color: rgba(151, 164, 240, 1);
-  margin-bottom: 20vw;
-}
-
-@media screen and (max-width: 480px) {
-  .date {
-    left: 0vw;
-    top: 150px;
-    font-size: 16px;
-  }
+	text-align: left;
+	font-size: 16px;
+	color: #97A4F0;
+	margin-bottom: 10px;
 }
 
 .boardtext {
-  left: 0vw;
-  top: 17.5vw;
-  position: absolute;
-  overflow: visible;
-  text-align: left;
-  font-size: 0.83vw;
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 20vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 200px;
-  height: 20px;
-}
-
-@media screen and (max-width: 480px) {
-  .boardtext {
-    left: 0vw;
-    top: 190px;
-    font-size: 16px;
-  }
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .headline {
-  left: 0vw;
-  top: 16vw;
-  position: absolute;
-  overflow: visible;
-  text-align: left;
-  font-size: 1.35vw;
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 20vw;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 300px;
-  height: 30px;
+	text-align: left;
+	font-size: 26px;
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-bottom: 10px;
 }
 
-@media screen and (max-width: 480px) {
-  .headline {
-    left: 0vw;
-    top: 165px;
-    font-size: 26px;
+@media screen and (max-width: 1588px) {
+	.boardboxwrapper {
+		max-width: 276px;
+		margin: 120px auto;
+		display: block;
+	}
+  article {
+    margin-bottom: 20px;
   }
-}
+	.image-box {
+		margin-right: 0;
+		width: 276px;
+	}
 
-@media screen and (max-width: 480px) {
-  .boardboxwrapper {
-    top: 140px;
-    height: 600px;
-    overflow: hidden;
-  }
+	.card {
+		width: 276px;
+		height: 140.65px;
+		margin-bottom: 5px;
+	}
+
+	.date {
+		margin-bottom: 8px;
+	}
+
+	.headline {
+		margin-bottom: 5px;
+	}
 }

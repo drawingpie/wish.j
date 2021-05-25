@@ -28,7 +28,19 @@
 	<link rel="apple-touch-icon" sizes="196x196" href="favicon/196favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/today.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<script id="applicationScript" type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+
+	<script>
+		$('.boardboxwrapper').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+	</script>
 
 	<title>위시제이 - 투데이</title>
 
@@ -61,34 +73,41 @@
 		<a href="today.html" class="menu">today</a>
 	</div>
 
-		<div class="boardboxwrapper">
-			<!--첫번째 게시판-->
+	<div class="boardboxwrapper">
+		<!--첫번째 게시판-->
+		<article>
 			<a href="https://blog.naver.com/designeze/222266332462" target="_blank" class="image-box">
 				<img src="image/image01.png" class="card" />
 				<div class="date">2021.03.06</div>
 				<div class="headline">귀여운 아크릴 키링을 만들다</div>
 				<div class="boardtext">즐거운 주말이다. 예전에 내가 디자인한 로고와 캐릭터를 키링으로 만들고 싶었었는데</div>
 			</a>
-			<!--두번째 게시판-->
+		</article>
+		<!--두번째 게시판-->
+		<article>
 			<a href="https://blog.naver.com/designeze/222273192284" target="_blank" class="image-box">
 				<img src="image/image02.png" class="card" />
 				<div class="date">2021.03.12</div>
 				<div class="headline">드디어 내 홈페이지 다 만들었다!!</div>
 				<div class="boardtext">자축!! 드디어 내 홈페이지가 완성되었다. 오늘 도메인까지 구입하고 바로 오픈 게시!!ㅋㅋㅋ</div>
 			</a>
-			<!--세번째 게시판-->
-			<a class="image-box">
+		</article>
+		<!--세번째 게시판-->
+		<article>
+			<a href="#" target="_blank" class="image-box">
 				<img src="image/logotext.png" class="card" />
 				<div class="date">2021.03.13</div>
 				<div class="headline">테스트</div>
 				<div class="boardtext">이곳은 테스트 소식란입니다.</div>
-			</div>
-		</a>
+			</a>
+		</article>
+	</div>
 
-		<div id="footer">
-			<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
-		</div>
 
-/body>
+	<div id="footer">
+		<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
+	</div>
+
+</body>
 
 </html>

@@ -28,6 +28,7 @@
 	<link rel="apple-touch-icon" sizes="196x196" href="favicon/196favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/contact.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 
 	<title>위시제이 - 연락처</title>
@@ -115,6 +116,20 @@
 		}
 		form.addEventListener("submit", handleSubmit)
 	</script>
+
+
+	<script>
+	$(function () {
+	    $("textarea[type=text]").keypress(function (event) {
+				 if (event.keyCode == 13 && $(this).val().length != 0) {
+					 var _val = $(this).val();//입력중인 인풋의 value값을 담는 변수
+					 var _class = $(this).attr(".content");//입력된 인풋의 클래스(my, your)를 알아내서 담는 변수
+					  $(this).val("");
+				 }
+
+			});
+	</script>
+
 </body>
 
 </html>

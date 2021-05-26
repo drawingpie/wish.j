@@ -95,41 +95,29 @@
 	</div>
 
 	<script>
-		var form = document.getElementById("my-form");
+	var form = document.getElementById("my-form");
 
-		async function handleSubmit(event) {
-			event.preventDefault();
-			var status = document.getElementById("my-form-status");
-			var data = new FormData(event.target);
-			fetch(event.target.action, {
-				method: form.method,
-				body: data,
-				headers: {
-					'Accept': 'application/json'
-				}
-			}).then(response => {
-				status.innerHTML = "Thanks for your submission!";
-				form.reset()
-			}).catch(error => {
-				status.innerHTML = "Oops! There was a problem submitting your form"
-			});
-		}
-		form.addEventListener("submit", handleSubmit)
+	async function handleSubmit(event) {
+		event.preventDefault();
+		var status = document.getElementById("my-form-status");
+		var data = new FormData(event.target);
+		fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				'Accept': 'application/json'
+			}
+		}).then(response => {
+			status.innerHTML = "Thanks for your submission!";
+			form.reset()
+		}).catch(error => {
+			status.innerHTML = "Oops! There was a problem submitting your form"
+		});
+	}
+	form.addEventListener("submit", handleSubmit)
 	</script>
 
+	
+		</body>
 
-	<script>
-	$(function () {
-	    $("textarea[type=text]").keypress(function (event) {
-				 if (event.keyCode == 13 && $(this).val().length != 0) {
-					 var _val = $(this).val();//입력중인 인풋의 value값을 담는 변수
-					 var _class = $(this).attr(".content");//입력된 인풋의 클래스(my, your)를 알아내서 담는 변수
-					  $(this).val("");
-				 }
-
-			});
-	</script>
-
-</body>
-
-</html>
+		</html>

@@ -28,7 +28,7 @@
 	<link rel="apple-touch-icon" sizes="196x196" href="favicon/196favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/contact.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
-	<script id="applicationScript" type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 
 	<title>위시제이 - 연락처</title>
 
@@ -61,34 +61,60 @@
 		<a href="today.html" class="menu">today</a>
 	</div>
 
-		<div class="pa1"></div>
-		<div class="pa2"></div>
-		<div class="pa3"></div>
-		<div class="pa4"></div>
-		<div class="pa5"></div>
-		<div class="pa6"></div>
+	<div class="pa1"></div>
+	<div class="pa2"></div>
+	<div class="pa3"></div>
+	<div class="pa4"></div>
+	<div class="pa5"></div>
+	<div class="pa6"></div>
 
-		<img src="image/foxcontact.png" id="foxcontact" />
+	<section class="wrap">
+		<form id="my-form" action="https://formspree.io/f/xyylwzdl" method="POST">
+			<label for="name">성명(또는 회사명)</label>
+			<input type="text" id="name" name="name" placeholder="성명 또는 회사명을 입력해 주세요"><br><br>
 
-		<div id="email">
-			<div id="here">
-				<span>궁금한 신 점이 있으시면<br />여기로 연락주세요.</span>
-			</div>
-			<a href="mailto:designeze@naver.com" title="여기로 연락주세요" id="E-mail_designezenavercom">
-				designeze@naver.com
-			</a>
-			<svg class="Icon_zocial-email" viewBox="0.072 4.068 69.597 46.98">
-				<path id="Icon_zocial-email"
-					d="M 0.07199999690055847 46.88656997680664 L 0.07199999690055847 8.229050636291504 C 0.07199999690055847 8.184309005737305 0.1391137391328812 7.759253978729248 0.2733412384986877 6.9538893699646 L 23.02490425109863 26.4168758392334 L 0.3404560089111328 48.22884750366211 C 0.1614860445261002 47.60245132446289 0.07200105488300323 47.15502548217773 0.07200105488300323 46.88657379150391 Z M 3.092118740081787 4.269340991973877 C 3.405316114425659 4.13511323928833 3.785626888275146 4.067999839782715 4.233052253723145 4.067999839782715 L 65.50790405273438 4.067999839782715 C 65.91058349609375 4.067999839782715 66.31326293945313 4.13511323928833 66.7159423828125 4.269340991973877 L 43.89727020263672 23.79944229125977 L 40.87715148925781 26.21553611755371 L 34.90402603149414 31.11483764648438 L 28.930908203125 26.21553611755371 L 25.91078948974609 23.79944229125977 L 3.092118740081787 4.269340991973877 Z M 3.159232378005981 50.84628295898438 L 26.04502105712891 28.90008735656738 L 34.90402984619141 36.08125686645508 L 43.76304244995117 28.90008735656738 L 66.64883422851563 50.84628295898438 C 66.29090118408203 50.98051071166992 65.91058349609375 51.04762268066406 65.50790405273438 51.04762268066406 L 4.233053684234619 51.04762268066406 C 3.875113725662231 51.04762268066406 3.517173767089844 50.98051071166992 3.159234046936035 50.84628295898438 Z M 46.78316497802734 26.4168758392334 L 69.46761322021484 6.953891277313232 C 69.60184478759766 7.356573104858398 69.66895294189453 7.781627178192139 69.66895294189453 8.229052543640137 L 69.66895294189453 46.88656997680664 C 69.66895294189453 47.28925323486328 69.60184478759766 47.73667526245117 69.46761322021484 48.22884368896484 L 46.78316497802734 26.4168758392334 Z">
-				</path>
-			</svg>
-		</div>
+			<label for="telnumber">전화번호</label>
+			<input type="tel" id="telnumber" name="telnumber" placeholder="전화번호를 입력해 주세요"><br><br>
 
+			<label for="email">이메일</label>
+			<input type="email" id="email" name="email" placeholder="이메일을 입력해 주세요"><br><br>
 
-		<div id="footer">
-			<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
-		</div>
+			<label for="name">문의내용</label>
+			<textarea type="text" id="content" name="message" placeholder="디자인분야, 선호하는 스타일 등 상세내용을 입력해 주세요"></textarea><br><br>
 
+			<button type="submit" id="my-form-button">제출하기</button>
+			<p id="my-form-status"></p>
+		</form>
+
+		<p class="emailcontent">궁금한 신 점이 있으시면 여기로 연락주세요. designeze@naver.com</p>
+	</section>
+
+	<div id="footer">
+		<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
+	</div>
+
+	<script>
+		var form = document.getElementById("my-form");
+
+		async function handleSubmit(event) {
+			event.preventDefault();
+			var status = document.getElementById("my-form-status");
+			var data = new FormData(event.target);
+			fetch(event.target.action, {
+				method: form.method,
+				body: data,
+				headers: {
+					'Accept': 'application/json'
+				}
+			}).then(response => {
+				status.innerHTML = "감사합니다.";
+				form.reset()
+			}).catch(error => {
+				status.innerHTML = "웁스! 다시 시도해 주세요~"
+			});
+		}
+		form.addEventListener("submit", handleSubmit)
+	</script>
 </body>
 
 </html>

@@ -189,7 +189,7 @@
 	.bx-wrapper .bx-next,
 	.bx-wrapper .bx-prev {
 		margin-top: -190px !important;
-		z-index: -99 !important;
+		z-index: 9 !important;
 	}
 	.bxslider {
 		width: 232px;

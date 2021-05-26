@@ -1,229 +1,160 @@
-.pa1 {
-  position: absolute;
-  overflow: visible;
-  width: 0.48vw;
-  height: 0.48vw;
-  left: 15.3vw;
-  top: 15.73vw;
-  background-color: #F8EA21;
-  border-radius: 100vw;
+.pa1, .pa2, .pa3, .pa4, .pa5, .pa6, .pa7, .pa8, .pa9 {
+	background-color: #F8EA21;
+	border-radius: 50%;
 }
 
-@media screen and (max-width: 480px) {
-  .pa1 {
-    display: none;
-  }
+.pa1 {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 15.3vw;
+	top: 15.73vw;
 }
 
 .pa2 {
-  position: absolute;
-  overflow: visible;
-  width: 0.48vw;
-  height: 0.48vw;
-  left: 88.9vw;
-  top: 20.17vw;
-  background-color: #F8EA21;
-  border-radius: 500vw;
-}
-
-@media screen and (max-width: 480px) {
-  .pa2 {
-    display: none;
-  }
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	left: 88.9vw;
+	top: 20.17vw;
 }
 
 .pa3 {
-  position: absolute;
-  overflow: visible;
-  width: 1.46vw;
-  height: 1.46vw;
-  left: 12.9vw;
-  top: 25.99vw;
-  background-color: #F8EA21;
-  border-radius: 100vw;
-}
-
-@media screen and (max-width: 480px) {
-  .pa3 {
-    display: none;
-  }
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 12.9vw;
+	top: 25.99vw;
 }
 
 .pa4 {
-  position: absolute;
-  overflow: visible;
-  width: 1.46vw;
-  height: 1.46vw;
-  left: 83.3vw;
-  top: 15.46vw;
-  background-color: #F8EA21;
-  border-radius: 100vw;
-}
-
-@media screen and (max-width: 480px) {
-  .pa4 {
-    display: none;
-  }
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 83.3vw;
+	top: 15.46vw;
 }
 
 .pa5 {
-  position: absolute;
-  overflow: visible;
-  width: 0.98vw;
-  height: 0.98vw;
-  left: 10.7vw;
-  top: 17.60vw;
-  background-color: #F8EA21;
-  border-radius: 100vw;
-}
-
-@media screen and (max-width: 480px) {
-  .pa5 {
-    display: none;
-  }
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 10.7vw;
+	top: 17.60vw;
 }
 
 .pa6 {
-  position: absolute;
-  overflow: visible;
-  width: 0.98vw;
-  height: 0.98vw;
-  left: 84.7vw;
-  top: 26.03vw;
-  background-color: #F8EA21;
-  border-radius: 100vw;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 84.7vw;
+	top: 26.03vw;
 }
 
-@media screen and (max-width: 480px) {
-  .pa6 {
-    display: none;
-  }
+@media screen and (max-width: 1300px) {
+	.pa1, .pa2, .pa3, .pa4, .pa5, .pa6, .pa7, .pa8, .pa9 {
+		display: none;
+	}
 }
-
-#foxcontact {
-  position: absolute;
-  width: 20.21vw;
-  height: 22.55vw;
-  left: 26.56vw;
-  top: 18.75vw;
-  overflow: visible;
+.wrap {
+  position: relative;
+  max-width: 850px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 50px;
 }
-
-@media screen and (max-width: 480px) {
-  #foxcontact {
-    left: 50vw;
-    top: 400px;
-    width: 167px;
-    height: auto;
-    margin-left: -83.5px;
-  }
+form {
+  text-align: left;
 }
-
-#email {
-  position: absolute;
-  width: 31.56vw;
-  height: 16.93vw;
-  left: 48.8vw;
-  top: 22.18vw;
-  overflow: visible;
-  animation: _80 0.8s cubic-bezier(.25, .46, .45, .94) both
-}
-
-@keyframes _80 {
-  0% {
-    transform: translateX(1100px)
-  }
-
-  50% {
-    transform: translateX(1100px)
-  }
-}
-
-#here {
-  left: 6.25vw;
-  top: 9.90vw;
-  position: absolute;
-  overflow: visible;
-  width: 19.11vw;
+label {
+  font-size: 25px;
+  color: #fff;
+  float: : left !important;
+  margin-right: 10px;
   white-space: nowrap;
-  line-height: 2.60vw;
-  margin-top: -0.26vw;
-  text-align: center;
-  font-size: 2.08vw;
-  color: rgba(248, 234, 33, 1);
+}
+label:after {
+  content: "*";
+  color: #fff;
+}
+input, input[type="text"], input[type="tel"], input[type="email"] {
+  width: 820px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline-style: none;
+  margin-bottom: 30px;
+  font-family: 'Cafe24Dongdong';
+  font-size: 24px;
+  color: #fff;
+  text-align: left;
+}
+::placeholder {
+  font-size: 15px;
+  color: #97A4F0;
+}
+textarea {
+  border: 1px solid #fff;
+  background: none;
+  width: 820px;
+  height: 160px;
+  border-radius: 5px;
+  font-family: 'Cafe24Dongdong';
+  font-size: 24px;
+  color: #fff;
+  padding: 10px;
+}
+textarea::placeholder {
+  font-size: 15px;
+  color: #97A4F0;
 }
 
-#E-mail_designezenavercom {
-  left: 0vw;
-  top: 5.21vw;
-  position: absolute;
-  overflow: visible;
-  width: 31.61vw;
-  white-space: nowrap;
-  line-height: 3.65vw;
-  margin-top: -0.26vw;
-  text-align: center;
-  font-size: 3.13vw;
-  color: rgba(0, 173, 151, 1);
-  text-decoration: none;
+#my-form-button {
+  display: block;
+  font-size: 24px;
+  font-family: 'Cafe24Dongdong';
+  color: #fff;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 12px auto;
+  float: right !important;
 }
-
-#Icon_zocial-email {
-  fill: rgba(255, 255, 255, 1);
+.emailcontent {
+  font-size: 14px;
+  font-family: 'Cafe24Dongdong';
+  color: #F8EA21;
+  margin-top: -40px;
+  text-align: left;
 }
-
-.Icon_zocial-email {
-  overflow: visible;
-  position: absolute;
-  width: 3.62vw;
-  height: 2.45vw;
-  left: 13.99vw;
-  top: 0.52vw;
-  transform: matrix(1, 0, 0, 1, 0, 0);
-  animation: bounce 0.5s infinite alternate;
-}
-
-@keyframes bounce {
-  from {
-    transform: translateY(0px);
+@media screen and (max-width: 1300px) {
+  .wrap {
+    max-width: 300px;
+    margin-top: 150px;
+  }
+  label {
+    font-size: 15px;
+  }
+  input, input[type="text"], input[type="tel"], input[type="email"] {
+    width: 290px;
+    font-size: 14px;
+  }
+  ::placeholder {
+    font-size: 12px;
+  }
+  textarea {
+    width: 300px;
+    height: 160px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  textarea::placeholder {
+    font-size: 12px;
   }
 
-  to {
-    transform: translateY(-15px);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #email {
-    left: 50vw;
-    top: 228.23px;
-    width: 302px;
-    margin-left: -151px;
-    text-align: center;
-  }
-
-  #here {
-    font-size: 20px;
-    line-height: 25px;
-    width: 184px;
-    left: 60px;
-    top: 95px;
-  }
-
-  #E-mail_designezenavercom {
-    width: 302px;
-    ;
-    font-size: 30px;
-    line-height: 3.65vw;
-    margin-top: -0.26vw;
-    top: 60px;
-  }
-
-  .Icon_zocial-email {
-    width: 35.14px;
-    height: 23.72px;
-    left: 50%;
-    top: 0px;
-    margin-left: -17.57px;
+  #my-form-button {
+    font-size: 14px;
   }
 }

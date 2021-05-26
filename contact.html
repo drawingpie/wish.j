@@ -82,7 +82,7 @@
 			<label for="name">문의내용</label>
 			<textarea type="text" id="content" name="message" placeholder="디자인분야, 선호하는 스타일 등 상세내용을 입력해 주세요"></textarea><br><br>
 
-			<button type="submit" id="my-form-button">제출하기</button>
+			<button id="my-form-button">제출하기</button>
 			<p id="my-form-status"></p>
 		</form>
 
@@ -107,10 +107,10 @@
 					'Accept': 'application/json'
 				}
 			}).then(response => {
-				status.innerHTML = "감사합니다.";
+				status.innerHTML = "Thanks for your submission!";
 				form.reset()
 			}).catch(error => {
-				status.innerHTML = "웁스! 다시 시도해 주세요~"
+				status.innerHTML = "Oops! There was a problem submitting your form"
 			});
 		}
 		form.addEventListener("submit", handleSubmit)

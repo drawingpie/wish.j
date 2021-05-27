@@ -122,6 +122,7 @@ textarea::placeholder {
   float: right;
 }
 .emailcontent {
+	display: block;
   font-size: 14px;
   font-family: 'Cafe24Dongdong';
   color: #F8EA21;
@@ -160,4 +161,8 @@ textarea::placeholder {
   #my-form-button {
     font-size: 14px;
   }
+	.emailcontent {
+	  font-size: 12px;
+	  margin-top: -30px;
+	}
 }

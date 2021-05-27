@@ -129,9 +129,13 @@ textarea::placeholder {
   text-align: left;
 }
 @media screen and (max-width: 1300px) {
+	html, body {
+		height: 100%;
+	}
   .wrap {
     max-width: 300px;
     margin-top: 150px;
+		height: 100%;
   }
   label {
     font-size: 15px;

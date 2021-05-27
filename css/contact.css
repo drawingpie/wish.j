@@ -140,6 +140,9 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 1300px) {
+	html {
+	  overflow-y: scroll;
+	}
 	/* html, body {
 		height: 100%;
 	} */

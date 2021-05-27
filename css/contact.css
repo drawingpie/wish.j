@@ -140,17 +140,13 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 1300px) {
-	html {
-	  overflow-y: scroll;
+	html, body {
+	  overflow: scroll;
 	}
-	/* html, body {
-		height: 100%;
-	} */
 
 	.wrap {
 		max-width: 300px;
 		margin-top: 150px;
-		/* height: 100%; */
 	}
 
 	label {

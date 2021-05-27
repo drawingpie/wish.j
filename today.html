@@ -152,8 +152,10 @@
 	</script>
 
 	<script>
-		window.scrollTop(0,0);
-		document.body.scrollTop = 0;
+		window.addEventListener('keyboardWillHide', () => {
+			window.scrollTo(0, 0);
+			document.body.scrollTop = 0;
+		});
 	</script>
 
 

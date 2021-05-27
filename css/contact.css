@@ -142,6 +142,7 @@ textarea::placeholder {
 @media screen and (max-width: 1300px) {
 	html, body {
 	  height: 2000px;
+		overflow: scroll;
 	}
 
 	.wrap {

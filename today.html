@@ -66,14 +66,6 @@
 	</div>
 
 	<div class="boardboxwrapper">
-		<div class="col">
-			<a href="https://blog.naver.com/designeze/222266332462" target="_blank" class="image-box">
-				<img src="image/image01.png" class="card" />
-				<div class="date">2021.03.06</div>
-				<div class="headline">귀여운 아크릴 키링을 만들다</div>
-				<div class="boardtext">즐거운 주말이다. 예전에 내가 디자인한 로고와 캐릭터를 키링으로 만들고 싶었었는데</div>
-			</a>
-		</div>
 
 		<div class="col">
 			<a href="https://blog.naver.com/designeze/222273192284" target="_blank" class="image-box">
@@ -85,9 +77,18 @@
 		</div>
 
 		<div class="col">
+			<a href="https://blog.naver.com/designeze/222266332462" target="_blank" class="image-box">
+				<img src="image/image01.png" class="card" />
+				<div class="date">2021.03.06</div>
+				<div class="headline">귀여운 아크릴 키링을 만들다</div>
+				<div class="boardtext">즐거운 주말이다. 예전에 내가 디자인한 로고와 캐릭터를 키링으로 만들고 싶었었는데</div>
+			</a>
+		</div>
+
+		<div class="col">
 			<a href="#" target="_blank" class="image-box">
 				<img src="image/logotext.png" class="card" />
-				<div class="date">2021.03.13</div>
+				<div class="date">2021.03.05</div>
 				<div class="headline">테스트</div>
 				<div class="boardtext">이곳은 테스트 소식란입니다.</div>
 			</a>
@@ -96,7 +97,7 @@
 		<div class="col">
 			<a href="#" target="_blank" class="image-box">
 				<img src="image/logotext.png" class="card" />
-				<div class="date">2021.03.13</div>
+				<div class="date">2021.03.04</div>
 				<div class="headline">테스트</div>
 				<div class="boardtext">이곳은 테스트 소식란입니다.</div>
 			</a>
@@ -105,14 +106,13 @@
 		<div class="col">
 			<a href="#" target="_blank" class="image-box">
 				<img src="image/logotext.png" class="card" />
-				<div class="date">2021.03.13</div>
+				<div class="date">2021.03.03</div>
 				<div class="headline">테스트</div>
 				<div class="boardtext">이곳은 테스트 소식란입니다.</div>
 			</a>
 		</div>
 
 	</div>
-
 
 	<div id="footer">
 		<span style="font-family:Noto Sans CJK KR"> ⓒ </span>2021. WISH.J all rights reserved.
@@ -121,35 +121,41 @@
 	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script>
 		$(document).ready(function() {
-					$('.boardboxwrapper').slick({
-							dots: false,
-							infinite: true,
-							speed: 300,
+			$('.boardboxwrapper').slick({
+				dots: false,
+				infinite: true,
+				speed: 300,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				responsive: [{
+						breakpoint: 1640,
+						settings: {
 							slidesToShow: 3,
 							slidesToScroll: 1,
-							responsive: [{
-									breakpoint: 1640,
-									settings: {
-										slidesToShow: 3,
-										slidesToScroll: 1,
-										infinite: true,
-										dots: false
-									}
-								},
-								{
-									breakpoint: 960,
-									settings: {
-										slidesToShow: 2,
-										slidesToScroll: 1,
-										infinite: true,
-										dots: false,
-										vertical: true
-									}
-								}
-								]
-							});
-					});
+							infinite: true,
+							dots: false
+						}
+					},
+					{
+						breakpoint: 960,
+						settings: {
+							slidesToShow: 2,
+							slidesToScroll: 1,
+							infinite: true,
+							dots: false,
+							vertical: true
+						}
+					}
+				]
+			});
+		});
 	</script>
+
+	<script>
+		window.scrollTo(0,0);
+		document.body.scrollTop = 0;
+	</script>
+
 
 </body>
 

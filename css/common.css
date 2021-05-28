@@ -10,17 +10,6 @@ html {
 	overflow: hidden;
 }
 
-@media(orientation: portrait) {
-	html {
-		transform: rotate(-90deg);
-		transform-origin: top left;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: 100vh;
-		height: 100vw;
-	}
-}
 
 body {
 	margin: 0 auto;

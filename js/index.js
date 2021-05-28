@@ -26,11 +26,10 @@ function closeNav() {
 $(window).on("orientationchange", function(event) {
 	if (window.matchMedia("(orientation: portrait)").matches) {
 		// 세로 모드 (평소 사용하는 각도)
-		alert("세로로 보세요");
-    $(window).off("(orientation: portrait)");
+		alert("가로는 No No~ 세로로 보시는게 좋아요");
+    $("body").rotate("180deg");
 	} else if (window.matchMedia("(orientation: landscape)").matches) {
 		// 가로 모드 (동영상 볼때 사용하는 각도)
 		console.log("가로금지");
-		
 	}
 });

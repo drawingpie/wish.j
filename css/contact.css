@@ -149,9 +149,7 @@ textarea::placeholder {
 		max-width: 300px;
 		margin-top: 150px;
 	}
-	form {
-		position: absolute;
-	}
+
 	label {
 		font-size: 15px;
 	}
@@ -182,6 +180,6 @@ textarea::placeholder {
 
 	.emailcontent {
 		font-size: 12px;
-		margin-top: 390px;
+		margin-top: -30px;
 	}
 }

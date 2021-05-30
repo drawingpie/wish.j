@@ -13,7 +13,7 @@ html, body {
 	font-family: 'Cafe24Dongdong';
 	font-size: 0;
 	text-align: center;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .gnb_img {

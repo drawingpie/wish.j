@@ -5,19 +5,15 @@
 	font-style: normal;
 }
 
-html {
-	max-width: 100%;
-	overflow: hidden;
-}
-
-
-body {
+html, body {
 	margin: 0 auto;
-	height: 100vw;
-	background: linear-gradient(to bottom, #002169, #001135);
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, #002169, #001135) no-repeat;
 	font-family: 'Cafe24Dongdong';
 	font-size: 0;
 	text-align: center;
+	overflow: hidden;
 }
 
 .gnb_img {
@@ -25,12 +21,6 @@ body {
 	width: 100%;
 	top: -35px;
 	left: 0;
-}
-
-@media screen and (max-width: 1300px) {
-	body {
-		height: 1000px;
-	}
 }
 
 .logo {
@@ -91,7 +81,7 @@ body {
 @media screen and (max-width: 1300px) {
 	.overlay {
 		display: block;
-		height: 1000px;
+		height: 100%;
 		width: 0;
 		position: absolute;
 		z-index: 99;
@@ -115,7 +105,7 @@ body {
 		display: block;
 		padding: 7vw;
 		text-decoration: none;
-		font-size: 2.25rem;
+		font-size: 40px;
 		color: #818181;
 		transition: 0.3s;
 	}

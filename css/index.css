@@ -304,7 +304,6 @@
 #DREAMS, #COME, #TRUE {
   -webkit-animation: head_ani .8s cubic-bezier(.25, .46, .45, .94) both;
   animation: head_ani .8s cubic-bezier(.25, .46, .45, .94) both;
-
 }
 #DREAMS {
   left: 22.5vw;
@@ -386,21 +385,21 @@
     top: 118px !important;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 3.375rem;
+    font-size: 54px;
   }
 
   #COME {
     top: 188px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 2.438rem;
+    font-size: 39px;
   }
 
   #TRUE {
     top: 238px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 5.063rem;
+    font-size: 81px;
   }
   @media screen and (max-width: 600px) {
     .head {

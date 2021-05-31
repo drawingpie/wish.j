@@ -140,11 +140,9 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 1300px) {
-	/* html, body {
-	  height: 100% !important;
-		overflow: visible;
-	} */
-
+	html, body {
+		overflow-y: hidden
+	}
 	.wrap {
 		max-width: 300px;
 		margin-top: 150px;

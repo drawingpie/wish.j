@@ -124,15 +124,14 @@
 	}
 }
 #introduce {
-  left: 26.9vw;
-  top: 25.99vw;
-  position: absolute;
-  width: 46.09vw;
-  display: block;
-  line-height: 1.82vw;
-  margin-top: -0.26vw;
+  position: relative;
+  margin: 0 auto;
+  width: 885px;
+  /* display: block; */
+  line-height: 35px;
+  /* margin-top: -5px; */
   text-align: center;
-  font-size: 1.30vw;
+  font-size: 25px;
   color: #fff;
   animation: introduce 0.8s cubic-bezier(.25, .46, .45, .94) both
 }
@@ -149,10 +148,7 @@
 @media screen and (max-width: 1300px) {
   #introduce {
     font-size: 14px;
-    left: 50%;
-    top: 230px;
     width: 289px;
-    margin-left: -144.5px;
     line-height: 20px;
   }
 }

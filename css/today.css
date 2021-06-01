@@ -1,7 +1,6 @@
 a {
 	text-decoration: none;
 }
-
 .boardboxwrapper {
 	max-width: 1591px;
 	margin: 100px auto;
@@ -73,6 +72,7 @@ a {
 }
 
 @media screen and (max-width: 1640px) {
+	
 	.boardboxwrapper {
 		max-width: 1024px;
 		margin: 100px auto;

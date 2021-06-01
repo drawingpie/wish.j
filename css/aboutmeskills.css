@@ -126,8 +126,8 @@
 }
 
 #skillhead {
-	display: block;
-	margin-top: 50px;
+	/* display: block; */
+	margin-top: 0px;
 	white-space: nowrap;
 	text-align: center;
 	font-size: 25px;
@@ -236,7 +236,7 @@
 	.skilltext {
 		width: 0;
 		font-size: 20px;
-    margin-bottom: -20px
+		margin-bottom: -20px
 	}
 
 	.stick {
@@ -271,68 +271,5 @@
 	.skillnumber {
 		font-size: 20px;
 		margin-top: -40px;
-	}
-}
-}
-
-#arrow_right {
-	fill: #fff;
-	position: absolute;
-	width: 2.14vw;
-	height: 2.14vw;
-	left: 56.8vw;
-	top: 20.83vw;
-	overflow: visible;
-	cursor: pointer;
-}
-
-#arrow_right:hover {
-	fill: #F8EA21;
-}
-
-#arrow_right:active {
-	fill: #F8EA21;
-}
-
-#arrow_left {
-	fill: #fff;
-	position: absolute;
-	width: 2.14vw;
-	height: 2.14vw;
-	left: 41.5vw;
-	top: 20.83vw;
-	overflow: visible;
-	cursor: pointer;
-}
-
-#arrow_left:hover {
-	fill: #F8EA21;
-}
-
-#arrow_left:active {
-	fill: #F8EA21;
-}
-
-@media screen and (max-width: 1300px) {
-	#arrow_right {
-		width: 20.29px;
-		height: 19.77px;
-		left: 70vw;
-		top: 196.47px;
-	}
-
-	#arrow_right:active {
-		fill: #F8EA21;
-	}
-
-	#arrow_left {
-		width: 20.29px;
-		height: 19.77px;
-		left: 24vw;
-		top: 196.47px;
-	}
-
-	#arrow_left:active {
-		fill: #F8EA21;
 	}
 }

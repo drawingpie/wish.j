@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, IE=Emulate" />
 	<meta name="viewport" content="user-scalable=no, initial-scale=1 ,minimum-scale=1, maximum-scale=1, width=device-width" />
 	<meta name="google-site-verification" content="9uWOdcp3a9s9zr4ktek6sgMEw-UQQE7AbYhVcouqpyQ" />
 	<meta name="naver-site-verification" content="00281b3c0b05ba3ce5caff89619f44e622fa3cbb" />
@@ -40,21 +40,13 @@
 </head>
 
 <body>
-	<!--[if IE]>
-<div class="browser">이제 인터넷 익스플로러는 안녕~ 다른 브라우저를 사용해 보시겠어요?</div>
-<style>
-	.browser {
-		vertical-align: middle;
-		text-align: center;
-		padding: 4px 0;
-		font-size: 13px;
-		background: #00BDA4;
-		color: #fff;
-	}
-</style>
+	<!--[if lt IE 9]>
+	<script>
+    	alert("해당 브라우저는 ie 9 보다 낮은 버전입니다.")
+    </script>
 <![endif]-->
 
-<!-- 여기서부터 시작 -->
+	<!-- 여기서부터 시작 -->
 	<div id="myNav" class="overlay">
 		<div class="closebtn" onclick="closeNav()">
 			<svg>
@@ -184,6 +176,41 @@
 	<!-- <button class="custom-button-1"><img src="image/channel_btn.png"></button> -->
 	<!-- <a id="custom-button-2"><img src="image/channel_btn.png"></a> -->
 
+
+	<!-- ie 주석-->
+	<script>
+		function BrowserVersionCheck() {
+			var word;
+			var versionOrType = "another";
+			var ieName = navigator.appName;
+			var agent = navigator.userAgent.toLowerCase();
+			/*** 1. IE 버전 체크 ***/
+			// IE old version ( IE 10 or Lower )
+			if (ieName == "Microsoft Internet Explorer") {
+				word = "msie ";
+			} else {
+				// IE 11
+				if (agent.search("trident") > -1) word = "trident/.*rv:";
+				// IE 12 ( Microsoft Edge )
+				else if (agent.search("edge/") > -1) word = "edge/";
+			}
+			var reg = new RegExp(word + "([0-9]{1,})(\\.{0,}[0-9]{0,1})");
+			if (reg.exec(agent) != null) versionOrType = RegExp.$1 + RegExp.$2;
+			if (versionOrType == "another") {
+				if (agent.indexOf("chrome") != -1) versionOrType = "Chrome";
+				else if (agent.indexOf("opera") != -1) versionOrType = "Opera";
+				else if (agent.indexOf("firefox") != -1) versionOrType = "Firefox";
+				else if (agent.indexOf("safari") != -1) versionOrType = "Safari";
+			}
+			if (versionOrType !== ("Chrome" || "Opera" || "Firefox" || "Safari")) {
+				return alert("이 브라우저는 지원하지 않습니다. \n(지원 브라우저: Chrome, Opera, Firefox, Safari, Edge 그 외 Chrome 기반 브라우저)")
+			}
+			return versionOrType;
+		};
+		BrowserVersionCheck();
+	</script>
+
+	
 </body>
 
 </html>

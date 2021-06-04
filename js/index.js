@@ -17,28 +17,3 @@ $(window).on("orientationchange", function(event) {
 		console.log("가로금지");
 	}
 });
-
-
-/*@cc_on
-
-  @if (@_jscript_version == 11)
-    document.write("You are using IE11 with an older document mode");
-  @elif (@_jscript_version == 10)
-    document.write("You are using IE10");
-  @elif (@_jscript_version == 9)
-    document.write("You are using IE9");
-  @elif (@_jscript_version == 5.8)
-    document.write("You are using IE8");
-  @elif (@_jscript_version == 5.7)
-    document.write("You are using IE" + (!window.XMLHttpRequest ? 6 : 7));
-  @elif (@_jscript_version == 5.6)
-    document.write("You are using IE6");
-  @elif (@_jscript_version == 5.5)
-    document.write("You are using IE5.5");
-  @elif (@_jscript_version < 5.5)
-    document.write("You are using a version older than IE5.5");
-  @else
-    document.write("You are using an unknown version of IE");
-  @end
-
-@*/

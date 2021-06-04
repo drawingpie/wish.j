@@ -17,3 +17,8 @@ $(window).on("orientationchange", function(event) {
 		console.log("가로금지");
 	}
 });
+
+//ie 브라우저 금지
+if ($.browser.msie) {
+ $("html").addClass("ie");
+};

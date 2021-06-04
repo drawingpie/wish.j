@@ -19,7 +19,6 @@ $(window).on("orientationchange", function(event) {
 });
 
 // ie 주석
-		<script>
   (function BrowserVersion() {
     let agent = navigator.userAgent.toLowerCase();
       console.log((agent.indexOf("trident") || agent.indexOf("msie")) !== -1)
@@ -27,4 +26,3 @@ $(window).on("orientationchange", function(event) {
       alert("해당 브라우저는 지원하지 않습니다. \n(지원 브라우저: Chrome, Opera, Firefox, Safari, Edge 그 외 Chrome 기반 브라우저)")
     }
   })();
-</script>

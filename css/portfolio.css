@@ -90,7 +90,8 @@
 	background: #F8EA21 !important;
 }
 
-.pic, .pic1,.port1, .port2 {
+.pic, .pic1, .port1, .port2, .port3, .port4,
+.port5, .port6, .port7, .port8, .port9 {
 	overflow: hidden;
 	position: relative;
 }
@@ -108,19 +109,6 @@
 	height: 100%;
 	animation: hoverbg 1s forwards;
 }
-
-.bxslider .slider_container:hover .port1::before,
-.bxslider .slider_container:hover .port2::before{
-	background: rgba(0, 0, 0, 0.8);
-	content: "";
-	z-index: 1;
-	position: absolute;
-	top: 0;
-	left: 124px;
-	width: 343px;
-	height: 343px;
-	animation: hoverbg 1s forwards;
-}
 @keyframes hoverbg {
 	from {
 		opacity: 0;
@@ -130,6 +118,35 @@
 	to {
 		opacity: 1;
 		width: 100%;
+	}
+}
+.bxslider .slider_container:hover .port1::before,
+.bxslider .slider_container:hover .port2::before,
+.bxslider .slider_container:hover .port3::before,
+.bxslider .slider_container:hover .port4::before,
+.bxslider .slider_container:hover .port5::before,
+.bxslider .slider_container:hover .port6::before,
+.bxslider .slider_container:hover .port7::before,
+.bxslider .slider_container:hover .port8::before,
+.bxslider .slider_container:hover .port9::before{
+	background: rgba(0, 0, 0, 0.8);
+	content: "";
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 124px;
+	bottom: 0;
+	animation: hoverbg1 1s forwards;
+}
+@keyframes hoverbg1 {
+	from {
+		opacity: 0;
+		width: 0;
+	}
+
+	to {
+		opacity: 1;
+		width: 343px;
 	}
 }
 
@@ -177,7 +194,91 @@
 	animation: hoverbtn 1s forwards;
 }
 .bxslider .slider_container:hover .port2:after {
+	content: "Character Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port3:after {
+	content: "Logo Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port4:after {
+	content: "Book Cover Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port5:after {
+	content: "Catalogue Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port6:after {
 	content: "Package Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port7:after {
+	content: "Package Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port8:after {
+	content: "Logo Design";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	margin-top: -30px;
+	font-size: 26px;
+	color: #fff;
+	animation: hoverbtn 1s forwards;
+}
+.bxslider .slider_container:hover .port9:after {
+	content: "Logo Design";
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -205,8 +306,6 @@
 	height: 343px;
 	margin: 0 auto;
 }
-
-
 
 .plan {
 	display: block;
@@ -261,19 +360,36 @@
 	.bxslider .slider_container:hover .pic::before,
 	.bxslider .slider_container:hover .pic1::before,
 	.bxslider .slider_container:hover .port1::before,
-	.bxslider .slider_container:hover .port2::before {
+	.bxslider .slider_container:hover .port2::before,
+	.bxslider .slider_container:hover .port3::before,
+	.bxslider .slider_container:hover .port4::before,
+	.bxslider .slider_container:hover .port5::before,
+	.bxslider .slider_container:hover .port6::before,
+	.bxslider .slider_container:hover .port7::before,
+	.bxslider .slider_container:hover .port8::before,
+	.bxslider .slider_container:hover .port9::before {
 		background: none;
 	}
 
 	.bxslider .slider_container:hover .pic::after,
-	.bxslider .slider_container:hover .pic1::after,
+	.bxslider .slider_container:hover .pic1::after
 	 {
 		content:"";
 	}
-	.bxslider .slider_container:hover .port1:after,
-	.bxslider .slider_container:hover .port2:after {
 
+	.bxslider .slider_container:hover .port1:after,
+	.bxslider .slider_container:hover .port2:after,
+	.bxslider .slider_container:hover .port3:after,
+	.bxslider .slider_container:hover .port4:after,
+	.bxslider .slider_container:hover .port5:after,
+	.bxslider .slider_container:hover .port6:after,
+	.bxslider .slider_container:hover .port7:after,
+	.bxslider .slider_container:hover .port8:after,
+	.bxslider .slider_container:hover .port9:after
+	{
+		content:"";
 	}
+
 	.instaimg {
 		width: 136px;
 		height: 136px;

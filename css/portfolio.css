@@ -163,13 +163,13 @@
 		opacity: -30px;
 	}
 }
-.bxslider .slider_container:hover #port1:after {
-	content: "Package Design";
-}
-.bxslider .slider_container:hover #port2:after {
-	content: "Character Design";
+.instaimg {
+	display: inline-block;
+	width: 591px;
+	height: 591px;
 }
 .bxslider .slider_container:hover .port:after {
+	content: "Package Design";
 	white-space: pre;
 	position: absolute;
 	top: 50%;

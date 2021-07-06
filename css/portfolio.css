@@ -90,7 +90,7 @@
 	background: #F8EA21 !important;
 }
 
-.pic, .pic1 {
+.pic, .pic1,.port1, .port2 {
 	overflow: hidden;
 	position: relative;
 }
@@ -109,6 +109,18 @@
 	animation: hoverbg 1s forwards;
 }
 
+.bxslider .slider_container:hover .port1::before,
+.bxslider .slider_container:hover .port2::before{
+	background: rgba(0, 0, 0, 0.8);
+	content: "";
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 124px;
+	width: 343px;
+	height: 343px;
+	animation: hoverbg 1s forwards;
+}
 @keyframes hoverbg {
 	from {
 		opacity: 0;
@@ -154,30 +166,24 @@
 }
 .bxslider .slider_container:hover .port1:after {
 	content: "Package Design";
-	white-space: pre;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	transform: translateX(-50%);
 	z-index: 2;
-	line-height: 35px;
-	text-align: center;
-	margin-left: -150px;
-	margin-top: -80px;
+	margin-top: -30px;
 	font-size: 26px;
 	color: #fff;
 	animation: hoverbtn 1s forwards;
 }
 .bxslider .slider_container:hover .port2:after {
 	content: "Package Design";
-	white-space: pre;
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	transform: translateX(-50%);
 	z-index: 2;
-	line-height: 35px;
-	text-align: center;
-	margin-left: -150px;
-	margin-top: -80px;
+	margin-top: -30px;
 	font-size: 26px;
 	color: #fff;
 	animation: hoverbtn 1s forwards;
@@ -185,7 +191,7 @@
 @keyframes hoverbtn {
 	from {
 		opacity: 0;
-		margin-top: -10px;
+		margin-top: 0px;
 	}
 
 	to {
@@ -194,8 +200,10 @@
 }
 .instaimg {
 	display: inline-block;
-	width: 591px;
-	height: 591px;
+	margin-left: auto;
+	width: 343px;
+	height: 343px;
+	margin: 0 auto;
 }
 
 
@@ -251,13 +259,24 @@
 	}
 
 	.bxslider .slider_container:hover .pic::before,
-	.bxslider .slider_container:hover .pic1::before {
+	.bxslider .slider_container:hover .pic1::before,
+	.bxslider .slider_container:hover .port1::before,
+	.bxslider .slider_container:hover .port2::before {
 		background: none;
 	}
 
 	.bxslider .slider_container:hover .pic::after,
-	.bxslider .slider_container:hover .pic1::after {
+	.bxslider .slider_container:hover .pic1::after,
+	 {
 		content:"";
+	}
+	.bxslider .slider_container:hover .port1:after,
+	.bxslider .slider_container:hover .port2:after {
+
+	}
+	.instaimg {
+		width: 136px;
+		height: 136px;
 	}
 	.plan {
 		float: none;
@@ -271,6 +290,6 @@
 		font-size: 17px !important;
 		color: #fff;
 		line-height: 27px;
-		margin-top: 50px;
+		margin-top: 60px;
 	}
 }

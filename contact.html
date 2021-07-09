@@ -36,7 +36,7 @@
 </head>
 
 <body>
-		<!--[if IE]>
+	<!--[if IE]>
 	<div class="browser">이제 인터넷 익스플로러는 안녕~ 다른 브라우저를 사용해 보시겠어요?</div>
 	<style>
 		.browser {
@@ -112,26 +112,33 @@
 
 	<script>
 		//프리폼
-	var form = document.getElementById("my-form");
+		var form = document.getElementById("my-form");
 
-    async function handleSubmit(event) {
-      event.preventDefault();
-      var status = document.getElementById("my-form-status");
-      var data = new FormData(event.target);
-      fetch(event.target.action, {
-        method: form.method,
-        body: data,
-        headers: {
-            'Accept': 'application/json'
-        }
-      }).then(response => {
-        status.innerHTML = "Thanks for your submission!";
-        form.reset()
-      }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
-      });
-    }
-    form.addEventListener("submit", handleSubmit)
+		async function handleSubmit(event) {
+			event.preventDefault();
+			var status = document.getElementById("my-form-status");
+			var data = new FormData(event.target);
+
+ 			fetch(event.target.action, {
+				method: form.method,
+				body: data,
+				headers: {
+					'Accept': 'application/json'
+				}
+			}).then(function(response) {
+				if (response.ok) {
+					return response.blob();
+				} else {
+					throw new Error;
+				}
+			}).then(response => {
+				alert('문의해 주셔서 감사합니다:)');
+				form.reset()
+			}).catch(error => {
+				alert('다시 한번 시도해 주세요:)')
+			});
+		}
+		form.addEventListener("submit", handleSubmit)
 	</script>
 
 
